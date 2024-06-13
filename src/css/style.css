@@ -10,12 +10,12 @@ body {
 
 @font-face {
   font-family: 'Splatoon1';
-  src: url('src/fonts/Splatoon1.otf') format('opentype');
+  src: url('/src/fonts/Splatoon1.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Splatoon2';
-  src: url('src/fonts/Splatoon2.otf') format('opentype');
+  src: url('/src/fonts/Splatoon2.otf') format('opentype');
 }
 
 .Splatoon1 {
