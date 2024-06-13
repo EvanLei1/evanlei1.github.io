@@ -5,6 +5,19 @@
     <title>Evan Lei's website</title>
     <link href="/src/css/navbar.css" rel="stylesheet" type="text/css" media="all">
     <link href="/src/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
   </head>
   <body>
     <div class="topnav">
@@ -21,8 +34,8 @@
     I like to run, bike, and take public transit across the San Francisco Bay Area. Other than doing exercise, 
     I like to play video games and sometimes stream them on Twitch, 
     like Pokemon Scarlet/Violet, Splatoon 3, and other Nintendo Switch games.</p>
-    <div class="split left">
-      <div class="centered">
+    <div class="row">
+      <div class="column">
         <h2 id="confined space">Confined Space?</h2>
         <img src="/transport/files/2024/PXL_20240519_002917753.jpg" width=300px>
         <p class="Splatoon2">Taken at 4th Street, San Rafael, towards the right side of the SMART station</p>
@@ -32,8 +45,8 @@
         <p>More info <a href="/transport/bus-list/sort-region/bus-SMART.html#Confined_Space">here</a></p>
       </div>
     </div>
-    <div class="split right">
-      <div class="centered">
+    <div class="row">
+      <div class="column">
         <h2 id="S3 glitch">Glitch found</h2>
         <video width="320" height="180" controls>
           <source src="/gaming/splatoon3/files/2024061312313800_s.mp4" type=video/mp4">
