@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Website Legend</title>
+    <link href="/src/css/navbar.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/src/css/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <style>
+  .container {
+    display: flex;
+    align-items: left;
+    justify-content: left
+  }
+  </style>
+  <body>
+    <div class="topnav">
+      <a class="active" href="/index.html">Home</a>
+      <a href="/transport/bus-list.html">Transport</a>
+      <a href="/gaming/main.html">Gaming</a>
+      <a href="/project/education.html">Education</a>
+      <a href="blog/blog.html">Blog</a>
+      <a href="/social.htm">Socials</a>
+      <a href="https://evanlei1.neocities.org/">Classic Website</a>
+    </div>
+    <h1>Legend</h1>
+    <h2>Speedometer</h2>
+    <div class="container">
+      <div class="image">
+        <img src="/transport/s-meterNR sample.png" width="50%">
+      </div>
+      <div>
+        <p>This speedometer is designed by putting it on images and videos that involve driving. In this example, the speedometer is used for a car, separating the speed into increments of 40 mph with a max speed of 160 mph.
+          I also set up the speedometer in km/h and included yellow and red sections to alert you to the dangers of going at a very high speed. It also applies to trains but has three different categories with different max speeds.
+          Unlike the car speedometer figure, the train speedometer figure does not have yellow or red sections. The speedometer diagram was used to simulate recorded videos and estimate photos.</p>
+        <p>The speedometer has three signal words: warning, danger, and peril. It only applies to cars, not trains. For the train speedometer, the bottom part was used for the target speed with a white background.</p>
+        <p>All caps were used for road conditions, while the exclamation mark was added for emergencies and sudden traffic slowdowns.</p>
+        <table>
+          <tr>
+          <th>Signal word</th>
+          <th>All caps</th>
+          <th>Exclamation</th>
+          <th>Notes</th>
+          </tr>
+          <tr>
+            <td style="color:orange">Caution</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Only used in specific road conditions, like bridge clearances</td>
+          </tr>
+          <tr>
+            <td style="color:skyblue">Warning</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>If the speedometer is 20% above speed limit or at least 80 mph, or <br>if there are weather watches or advisories in the area</td>
+          </tr>
+          <tr>
+            <td style="color:yellow">Danger</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>If the speedometer is 40% above speed limit or at least 99 mph or <br>if there is a weather warning or traffic involving an accident or construction</td>
+          </tr>
+          <tr>
+            <td style="color:yellow">Danger</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>If the speedometer is 60% above speed limit or at least 124 mph or <br>if there is a road closure related to an accident or weather</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <hr>
+    <h2>Location formatting</h2>
+    <div class="container">
+      <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Danger_Cave_UT_-_NHL.jpg" width="360%">
+      </div>
+      <div>
+        <p></p>In this website, I'm going to talk about location formatting. I found some examples related to location formatting, which can be shown here:
+        <h3>Locations in the United States</h3>
+        <p>In some cases, a full address is provided when a building is in the photo:</p>
+        <p class="Splatoon2">1137 4th Street, San Rafael, CA 94901</p>
+        <p>Involving street names or neighborhoods:</p>
+        <p class="Splatoon2">Crenshaw, Los Angeles, CA 90016</p>
+        <p class="Splatoon2">Binz Engleman Road, Kirby, TX</p>
+        <p>Involving counties or cities:</p>
+        <p class="Splatoon2">Marin County, CA</p>
+        <p class="Splatoon2">Piqua, Ohio</p>
+        <p>Involving buildings or natural places:</p>
+        <p class="Splatoon2">Willis Tower, Chicago, IL 60606</p>
+        <p class="Splatoon2">Silver Spring station, Maryland</p>
+        <p class="Splatoon2">East Fairmont Park, Philadelphia, PA</p>
+        <p class="Splatoon2">Danger Cave, Utah</p>
+      </div>
+    </div>
+    <div class="container">
+        <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Ouches_-_Le_Cabaret_de_l%27%C3%82ne_-_Plaque_de_cocher_%28juil_2018%29.jpg" width="360">
+        </div>
+        <div>
+          <h3>Locations in France</h3>
+          <p>In France, place names were sorted by canton, Arrondissement, department, and region. To prevent a long name, I omitted cantons and Arrondissements. There were 101 departments, 333 Arrondissements, and 2,054 cantons.</p>
+          <p>Since there were too many Arrondissements to show, the department Loire has three Arrondissements, 21 cantons, and 323 communes with a population of 769,029 and an area of 1,846 square miles. Instead of:</p>
+          <p class="Splatoon2">Ouches, Renaison, Roanne, Loire, Auvergne-Rhône-Alpes</p>
+          <p>We can use:</p>
+          <p class="Splatoon2">Ouches, Loire, Auvergne-Rhône-Alpes</p>
+          <p>Some communes were named after Arrondissements, so it was straight forward to communes like Melun.</p>
+          <p class="Splatoon2">Melun, Seine-et-Marne, Île-de-France</p>
+          <p>Some departments were named after rivers, while others were named after cities or names used in historical situations.</p>
+        </div>
+    </div>
+</html>
