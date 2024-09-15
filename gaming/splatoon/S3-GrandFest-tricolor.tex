@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+
+% To produce a letter size output. Otherwise will be A4 size.
+\usepackage[letterpaper]{geometry}
+
+% For enumerated lists using letters: a. b. etc.
+\usepackage{enumitem}
+
+\topmargin -.5in
+\textheight 9in
+\oddsidemargin -.25in
+\evensidemargin -.25in
+\textwidth 7in
+
+\begin{document}
+$p$ = Past \\
+$q$ = Present \\
+$r$ = Future \\
+
+$p_i$ = Present Defending (purple) \\
+$p_{f,1}$ = Present Attacking 1 (green) \\
+$p_{f,2}$ = Present Attacking 2 (orange) \\
+
+\begin{table}[h]
+    \centering
+    \begin{tabular} {|c|cc|ccc|cc|}
+    \hline
+    Team Format & Attacking & Defending & $p \vee p_i$ & $q \vee p_{f,1}$ & $r \vee p_{f,2}$ & Wins & Losses \\
+    \hline
+    - & - & - & - & - & - & - & - \\
+    - & - & - & - & - & - & - & - \\
+    \end{tabular}
+\end{table}
+\end{document}
