@@ -1,94 +1,161 @@
 body {
-  background: #fff;
+  background: #0c5a72;
+  color: white;
+  font-family: sans-serif;
   font-size: 0.875em;
-  font-family: monospace;
-  padding: 0;
-  margin: 0;
-  background: linear-gradient(rgb(251, 220, 220, 0.15), rgb(251, 220, 220, 0.15)), url("https://eggramen.neocities.org/cinnamonbird_cairoovercoat_roxy2alt.png");
   }
   
+center {
+  text-align: center;
+  }
+  
+/*Contains everything*/
 .wrapper {
-  background: none;
-  top: 0;
+  width: 1150px;
+  background: #12282f;
   margin: 0 auto;
-  width: 870px;
+  top: 0;
+  margin-top: -10px;
+  border-left: 0px solid #12282f;
+  border-right: 0px solid #12282f;  
+  margin-bottom: -10px;
+  }
+  
+/*Contains main and sidebar divs*/
+.wrapper-2 {
+  position: relative;
+}
+  
+/*Header and footer images*/
+.header, .footer {
+  height: 200px;
+  overflow: hidden;
+  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)), url(); /*This is the image in the header and footer. Replace it with your own!*/
+  background-size:cover;
+  }
+  
+  
+.footer {
+  height: 50px;
+  }
+  
+.header img {
+  border-top: 0px;
+  }
+  
+  
+/*Big title at the top of the page.*/  
+.title {
+  padding: 15px 10px 10px 20px;
+  }
+  
+/*Override default margins/padding for headings.*/
+.title h1, .title h2, .title h3 {
+  padding:0;
+  margin: 0;
+  }
+
+/*Container for top row of links.*/
+.links {
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  }
+  
+/*Div style for individual links.*/
+.link {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  float: none;
+  font-weight: bold;
+  font-size: 1.16em;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 0px solid red;
+  }
+  
+.link a {
+  color: white;
+  text-decoration: none;
+  }
+
+/*These three classes are just for defining the boundaries and size of the main and sidebar columns. Most fancy styling goes in the 'box' class.*/
+.main, .sidebar-right {
+  display: inline-block;
   }
   
 .sidebar-left, .sidebar-right {
-  width: 175px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  }
+
+.sidebar-left {
+  margin-left: 10px;
   }
   
 .main {
-  width: 500px;
-  margin-left: 185px;
+  margin-left: 220px;
+  width: 710px;
   }
   
-.sidebar-left {
-  margin-left: 0px;
+.sidebar-right {
+  margin-right: 10px;
+  margin-left: 10px;
   }
   
-.wrapper, .links a {
-  color: #4f3d46;
+/*Box used for individual sections in the sidebar, center column, etc.*/
+.box {  
+  padding: 5px 10px 0px 10px;
+  background: #e2dcc1;
+  color: #12282f;
+  border-top: 5px solid #187b9b;
+  border-bottom: 5px solid #187b9b;
+  margin: 10px 0px 15px 0px;
   }
   
-.box {
-  border: 3px double #333;
-  background: #fff;
-  padding: 0;
-  }
-  
-.header {
-  border: 3px double #333;
-  background: linear-gradient(rgb(251, 220, 220, 0.75), rgb(251, 220, 220, 0.75));
-  text-align: center;
-  margin-top: 15px;
-  top: 0;
+/*Prevent overflow of large images in main text areas.*/
+.box img {
+  max-width: 100%;
   height: auto;
   }
   
-.links {
-  margin-top: 1em;
-  }
-  
-.title { /*suppress title, since we're putting the title as text in the header box*/
-  display: none;
-  }
-
-.footer {
-  height: 0;
-  }
-  
-.box h1, .box h2, .box h3, .box h4 {
-  background: #facbd8;
-  margin: 0;
-  padding: 0.35em 0.25em 0.3em 0.25em;
-  text-align: center;
-  border-bottom: 3px double #333;
-  }
-  
+/***
+  Not give any style rules by default. Move the padding from the 'box' class here if you want boxes with specially styled headers or images that 
+  don't follow the margins of the main text. (For an example of that: see skin #1.)
+  ***/
 .inner {
-  padding: 0.25em 1em 0.3em 1em;
-  font-size: 1.075em;
+  
   }
   
-  
-/* For narrow screens: slightly narrows sidebars, and makes the width
- * of the main/center div flexible (sized relative to viewport width.)
+/* For narrow screens. Makes the sidebars narrower, and makes width of the 
+ * center/main div 50% of the viewport width.
  */
-@media(max-width:880px) {
+@media(max-width:1180px) {
   .wrapper {
-    width: calc(340px + 50vw);
+    width: calc(440px + 50vw);
+    }
+  .main {
+    width: 50vw;
+    }
+  }
+  
+@media(max-width:910px) {
+  .wrapper {
+    width: calc(360px + 52vw);
     }
   .sidebar-left, .sidebar-right {
     width: 160px;
     }
   .main {
-    width: 50vw;
-    margin-left: 170px;
+    margin-left: 180px;
+    width: 52vw;
     }
   }
-
-/*Mobile compatibility. Just turns it all into a vertical layout.*/  
+  
+/* Mobile compatibility. Puts everything into a standard vertical layout. */
 @media(orientation:portrait) {
   .wrapper {
     width: 96vw;
@@ -106,5 +173,8 @@ body {
     position: relative;
     width: 92vw;
     margin: 0.25rem 1vw;
+    }
+  .sidebar-left, .sidebar-right {
+    font-size: 0.95em;
     }
   }
