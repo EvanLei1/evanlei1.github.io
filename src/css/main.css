@@ -1,13 +1,13 @@
 /* SETTINGS */
 :root {
     /* Background Colors: */
-    --background-color: #cb8719;
+    --background-color: #a66642;
     --content-background-color: #ffffff;
-    --sidebar-background-color: #5378db;
+    --sidebar-background-color: #3d1f7a;
   
     /* Text Colors: */
     --text-color: #000000;
-    --sidebar-text-color: #000000;
+    --sidebar-text-color: #ffff;
     --link-color: #3026e8;
     --link-color-hover: #7780ec;
   
@@ -17,7 +17,7 @@
     --font-size: 14px;
     --margin: 10px;
     --padding: 20px;
-    --border: 4px solid #d9bba9;
+    --border: 4px solid #b59f72;
     --round-borders: 16px;
     --sidebar-width: 200px;
   }
