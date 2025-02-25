@@ -486,4 +486,25 @@
       font-size: 1rem;
     }
   }
+
+  /* -------------------------------------------------------- */
+  /* 	ADDITIONAL FONTS */
+
+  @font-face {
+    font-family: 'Splatoon1';
+    src: url('/src/fonts/Splatoon1.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Splatoon2';
+    src: url('/src/fonts/Splatoon2.otf') format('opentype');
+  }
+  
+  .Splatoon1 {
+    font-family: 'Splatoon1';
+  }
+  
+  .Splatoon2 {
+    font-family: 'Splatoon2';
+  }
   
