@@ -1,9 +1,9 @@
 /* SETTINGS */
 :root {
     /* Background Colors: */
-    --background-color: #a66642;
+    --background-color: #a1cc41;
     --content-background-color: #ffffff;
-    --sidebar-background-color: #3d1f7a;
+    --sidebar-background-color: #eb759c;
   
     /* Text Colors: */
     --text-color: #000000;
@@ -17,7 +17,7 @@
     --font-size: 14px;
     --margin: 10px;
     --padding: 20px;
-    --border: 4px solid #b59f72;
+    --border: 4px solid #51d1c8;
     --round-borders: 16px;
     --sidebar-width: 200px;
   }
