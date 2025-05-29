@@ -1,0 +1,28 @@
+.highlighted-lc {
+    background-color: blue; /* Blue background for LC */
+    color:white; /* White text for contrast */
+}
+.highlighted-nt {
+    background-color: green; /* Green background for NT */
+    color:white; /* White text for contrast */
+}
+.highlighted-vl {
+    background-color: yellow; /* Yellow background for VL */
+    color:black; /* Black text for contrast */
+}
+.highlighted-en {
+    background-color: yellow; /* Yellow background for EN */
+    color:black; /* Black text for contrast */
+}
+.highlighted-cr {
+    background-color: red; /* Red background for CR */
+    color:white; /* White text for contrast */
+}
+.highlighted-ex {
+    background-color: maroon; /* Maroon background for EX */
+    color:white; /* White text for contrast */
+}
+.highlighted-dd {
+    background-color: black; /* Black background for DD */
+    color:white; /* White text for contrast */
+}
