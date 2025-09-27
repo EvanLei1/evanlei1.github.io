@@ -1,9 +1,9 @@
 /* SETTINGS */
 :root {
     /* Background Colors: */
-    --background-color: #a1cc41;
+    --background-color: #964996;
     --content-background-color: #ffffff;
-    --sidebar-background-color: #eb759c;
+    --sidebar-background-color: #b04f23;
   
     /* Text Colors: */
     --text-color: #000000;
@@ -17,7 +17,7 @@
     --font-size: 14px;
     --margin: 10px;
     --padding: 20px;
-    --border: 4px solid #51d1c8;
+    --border: 4px solid #0ca34b;
     --round-borders: 16px;
     --sidebar-width: 200px;
   }
@@ -507,4 +507,38 @@
   .Splatoon2 {
     font-family: 'Splatoon2';
   }
+
+  /* -------------------------------------------------------- */
+  /* 	ADDITIONAL ITEMS */
   
+  .gallery {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+  }
+  .box {
+      flex-basis: 20%;
+      width: 100%;
+      padding: 10px;
+      margin: 8px;
+      box-shadow: 1px 1px 1px 1px green;
+  }
+  .text {
+      text-align: center;
+      margin-top: 5px;
+  }
+  .image:hover {
+      border: 3px solid green;
+  }
+
+  /* media query used here */
+  @media only screen and (max-width: 300px) {
+      .box {
+          flex-basis: 100%;
+      }
+  }
+  @media only screen and (max-width:500px) {
+      .box {
+          flex-basis: 40%;
+      }
+  }
