@@ -81,21 +81,21 @@
     <hr>
     <h2>April 20</h2>
     <a
-      data-fancybox="gallery"
+      data-fancybox="apr20"
       data-src="/transport/files/2024/PXL_20240420_203106154.jpg"
       data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
     >
       <img src="/transport/files/2024/PXL_20240420_203106154.jpg" width="200" height="150" alt="BART A cab 1212 at MacArthur" />
     </a>
 
-    <a data-fancybox="gallery" data-src="/transport/files/2024/PXL_20240420_223526765.jpg">
+    <a data-fancybox="apr20" data-src="/transport/files/2024/PXL_20240420_223526765.jpg">
       <img src="/transport/files/2024/PXL_20240420_223526765.jpg" width="200" height="150" alt="Image 1 of 2 of the last legacy train leaving Fremont Station at 3:35 pm" />
     </a>
 
-    <a data-fancybox="gallery" data-src="/transport/files/2024/PXL_20240420_223556597.jpg">
+    <a data-fancybox="apr20" data-src="/transport/files/2024/PXL_20240420_223556597.jpg">
       <img src="/transport/files/2024/PXL_20240420_223556597.jpg" width="200" height="150" alt="Image 2 of 2 of the last legacy train leaving Fremont Station at 3:35 pm. The new BART train is on the left." />
     </a>
-    <a data-fancybox="gallery" data-src="/transport/files/2024/PXL_20240420_221109823.jpg">
+    <a data-fancybox="apr20" data-src="/transport/files/2024/PXL_20240420_221109823.jpg">
       <img src="/transport/files/2024/PXL_20240420_221109823.jpg" width="200" height="150" alt="A man holding a final legacy train poster after the second-to-last train reached Fremont station" />
     </a>
     <h3 class="Splatoon1">Final BART legacy train run</h3>
@@ -112,21 +112,21 @@
     <hr>
     <h2>June 6</h2>
         <a
-      data-fancybox="gallery"
+      data-fancybox="june6"
       data-src="/transport/files/2024/PXL_20240606_223422460.jpg"
       data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
     >
       <img src="/transport/files/2024/PXL_20240606_223422460.jpg" width="200" height="150" alt="Right side view towards Marin County Airport from the bus on U.S. 101 in Novato" />
     </a>
 
-    <a data-fancybox="gallery" data-src="/transport/files/2024/PXL_20240606_232644019.jpg">
+    <a data-fancybox="june6" data-src="/transport/files/2024/PXL_20240606_232644019.jpg">
       <img src="/transport/files/2024/PXL_20240606_232644019.jpg" width="200" height="150" alt="Golden Gate Transit and Sonoma County Transit buses at Santa Rosa Transit Mall" />
     </a>
 
-    <a data-fancybox="gallery" data-src="/transport/files/2024/PXL_20240606_233425557.jpg">
+    <a data-fancybox="june6" data-src="/transport/files/2024/PXL_20240606_233425557.jpg">
       <img src="/transport/files/2024/PXL_20240606_233425557.jpg" width="200" height="150" alt="Back of the Santa Rosa CityBus Proterra ZX5" />
     </a>
-    <a data-fancybox="gallery" data-src="/transport/files/2024/PXL_20240607_014502098.jpg">
+    <a data-fancybox="june6" data-src="/transport/files/2024/PXL_20240607_014502098.jpg">
       <img src="/transport/files/2024/PXL_20240607_014502098.jpg" width="200" height="150" alt="SMART train in San Rafael" />
     </a>
     <h3 class="Splatoon1">Golden Gate Transit Route 172</h3>
@@ -202,9 +202,16 @@ of the airport. On June 23, I took pictures of San Rafael Airport from the hill,
 Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div></footer>
 </div>
     <!-- Add any additional Javascript code (<script></script>) here. -->
-     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js">
-      Fancybox.bind('[data-fancybox="gallery"]',{
-        //
+     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+      <script>
+      Fancybox.bind('[data-fancybox]',{
+        Thumbs: false,
+        Toolbar: {
+          display: [
+            "zoom",
+            "close"
+          ]
+        }
       });
      </script>
   </body>
