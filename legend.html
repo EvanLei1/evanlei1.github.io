@@ -1,138 +1,160 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Website Legend</title>
-    <link href="/src/css/navbar.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/src/css/style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-  <style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Website Legend</title>
+  <link href="/src/css/navbar.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/src/css/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<style>
   .container {
     display: flex;
     align-items: left;
     justify-content: left
   }
+
   .text {
     font-size: 12px;
     padding-left: 12px;
   }
-  table, th, td {
-      border: 1px solid black;
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
   }
+
   table.center {
-      margin-left: auto;
-      margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-  </style>
-  <body>
-    <div class="topnav">
-      <a class="active" href="/index.html">Home</a>
-      <a href="/transport/bus-list.html">Transport</a>
-      <a href="/gaming/main.html">Gaming</a>
-      <a href="/project/education.html">Education</a>
-      <a href="blog/blog.html">Blog</a>
-      <a href="/social.htm">Socials</a>
-      <a href="https://evanlei1.neocities.org/">Classic Website</a>
+</style>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="/index.html">Home</a>
+    <a href="/transport/bus-list.html">Transport</a>
+    <a href="/gaming/main.html">Gaming</a>
+    <a href="/project/education.html">Education</a>
+    <a href="blog/blog.html">Blog</a>
+    <a href="/social.htm">Socials</a>
+    <a href="https://evanlei1.neocities.org/">Classic Website</a>
+  </div>
+  <h1>Legend</h1>
+  <h2>Speedometer</h2>
+  <div class="container">
+    <div class="image">
+      <img src="/transport/s-meterNR sample.png" width="256p">
     </div>
-    <h1>Legend</h1>
-    <h2>Speedometer</h2>
-    <div class="container">
-      <div class="image">
-        <img src="/transport/s-meterNR sample.png" width="256p">
-      </div>
-      <div>
-        <p>This speedometer is designed by putting it on images and videos that involve driving. In this example, the speedometer is used for a car, separating the speed into increments of 25-40 mph with a max speed of 100-160 mph.
-          I also set up the speedometer in km/h and included yellow and red sections to alert you to the dangers of going at a very high speed. It also applies to trains but has three different categories with different max speeds.
-          There were three options of a train speedometer, with a max speed of 80, 100, and 220 mph. The speedometer diagram was used to simulate recorded videos and estimate photos.</p>
-        <p>The speedometer has three signal words: warning, danger, and peril. It applies to cars and trains.</p>
-        <p>All caps were used for road conditions, while the exclamation mark was added for emergencies and sudden traffic slowdowns.</p>
-        <table>
-          <tr>
+    <div>
+      <p>This speedometer is designed by putting it on images and videos that involve driving. In this example, the
+        speedometer is used for a car, separating the speed into increments of 25-40 mph with a max speed of 100-160
+        mph.
+        I also set up the speedometer in km/h and included yellow and red sections to alert you to the dangers of going
+        at a very high speed. It also applies to trains but has three different categories with different max speeds.
+        There were three options of a train speedometer, with a max speed of 80, 100, and 220 mph. The speedometer
+        diagram was used to simulate recorded videos and estimate photos.</p>
+      <p>The speedometer has three signal words: warning, danger, and peril. It applies to cars and trains.</p>
+      <p>All caps were used for road conditions, while the exclamation mark was added for emergencies and sudden traffic
+        slowdowns.</p>
+      <table>
+        <tr>
           <th>Signal word</th>
           <th>All caps</th>
           <th>Exclamation</th>
           <th>Notes</th>
-          </tr>
-          <tr>
-            <td style="color:orange">Warning</td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>If the speedometer is 16.7% above the speed limit or at least 80 mph, or <br>if there are weather advisories in the area</td>
-          </tr>
-          <tr>
-            <td style="color:yellow">Danger</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>If the speedometer is 33.3% above the speed limit or at least 99 mph or <br>if there is a weather watch or traffic involving construction</td>
-          </tr>
-          <tr>
-            <td style="color:red">Danger</td>
-            <td>No</td>
-            <td>Yes</td>
-            <td>Only used in any weather warning, including high - very high fire danger or red flag warning, <br> or if obstructions or accidents cause traffic and bad road conditions</td>
-          </tr>
-          <tr>
-            <td style="color:red">Peril</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>If the speedometer is 50% above the speed limit or at least 110 mph or <br>if there is a road closure related to an accident or weather</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <h3>Examples of signal words given out based on the speedometer</h3>
-    <li></li>
-    <h2>Bus and Train Active List</h2>
-    <p>This list was similar to above, but it was based on a classification used on the conservation status page like <a href="https://bateman.monologue.jp/en/index.html">the Red List of Trains</a>.</p>
-    <table class="center">
-      <tr>
-        <th>Classification</th>
-        <th>Equivalent to</th>
-        <th>Notes</th>
-      </tr>
-      <tr>
-        <td style="color:Blue">Active</td>
-        <td>Least Concern</td>
-        <td>In service and operational</td>
-      </tr>
-      <tr>
-        <td style="color:green">Reserve</td>
-        <td>Near threatened</td>
-        <td>Replacement plan announced or fleet placed in reserve</td>
-      </tr>
-      <tr>
-        <td style="color:yellow">Warning</td>
-        <td>Vulnerable</td>
-        <td>Buses or trains that will retire soon</td>
-      </tr>
-      <tr>
-        <td style="color:yellow">Danger</td>
-        <td>Endangered</td>
-        <td>Parts of the fleet were gradually retired</td>
-      </tr>
-      <tr>
-        <td style="color:red">Danger</td>
-        <td>Critically endangered</td>
-        <td>Most of the fleet retired and will be withdrawn very soon</td>
-      </tr>
-      <tr>
-        <td style="color:maroon">Retired</td>
-        <td>Extinct</td>
-        <td>No longer in service and cannot be restored to service</td>
-      </tr>
-      <tr>
-        <td style="color:black">Data deficient</td>
-        <td>Data deficient</td>
-        <td>Not enough information</td>
-      </tr>
+        </tr>
+        <tr>
+          <td style="color:orange">Warning</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>If the speedometer is 16.7% above the speed limit or at least 80 mph, or <br>if there are weather
+            advisories in the area</td>
+        </tr>
+        <tr>
+          <td style="color:yellow">Danger</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>If the speedometer is 33.3% above the speed limit or at least 99 mph or <br>if there is a weather watch or
+            traffic involving construction</td>
+        </tr>
+        <tr>
+          <td style="color:red">Danger</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>Only used in any weather warning, including high - very high fire danger or red flag warning, <br> or if
+            obstructions or accidents cause traffic and bad road conditions</td>
+        </tr>
+        <tr>
+          <td style="color:red">Peril</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>If the speedometer is 50% above the speed limit or at least 110 mph or <br>if there is a road closure
+            related to an accident or weather</td>
+        </tr>
       </table>
-    <hr>
-    <h2>New definitions</h2>
-    <h3>Sacramento Effect</h3>
-      <p>This word that I made up was called the Sacramento Effect because I was playing <a href="/gaming/splatoon.htm">Splatoon 3</a> turf war match when a deviation of +/- 15%
-      triggered how the team was way behind, but in some cases, the turfing coverage was unstable and the team that was behind can make a comeback within 10-30 seconds because of
-    team effort. I looked on <a href="https://twitch.tv">Twitch</a> and X some of the time about this common sighting.</p>
-    <p>It was called this because of how the door buttons were sounding once the Sacramento light rail train makes a full stop in a station. When the door closes, the beeping was heard.
-      I commonly heard the beeping noise of the CAF light rail trains.
-    </p>
+    </div>
+  </div>
+  <h3>Examples of signal words given out based on the speedometer</h3>
+  <li></li>
+  <h2>Bus and Train Active List</h2>
+  <p>This list was similar to above, but it was based on a classification used on the conservation status page like <a
+      href="https://bateman.monologue.jp/en/index.html">the Red List of Trains</a>.</p>
+  <table class="center">
+    <tr>
+      <th>Classification</th>
+      <th>Equivalent to</th>
+      <th>Notes</th>
+    </tr>
+    <tr>
+      <td style="color:Blue">Active</td>
+      <td>Least Concern</td>
+      <td>In service and operational</td>
+    </tr>
+    <tr>
+      <td style="color:green">Reserve</td>
+      <td>Near threatened</td>
+      <td>Replacement plan announced or fleet placed in reserve</td>
+    </tr>
+    <tr>
+      <td style="color:yellow">Warning</td>
+      <td>Vulnerable</td>
+      <td>Buses or trains that will retire soon</td>
+    </tr>
+    <tr>
+      <td style="color:yellow">Danger</td>
+      <td>Endangered</td>
+      <td>Parts of the fleet were gradually retired</td>
+    </tr>
+    <tr>
+      <td style="color:red">Danger</td>
+      <td>Critically endangered</td>
+      <td>Most of the fleet retired and will be withdrawn very soon</td>
+    </tr>
+    <tr>
+      <td style="color:maroon">Retired</td>
+      <td>Extinct</td>
+      <td>No longer in service and cannot be restored to service</td>
+    </tr>
+    <tr>
+      <td style="color:black">Data deficient</td>
+      <td>Data deficient</td>
+      <td>Not enough information</td>
+    </tr>
+  </table>
+  <hr>
+  <h2>New definitions</h2>
+  <h3>Sacramento Effect</h3>
+  <p>This word that I made up was called the Sacramento Effect because I was playing <a
+      href="/gaming/splatoon.htm">Splatoon 3</a> turf war match when a deviation of +/- 15%
+    triggered how the team was way behind, but in some cases, the turfing coverage was unstable and the team that was
+    behind can make a comeback within 10-30 seconds because of
+    team effort. I looked on <a href="https://twitch.tv">Twitch</a> and X some of the time about this common sighting.
+  </p>
+  <p>It was called this because of how the door buttons were sounding once the Sacramento light rail train makes a full
+    stop in a station. When the door closes, the beeping was heard.
+    I commonly heard the beeping noise of the CAF light rail trains.
+  </p>
+
 </html>
