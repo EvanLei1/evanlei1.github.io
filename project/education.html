@@ -1,42 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bus list</title>
-  <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-  <link href="/src/css/fakewp2_skin2_mobcompat.css" rel="stylesheet" type="text/css" media="all">
+  <title>Evan Lei's website</title>
+  <meta name="home" content="SHORT DESCRIPTION OF YOUR PAGE" />
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="/src/css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="/src/css/redlist.css" />
 
+  <script>
+    // Template generated with petrapixel's layout generator.
+    // Please do not remove this.
+    console.log("%c Template generated with petrapixel's layout generator.", "font-size: 14pt;");
+    console.log("%c https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt;");
+  </script>
 </head>
 
 <body>
+  <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+  <a href="#content" id="skip-to-content-link">Skip to content</a>
+  <div class="layout">
 
-  <div class=wrapper>
-    <div class=title>
-      <h1>Evan Lei's website</h1>
-    </div>
-    <!-- Fake WP 2 layout by EGGRAMEN https://eggramen.neocities.org/code/css_testpages -->
+    <header>
 
-    <div class=links>
-      <div class=link><a href="" title="refresh">Refresh</a></div>
-      <div class=link><a href="/index.html" title="site home">Site Home</a></div>
-      <div class=link><a href="https://evanlei1.neocities.org/" title="neocities">NeoCities website</a></div>
-    </div>
+      <div class="header-content">
+        <div class="header-title">Website Title</div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/transport/bus-list.html">Transport</a></li>
+            <li><a href="/gaming/main.html">Gaming</a></li>
+            <li><a href="/project/education.html">Education</a></li>
+            <li><a href="/updates.html">Posts</a></li>
+            <li><a href="/social.htm">Socials</a></li>
+            <li><a href="/about.htm">About</a></li>
+            <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <div class=wrapper-2>
-      <div class=main>
-        <div class=box>
-          <h2 id=education>Education</h2>
-          <div class=inner>
-          </div>
-        </div>
+    <aside class="left-sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-title">Updates</div>
+        <ul>
+          <li><a href="East Bay">East Bay Bus List</li>
+          <li>List</li>
+          <li><a href="#">List</a></li>
+          <li>List</li>
+        </ul>
+      </div>
+    </aside>
 
-        <div class=box>
-          <h2 id=school class="Lato1">Schools I attended</h2>
-          <div class=inner>
+
+    <main id="East Bay">
+      <section>
+        <h2 id=school class="Lato1">Schools I attended</h2>
+
             <ul>
               <li>Lakeshore Elementary School, San Francisco (2010-16)</li>
               <li>James Denman Middle School, San Francisco (2016-19)</li>
@@ -48,29 +72,19 @@
               <li>YMCA of San Francisco (2014-16)</li>
               <li>Boys and Girls Club of San Francisco (2016-20, 2021-23)</li>
             </ul>
-          </div>
-        </div>
 
-        <div class=box>
           <h2 id=related class="Lato1">Related Courses</h2>
-          <div class=inner>
+
             <p>Related courses were used when I was studying an important course covered over college.</p>
             <ul>
               <li><i>Coming soon...</i></li>
             </ul>
-          </div>
-        </div>
 
-        <div class=box>
-          <div class=inner>
             <h2 id="UCM" class="Lato1">University of California, Merced</h2>
             <p class="Lato1"><big>Coming soon...</big></p>
-          </div>
-        </div>
 
-        <div class=box>
           <h2 id=projects class="Lato1">Projects</h2>
-          <div class=inner>
+
             <h3 id="APCSP" class="Lato1">AP Computer Science Principles project</h3>
             <p>This project was taught in the only AP Computer Science class in high school in the 2022-23 school year.
               <br>
@@ -87,52 +101,44 @@
               2023. She held the entire semester online, with the option of meeting in person (a <i>hyflex</i> class).
             </p>
             <a href="Dorothea Puente case study.pdf" class="Lato1">My case study about Dorothea Puente</a>
-          </div>
-        </div>
-      </div>
 
-      <div class=sidebar-left>
-        <div class=box>
-          <h3>Left Sidebar</h3>
-          <div class=inner>
-            <ul>
-              <li><a href="/index.html">Home</a></li>
-              <li><a class="active" href="/transport/bus-list.html">Transport</a></li>
-              <li><a href="/gaming/main.html">Gaming</a></li>
-              <li><a href="/project/education.html">Education</a></li>
-              <li><a href="/blog/blog.html">Blog</a></li>
-              <li><a href="/social.htm">Socials</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+        <p id="copyright" align="center">Copyright &copy; 2025 Evan Lei.</p>
 
-      <div class=sidebar-right>
-        <div class=box>
-          <h3>Right Sidebar</h3>
-          <div class=inner>
-            <ol>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#school">Schools I attended</a></li>
-              <li><a href="#related">Out-of-School Programs</a></li>
-              <li><a href="#UCM">University of California, Merced</a></li>
-              <li><a href="#projects">Projects</a></li>
-            </ol>
-          </div>
+        <div id="footer" align="center">
+          <p><a href="/index.html">Home</a>
+            | <a href="/terms.html">Terms</a>
+            | <a href="/about.htm">About</a>
+            | <a href="social.htm">Contact</a>
         </div>
-        <div class=box>
-          <div class=inner>
-            <p id="copyright" align="center">Copyright &copy;2025 Evan Lei. CC-BY_SA 4.0. <br>
-              <samp><i>
-                  Last updated: Tuesday, August 12, 2025
-                </i></samp><br>
-              <b>Credits: </b><a href="https://eggramen.neocities.org/code/css_testpages">Fake WP 2 layout</a> by
-              EGGRAMEN
-            </p>
-          </div>
-        </div>
-      </div>
 
+        <samp><i>
+            <tiny>
+              Last updated: Saturday, June 14, 2025
+          </i></tiny></samp>
+        <br>
+        Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+          layout generator</a>.
+      </div>
+    </footer>
+  </div>
+  <!-- Add any additional Javascript code (<script></script>) here. -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox]', {
+      Thumbs: false,
+      Toolbar: {
+        display: [
+          "zoom",
+          "close"
+        ]
+      }
+    });
+  </script>
 </body>
 
 </html>
