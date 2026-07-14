@@ -1,0 +1,226 @@
+<template>
+  <div class="app-wrapper">
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+    <div class="layout">
+
+      <header>
+
+        <div class="header-content">
+          <div class="header-title">Website Title</div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="/transport/bus-list.html">Transport</a></li>
+              <li><a href="/gaming/main.html">Gaming</a></li>
+              <li><a href="/project/education.html">Education</a></li>
+              <li><a href="/updates.html">Posts</a></li>
+              <li><a href="/social.htm">Socials</a></li>
+              <li><a href="/about.htm">About</a></li>
+              <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <aside class="left-sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-title">Section Title</div>
+          <ul>
+            <li><a href="Santa Cruz Metro">Sacramento Area Bus List</a></li>
+            <li>List</li>
+            <li><a href="#">List</a></li>
+            <li>List</li>
+          </ul>
+        </div>
+      </aside>
+
+      <main id="Santa Cruz Metro">
+        <section>
+          <h1 align="center">Sacramento Bus List</h1>
+          <h2>Sacramento and Yolo Counties</h2>
+          <h3 id="SACrt">Sacramento RT</h3>
+
+          <h4>Old buses</h4>
+          <ul>
+            <li>5 2006 Orion VII CNG 07.501 buses in the 2600 series</li>
+            <ul>
+              <li>Three units remain</li>
+            </ul>
+          </ul>
+          <ul>
+            <li>91 2008 Orion VII NG CNG 07.501 buses in the 2800 series</li>
+            <ul>
+              <li>30 buses were refurbished in 2022-23</li>
+            </ul>
+          </ul>
+
+          <h4>Original buses</h4>
+          <ul>
+            <li>96 2014-16 Gillig BRT Plus CNG 40' buses in the 1500 series</li>
+            <ul>
+              <li>First 30 buses were made in 2014-15</li>
+              <li>Remaining 66 buses were made in 2016</li>
+            </ul>
+            <li>71 2022-23 Gillig BRT Plus CNG 40' buses in the 2200 series</li>
+            <ul>
+              <li>First 30 buses were made in 2022</li>
+              <li>Remaining 41 buses were made in 2023</li>
+            </ul>
+          </ul>
+
+          <h4>Electric buses</h4>
+          <ul>
+            <li>6 2019 Proterra Catalyst BE40 buses in the 1910 series</li>
+            <ul>
+              <li>All of them were inactive since early 2025</li>
+            </ul>
+            <li>3 2021 Gillig Low Floor Plus EV 40' buses in the 2100 series</li>
+            <ul>
+              <li>Used in route 142 to Sacramento International Airport</li>
+            </ul>
+          </ul>
+
+          <h3 id="SCMTD retired fleet">Retired Fleet</h3>
+          <p>This table only shows buses retired after 2021</p>
+          <table>
+            <tr>
+              <th>Year</th>
+              <th>Fleet numbers</th>
+              <th>Model</th>
+              <th>Notes</th>
+            </tr>
+          </table>
+
+          <h2>Yolobus</h2>
+          <p>Serves Yolo County including a loop route between these cities and Sacramento and the airport. Four of
+            eight
+            2002 Orion VIIs were still active, making it the Last
+            remaining original Orion VIIs in California. The 13 Orion VII NG CNG buses were piggybacked from SACRT and
+            were still active. Otherwise, the remaining buses were
+            6 MCI D4500CTs, 6 Proterra Catalyst BE40 units, and 28 Gillig Low Floor CNG buses between 2016 and 2025.
+          </p>
+
+          <h2>e-tran</h2>
+          <p>SacRT assumes operations in Elk Grove routes, including peak service to Sacramento. The entire fleet was
+            based on 14 New Flyer C40LFR and 24 XN40s.</p>
+
+          <h2>Folsom Stage Line</h2>
+          <p>SacRT assumes operations in Folsom routes. There were 5 ElDorado National E-Z Rider II BRT CNG buses
+            operating in this area.</p>
+
+          <h2>South County Transit</h2>
+          <p>Although most buses were Fords in Galt, the three MCI D4500CT buses were used for weekdays to Sacramento.
+          </p>
+
+          <h2>North of Sacramento</h2>
+          <h2>Yuba Sutter Transit</h2>
+          <p>Local buses use diesel Gillig Low Floor 35' and rural buses use Ford or Chevrolet buses. Commuter services
+            to
+            Sacramento from Yuba or Sutter County use MCI D4500CT units.</p>
+
+          <h2>Placer County and Sierra Nevada</h2>
+
+          <h2>Placer County Transit</h2>
+          <p>Buses were either Ford, Gillig Low Floor CNG 35', or MCI buses. Some were served to downtown Sacramento,
+            while Route 10 goes to Watt/I-80 station.</p>
+
+          <h2>Roseville Transit</h2>
+          <p>Most buses use diesel Gillig Low Floor 35' as well as commuter Gillig BRT 40' from 2009 and PhoenixEV ZX5
+            40'
+            for mix.</p>
+
+          <h2>El Dorado Transit</h2>
+          <p>Commuter buses from Sacramento to Placerville use MCI D4500CT buses while local buses use diesel Gillig Low
+            Floor 35'.</p>
+
+          <h2>Nevada County Connects</h2>
+          <p>Most buses were ElDorado National Aero Elite models, with only two electric Gillig Low Floor 35' buses.</p>
+
+          <h2>Tahoe Transportation District</h2>
+          <p>These buses travel from South Lake Tahoe to cities in Nevada like Carson City and Incline Village. They use
+            Gillig, Proterra, Blue Bird, and NABI buses.</p>
+
+          <h2>Tahoe Truckee Area Regional Transit</h2>
+          <p>Most buses were Gillig Low Floor buses in North Lake Tahoe, mostly running CNG. In Truckee area, there were
+            Ford buses.</p>
+
+          <h1>Buses to Look Out for</h1>
+          <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
+            href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
+          Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
+          <div class="accordion-redlist">
+            <details>
+              <summary class="highlighted-ex">Extinct</summary>
+            </details>
+            <details>
+              <summary class="highlighted-cr">Critically endangered</summary>
+              <span class="Splatoon2">2600 series (2006) (3/5): 2601, 2604-2605</span> <s></s><br>
+            </details>
+          </div>
+          <div class="accordion-redlist">
+            <details>
+              <summary class="highlighted-en">Endangered</summary>
+              <span class="Splatoon2">2800 series (2008) (30/91): 2808, 2810, 2813, 2815-2816, 2820-2821, 2833-2834,
+                2836,
+                2838-2839, 2843, 2847, 2849-2850, 2853-2854, 2857, 2860, 2864-2865, 2871-2874, 2876, 2880, 2887</span>
+              <s></s><br>
+            </details>
+          </div>
+          <div class="accordion-redlist">
+            <details>
+              <summary class="highlighted-vl">Vulnerable</summary>
+            </details>
+          </div>
+          <div class="accordion-redlist">
+            <details>
+              <summary class="highlighted-nt">Near threatened</summary>
+            </details>
+          </div>
+          <div class="accordion-redlist">
+            <details>
+              <summary class="highlighted-lc">Least concern</summary>
+            </details>
+          </div>
+          <div class="accordion-redlist">
+            <details>
+              <summary class="highlighted-dd">Data deficient</summary>
+            </details>
+          </div>
+          <div class="accordion-electric">
+            <details>
+              <summary>Electric buses</summary>
+              Sacramento:
+              <span class="Splatoon2">1910 series (2019) (0/6)</span> <s></s><br>
+              <span class="Splatoon2">2100 series (2021) (2/3): 2102-2103,</span> <s>2101</s><br>
+            </details>
+          </div>
+
+          <h1>Gallery</h1>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="\transport/files/2023/05/PXL_20220206_222524816.jpg">
+                <img src="\transport/files/2023/05/PXL_20220206_222524816.jpg" alt="SCMTD 2318" width="25%">
+              </a>
+              <div class="desc">Santa Cruz Metro 2318 at transit center</div>
+              <a target="_blank" href="transport/files/2023/05/PXL_20220206_223140747.jpg">
+                <img src="\transport/files/2023/05/PXL_20220206_223140747.jpg" alt="AC Transit 7038" width="25%">
+              </a>
+              <div class="desc">Santa Cruz Metro 9824</div>
+              <a target="_blank" href="\transport/files/2023/05/PXL_20230529_014032875.jpg">
+                <img src="\transport/files/2023/05/PXL_20230529_014032875.jpg" alt="AC Transit 1344" width="25%">
+              </a>
+              <div class="desc">Santa Cruz Metro 1612</div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+// Add your Composition API logic here
+// import { ref } from 'vue'
+// const count = ref(0)
+</script>

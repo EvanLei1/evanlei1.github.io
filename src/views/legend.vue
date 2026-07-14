@@ -1,0 +1,188 @@
+<template>
+  <div class="app-wrapper">
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+    <div class="layout">
+
+    <header>
+
+    <div class="header-content">
+    <div class="header-title">Website Title</div>
+    <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="/transport/bus-list.html">Transport</a></li>
+    <li><a href="/gaming/main.html">Gaming</a></li>
+    <li><a href="/project/education.html">Education</a></li>
+    <li><a href="/updates.html">Posts</a></li>
+    <li><a href="/social.htm">Socials</a></li>
+    <li><a href="/about.htm">About</a></li>
+    <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+
+    <aside class="left-sidebar">
+    <div class="sidebar-section">
+    <div class="sidebar-title">Updates</div>
+    <ul>
+    <li><a href="East Bay">East Bay Bus List</a></li>
+    <li>List</li>
+    <li><a href="#">List</a></li>
+    <li>List</li>
+    </ul>
+    </div>
+    </aside>
+
+    <main id="East Bay">
+    <section>
+    <h1>Legend</h1>
+    <h2>Speedometer</h2>
+    <div class="container">
+    <div class="image">
+    <img src="/transport/s-meterNR sample.png" width="256p">
+    </div>
+    <div>
+    <p>This speedometer is designed by putting it on images and videos that involve driving. In this example, the
+    speedometer is used for a car, separating the speed into increments of 25-40 mph with a max speed of 100-160
+    mph.
+    I also set up the speedometer in km/h and included yellow and red sections to alert you to the dangers of going
+    at a very high speed. It also applies to trains but has three different categories with different max speeds.
+    There were three options of a train speedometer, with a max speed of 80, 100, and 220 mph. The speedometer
+    diagram was used to simulate recorded videos and estimate photos.</p>
+    <p>The speedometer has three signal words: warning, danger, and peril. It applies to cars and trains.</p>
+    <p>All caps were used for road conditions, while the exclamation mark was added for emergencies and sudden traffic
+    slowdowns.</p>
+    <table>
+    <tr>
+    <th>Signal word</th>
+    <th>All caps</th>
+    <th>Exclamation</th>
+    <th>Notes</th>
+    </tr>
+    <tr>
+    <td style="color:orange">Warning</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>If the speedometer is 16.7% above the speed limit or at least 80 mph, or <br>if there are weather
+    advisories in the area</td>
+    </tr>
+    <tr>
+    <td style="color:yellow">Danger</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>If the speedometer is 33.3% above the speed limit or at least 99 mph or <br>if there is a weather watch or
+    traffic involving construction</td>
+    </tr>
+    <tr>
+    <td style="color:red">Danger</td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>Only used in any weather warning, including high - very high fire danger or red flag warning, <br> or if
+    obstructions or accidents cause traffic and bad road conditions</td>
+    </tr>
+    <tr>
+    <td style="color:red">Peril</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>If the speedometer is 50% above the speed limit or at least 110 mph or <br>if there is a road closure
+    related to an accident or weather</td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    <h3>Examples of signal words given out based on the speedometer</h3>
+    <li></li>
+    <h2>Bus and Train Active List</h2>
+    <p>This list was similar to above, but it was based on a classification used on the conservation status page like <a
+    href="https://bateman.monologue.jp/en/index.html">the Red List of Trains</a>.</p>
+    <table class="center">
+    <tr>
+    <th>Classification</th>
+    <th>Equivalent to</th>
+    <th>Notes</th>
+    </tr>
+    <tr>
+    <td style="color:Blue">Active</td>
+    <td>Least Concern</td>
+    <td>In service and operational</td>
+    </tr>
+    <tr>
+    <td style="color:green">Reserve/Near threatened</td>
+    <td>Near threatened</td>
+    <td>Replacement plan announced or fleet placed in reserve</td>
+    </tr>
+    <tr>
+    <td style="color:yellow">Warning/Bulnerable</td>
+    <td>Vulnerable</td>
+    <td>Buses or trains that will retire soon</td>
+    </tr>
+    <tr>
+    <td style="color:yellow">Danger/Endangered</td>
+    <td>Endangered</td>
+    <td>Parts of the fleet were gradually retired</td>
+    </tr>
+    <tr>
+    <td style="color:red">Danger/Critically endangered</td>
+    <td>Critically endangered</td>
+    <td>Most of the fleet retired and will be withdrawn very soon</td>
+    </tr>
+    <tr>
+    <td style="color:maroon">Retired/Inactive/Extinct</td>
+    <td>Extinct</td>
+    <td>No longer in service and cannot be restored to service</td>
+    </tr>
+    <tr>
+    <td style="color:black">Data deficient</td>
+    <td>Data deficient</td>
+    <td>Not enough information</td>
+    </tr>
+    </table>
+    <hr>
+    <h2>New definitions</h2>
+    <h3>Sacramento Effect</h3>
+    <p>This word that I made up was called the Sacramento Effect because I was playing <a
+    href="/gaming/splatoon.htm">Splatoon 3</a> turf war match when a deviation of +/- 15%
+    triggered how the team was way behind, but in some cases, the turfing coverage was unstable and the team that was
+    behind can make a comeback within 10-30 seconds because of
+    team effort. I looked on <a href="https://twitch.tv">Twitch</a> and X some of the time about this common sighting.
+    </p>
+    <p>It was called this because of how the door buttons were sounding once the Sacramento light rail train makes a full
+    stop in a station. When the door closes, the beeping was heard.
+    I commonly heard the beeping noise of the CAF light rail trains.
+    </p>
+
+    </section>
+    </main>
+    <footer>
+    <div>
+    <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+    <p id="copyright" align="center">Copyright &copy; 2025 Evan Lei.</p>
+
+    <div id="footer" align="center">
+    <a href="/index.html">Home</a>
+    | <a href="/terms.html">Terms</a>
+    | <a href="/about.htm">About</a>
+    | <a href="social.htm">Contact</a>
+    </div>
+
+    <samp><i>
+    <tiny>
+    Last updated: Saturday, June 14, 2025
+    </tiny></i></samp>
+    <br>
+    Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+    layout generator</a>.
+    </div>
+    </footer>
+    </div>
+    <!-- Add any additional Javascript code () here. -->
+  </div>
+</template>
+
+<script setup lang="ts">
+// Add your Composition API logic here
+// import { ref } from 'vue'
+// const count = ref(0)
+</script>

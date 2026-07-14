@@ -1,0 +1,238 @@
+<template>
+  <div class="app-wrapper">
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+    <div class="layout">
+
+    <header>
+
+    <div class="header-content">
+    <div class="header-title">Website Title</div>
+    <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="/transport/bus-list.html">Transport</a></li>
+    <li><a href="/gaming/main.html">Gaming</a></li>
+    <li><a href="/project/education.html">Education</a></li>
+    <li><a href="/updates.html">Posts</a></li>
+    <li><a href="/social.htm">Socials</a></li>
+    <li><a href="/about.htm">About</a></li>
+    <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+
+    <aside class="left-sidebar">
+    <div class="sidebar-section">
+    <div class="sidebar-title">Updates</div>
+    <ul>
+    <li><a href="East Bay">East Bay Bus List</a></li>
+    <li>List</li>
+    <li><a href="#">List</a></li>
+    <li>List</li>
+    </ul>
+    </div>
+    </aside>
+
+    <main id="East Bay">
+    <section>
+    <p><strong>NOTE:</strong> I am updating this page infrequently because I have to upload more images to my
+    website.</p>
+    <p>The bus list contained a variety of buses taken by myself within the United States and China. It was
+    sorted by the region and when these photos are taken.
+    For zero-emission vehicles, it will be found <a href="/transport/evBus.htm">here</a>.</p>
+    <hr>
+    <h2 id=section-2>Latest Updates</h2>
+    <div class=inner>
+    <p><strong>NOTE:</strong> I am updating this page infrequently because I have to upload more images to my
+    website.</p>
+    <p>This is a list of images of trains taken in California.</p>
+
+    <h2 id=section-3>Northern California</h2>
+    <h3 id="BART">Bay Area Rapid Transit</h3>
+    <p>BART trains entered service on September 11, 1972, starting with original Rohr trains, known as A and B
+    cars. These cars were Refurbished
+    between 1996 and 2002. Some A cars were converted to B cars. The C1 cars were made in 1985-1990, and were
+    never refurbished, so it retired in May 2023.
+    The C2 cars were made in 1994-1996 and retired in 2021 because of mechanical issues. The A and B cars were
+    made in 1971-1975.
+    </p>
+    <p>The "Fleet of the Future" sets, also known as D and E sets, were delivered from 2012. The 465th car was
+    delivered in July 2024, and expansion cars were delivered right now.
+    The 1000th car out of 1129 was delivered on July 28, 2025. The 48 expansion cars were approved.
+    The highest numbered car is 4690 as of July 29, 2025, but may go up to 4691, and the D sets only have 310
+    cars.
+    </p>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> A cars: 0/61 (113 converted to B
+    cars)</span><br>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> B cars: 0/387 (+113 converted from A
+    cars)</span><br>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> C1 cars: 0/150</span><br>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> C2 cars: 0/80</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> D cars: 310/310</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> E cars: 760/819</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> AGT trains: 4/4</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Stadler GTW: 8/8</span><br>
+
+    <h3 id="MUNI">San Francisco Municipal Railway</h3>
+    <p>Muni operates both light rail fleet and streetcars in the city. Historic streetcars run on the F line while
+    light rail vehicles run on other lines.</p>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> LRV2: 0/77</span><br>
+    <span class="Splatoon2"><mark class="highlighted-cr">Extinct</mark> LRV3: 0/74</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> LRV4: 202-212/219</span> (car 2212
+    is the highest, but car 2202 is in service)<br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Cable cars: 35/40</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> PCC streetcars: 21/29</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">Data deficient</mark> Milan streetcars: ?/11</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">Data deficient</mark> Historic streetcars:
+    ?/21</span><br>
+
+    <h3 id="VTA">Santa Clara Valley Transportation Authority</h3>
+    <p>VTA operates both light rail fleet and streetcars in the city. Historic streetcars run only in December in
+    downtown.</p>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> UTDC cars: 0/50</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Kinki Sharyo LRV: 100/100</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">Data deficient</mark> Historic streetcars: ?/7</span><br>
+
+    <h3 id="SacRT">Sacramento Regional Transit District</h3>
+    <p>SacRT operates light rail fleet within the city. There were three lines: the blue line goes from Cosumnes
+    River College to Watt/I-80, the gold line from
+    Sacramento Valley Station to Sunrise, and the green line from Sacramento Valley Station to Meadowview.
+    </p>
+    <span class="Splatoon2"><mark class="highlighted-cr">Critically endangered</mark> Siemens-Duewag U2A:
+    ?/36</span><br>
+    <span class="Splatoon2"><mark class="highlighted-en">Endangered</mark> CAF trains: ?/40</span><br>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> UTDC cars (ex-VTA): 0/20</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Siemens S700: ?/55</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">Data deficient</mark> Historic streetcars: ?/1</span><br>
+
+    <h3 id="Caltrain">Caltrain</h3>
+    <p>Caltrain is a commuter rail network serving from San Francisco to Gilroy. All of the Gallery cars, made in
+    1985, and some of the Bombardier BiLevel cars
+    were retired in 2024. The MP36PH-3C locomotives were retired in 2023, and the MPXpress locomotives were
+    retired in 2024.
+    The new Stadler KISS trains are now in service, and the Bombardier BiLevel cars are still in service.
+    </p>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> Gallery cars: 0/93</span><br>
+    <span class="Splatoon2"><mark class="highlighted-nt">Near threatened</mark> BiLevel cars: 40/40</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Stadler KISS: 23x7/23x7</span><br>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> Budd cars: 0/14</span><br>
+    <span class="Splatoon2"><mark class="highlighted-nt">Near threatened</mark> F40PH locomotives: 3/23</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> MP36PH locomotives: 6/6</span><br>
+    <h3 id="ACE">Altamont Corridor Express</h3>
+    <!-- <p>Caltrain is a commuter rail network serving from San Francisco to Gilroy. All of the Gallery cars, made in 1985, and some of the Bombardier BiLevel cars
+    were retired in 2024. The MP36PH-3C locomotives were retired in 2023, and the MPXpress locomotives were retired in 2024.
+    The new Stadler KISS trains are now in service, and the Bombardier BiLevel cars are still in service.
+    </p> -->
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> BiLevel cars: 40/40</span><br>
+    <span class="Splatoon2"><mark class="highlighted-nt">Near threatened</mark> F40PH locomotives: 3/23</span><br>
+
+    <h2 id=section-4>Southern California</h2>
+    <h3 id="BART">Los Angeles Metro</h3>
+    <!-- <p>BART trains entered service on September 11, 1972, starting with original Rohr trains, known as A and B cars. These cars were Refurbished
+    between 1996 and 2002. Some A cars were converted to B cars. The C1 cars were made in 1985-1990, and were never refurbished, so it retired in May 2023.
+    The C2 cars were made in 1994-1996 and retired in 2021 because of mechanical issues. The A and B cars were made in 1971-1975.
+    </p>
+    <p>The "Fleet of the Future" sets, also known as D and E sets, were delivered from 2012. The 465th car was delivered in July 2024, and expansion cars were delivered right now.
+    The highest numbered car is the 4640s, and the D sets only have 310 cars.
+    </p> -->
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> P865: 0/54</span><br>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> P2020: 0/15</span><br>
+    <span class="Splatoon2"><mark class="highlighted-vl">Vulnerable</mark> A650: 88/104</span><br>
+    <span class="Splatoon2"><mark class="highlighted-nt">Near threatened</mark> P2000: 52/52</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> P2550: 50/50</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> P3010: 235/235</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> HR4000: 6/64</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">On Order</mark> HR5000: 0/182</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">On Order</mark> P3030: 0/33</span><br>
+
+    <h3 id="OC">Orange County Transportation Authority</h3>
+    <!-- <p>Muni operates both light rail fleet and streetcars in the city. Historic streetcars run on the F line while light rail vehicles run on other lines.</p> -->
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Siemens S700: 1/8</span><br>
+
+    <h3 id="MetroLink">Metrolink</h3>
+    <!-- <p>VTA operates both light rail fleet and streetcars in the city. Historic streetcars run only in December in downtown.</p> -->
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> BiLevel cars: 111/147</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Rotem cars: 131/137</span><br>
+    <!-- <span class="Splatoon2"><mark class="highlighted-dd">Data deficient</mark> Historic streetcars: ?/7</span><br> -->
+
+    <h3 id="SDMTS">San Diego Metropolitan Transit System</h3>
+    <!-- <p>SacRT operates light rail fleet within the city. There were three lines: the blue line goes from Cosumnes River College to Watt/I-80, the gold line from -->
+    <!-- Sacramento Valley Station to Sunrise, and the green line from Sacramento Valley Station to Meadowview. -->
+    <!-- </p> -->
+    <span class="Splatoon2"><mark class="highlighted-dd">Preserved</mark> Siemens-Duewag U2A: 1/71</span><br>
+    <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> Siemens SD-100: 0/52</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Siemens S70/S700: 168/168</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">Data deficient</mark> PCC streetcars: ?/2</span><br>
+
+    <h3 id="NCTD">North County Transit District</h3>
+    <!-- <p>Caltrain is a commuter rail network serving from San Francisco to Gilroy. All of the Gallery cars, made in 1985, and some of the Bombardier BiLevel cars
+    were retired in 2024. The MP36PH-3C locomotives were retired in 2023, and the MPXpress locomotives were retired in 2024.
+    The new Stadler KISS trains are now in service, and the Bombardier BiLevel cars are still in service.
+    </p> -->
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Siemens Charger: 7/9</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> BiLevel cars: 34/39</span><br>
+    <span class="Splatoon2"><mark class="highlighted-vl">Vulnerable</mark> Siemens Desiro: 5/23</span><br>
+    <!-- <span class="Splatoon2"><mark class="highlighted-ex">Extinct</mark> Budd cars: 0/14</span><br>
+    <span class="Splatoon2"><mark class="highlighted-nt">Near threatened</mark> F40PH locomotives: 3/23</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> MP36PH locomotives: 6/6</span><br> -->
+
+    <h2 id="AmtrakCA">Amtrak California</h2>
+    <h3 id="CC">Capitol Corridor/San Joaquins</h3>
+    <!-- <p>BART trains entered service on September 11, 1972, starting with original Rohr trains, known as A and B cars. These cars were Refurbished
+    between 1996 and 2002. Some A cars were converted to B cars. The C1 cars were made in 1985-1990, and were never refurbished, so it retired in May 2023.
+    The C2 cars were made in 1994-1996 and retired in 2021 because of mechanical issues. The A and B cars were made in 1971-1975.
+    </p>
+    <p>The "Fleet of the Future" sets, also known as D and E sets, were delivered from 2012. The 465th car was delivered in July 2024, and expansion cars were delivered right now.
+    The highest numbered car is the 4640s, and the D sets only have 310 cars.
+    </p> -->
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> California Car: 65/66</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Surfliner: 12/12</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Superliner: 6/7</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">Data deficient</mark> Horizon: 0/3</span><br>
+    <span class="Splatoon2"><mark class="highlighted-cr">Critically endangered</mark> Comet IB: 3/14</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Siemens Venture: 24/50</span><br>
+    <!-- <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> HR4000: 6/64</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">On Order</mark> HR5000: 0/182</span><br>
+    <span class="Splatoon2"><mark class="highlighted-dd">On Order</mark> P3030: 0/33</span><br> -->
+
+    <h3 id="PS">Pacific Surfliner</h3>
+    <!-- <p>Muni operates both light rail fleet and streetcars in the city. Historic streetcars run on the F line while light rail vehicles run on other lines.</p> -->
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Surfliner: 46/50</span><br>
+    <span class="Splatoon2"><mark class="highlighted-lc">Least Concern</mark> Comet IB: 11/14</span><br>
+    </div>
+
+    </section>
+    </main>
+    <footer>
+    <div>
+    <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+    <p id="copyright" align="center">Copyright &copy; 2025 Evan Lei.</p>
+
+    <div id="footer" align="center">
+    | <a href="/index.html">Home</a>
+    | <a href="/terms.html">Terms</a>
+    | <a href="/about.htm">About</a>
+    | <a href="social.htm">Contact</a>
+    </div>
+
+    <samp><i>
+    <tiny>
+    Last updated: Saturday, June 14, 2025
+    </tiny></i></samp>
+    <br>
+    Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+    layout generator</a>.
+    </div>
+    </footer>
+    </div>
+    <!-- Add any additional Javascript code () here. -->
+  </div>
+</template>
+
+<script setup lang="ts">
+// Add your Composition API logic here
+// import { ref } from 'vue'
+// const count = ref(0)
+</script>

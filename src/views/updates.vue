@@ -1,0 +1,125 @@
+<template>
+    <div class="app-wrapper">
+        <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+        <a href="#content" id="skip-to-content-link">Skip to content</a>
+        <div class="layout">
+
+            <header>
+
+                <div class="header-content">
+                    <div class="header-title">Website Title</div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/transport/bus-list.html">Transport</a></li>
+                            <li><a href="/gaming/main.html">Gaming</a></li>
+                            <li><a href="/project/education.html">Education</a></li>
+                            <li><a href="/updates.html">Posts</a></li>
+                            <li><a href="/social.htm">Socials</a></li>
+                            <li><a href="/about.htm">About</a></li>
+                            <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <aside class="left-sidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Updates</div>
+                    <ul>
+                        <li><a href="East Bay">East Bay Bus List</a></li>
+                        <li>List</li>
+                        <li><a href="#">List</a></li>
+                        <li>List</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main id="East Bay">
+                <section>
+                    <p><strong>NOTE:</strong> I am updating this page infrequently because I have to upload more images
+                        to my
+                        website.</p>
+                    <p>The bus list contained a variety of buses taken by myself within the United States and China. It
+                        was
+                        sorted by the region and when these photos are taken.
+                        For zero-emission vehicles, it will be found <a href="/transport/evBus.htm">here</a>.</p>
+                    <hr>
+                    <h2 id=section-2>Latest Updates</h2>
+                    <div class=inner>
+                        <p><b>1/28/2026:</b></p>
+                        <p><b><mark class="highlighted-cr">CR</mark> &rarr; <mark class="highlighted-ex">EX</mark></b>
+                            The last of
+                            26 2006 Gold Coast Transit New Flyer C40LFRs were retired on December 16, 2025.</p>
+                    </div>
+                    <hr>
+                    <h2 id=section-3>Archive</h2>
+                    <div class=inner>
+                        <p><b>3/15/2025:</b></p>
+                        <p>The Fresno Area Express 0600 series were retired on March 6, 2025 after the arrival of
+                            refurbished
+                            ex-Valley Metro 5000 series buses renumbered into 1300 series entered service.</p>
+                        <p><b>11/8/2025:</b></p>
+                        <p><b><mark class="highlighted-cr">CR</mark> &rarr; <mark class="highlighted-ex">EX</mark></b>
+                            The last of
+                            30 San Francisco Muni 8500 series (Orion VII 07.503 buses) were retired from service on
+                            October 21, with
+                            8528 the last unit
+                            and were replaced by ENC E-Z Rider II BRT buses in the 8530 series</p>
+                        <p><b>10/16/2025:</b></p>
+                        <p><b><mark class="highlighted-cr">CR</mark> &rarr; <mark class="highlighted-ex">EX</mark></b>
+                            The last of
+                            26 San Diego MTS 600 series (2011 New Flyer C40LFR) were retired from service on October 14,
+                            with 604 the
+                            last unit
+                            and were replaced by 2025 XN40s in the 300 series</p>
+                        <p><b>02/13/2025:</b> All of the 2013 New Flyer XN60 buses that San Diego had retired. The AC
+                            Transit 1700
+                            series buses recently entered service, displacing most 1300 series. <br>
+                            <b>12/04/2024:</b> The Santa Clara VTA 35-foot buses made in 2002 (2101-2121) were retired.
+                            Only three
+                            1000 series (2001 Gillig Low Floor) remain as of January 28, 2026.<br>
+                            <b>07/2024:</b> Marin Transit buses 3301-3307 (2010 New Flyer DE35LF) were retired and
+                            replaced by 4
+                            Gillig BRT HEV 35'
+                            and 3 BRT HEV 40' buses (2401-2407). The only remaining operator (as of November 2024) using
+                            the DE35LFs
+                            were in Puerto Rico.<br>
+                        </p>
+                    </div>
+
+                </section>
+            </main>
+            <footer>
+                <div>
+                    <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+                    <p id="copyright" align="center">Copyright &copy; 2025 Evan Lei.</p>
+
+                    <div id="footer" align="center">
+                        <a href="/index.html">Home</a>
+                        | <a href="/terms.html">Terms</a>
+                        | <a href="/about.htm">About</a>
+                        | <a href="social.htm">Contact</a>
+                    </div>
+
+                    <samp><i>
+                            <tiny>
+                                Last updated: Saturday, June 14, 2025
+                            </tiny>
+                        </i></samp>
+                    <br>
+                    Template generated with <a
+                        href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+                        layout generator</a>.
+                </div>
+            </footer>
+        </div>
+        <!-- Add any additional Javascript code () here. -->
+    </div>
+</template>
+
+<script setup lang="ts">
+// Add your Composition API logic here
+// import { ref } from 'vue'
+// const count = ref(0)
+</script>

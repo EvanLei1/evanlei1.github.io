@@ -1,0 +1,49 @@
+.accordion-main {
+    border: 1 px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.accordion-redlist, .accordion-electric {
+  margin-bottom: 7px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none; /* Hides the default browser arrow */
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+details {
+    border: 3px solid transparent; 
+    transition: border 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+
+details[open] {
+    border: 2px solid #333; 
+}
+
+/* Optional: Custom arrow indicator */
+summary::after {
+  content: "▼";
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+details p, details span, details s {
+  display: block;
+  margin: 0;
+  background-color: #f9f9f9;
+}
