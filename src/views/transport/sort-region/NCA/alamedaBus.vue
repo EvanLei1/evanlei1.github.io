@@ -140,21 +140,23 @@
                   </ul>
                 </ul>
               </td>
+            </tr>
             <tr>
               <th colspan="2">Electric buses</th>
             </tr>
-            <td colspan="2">
-              <ul>
-                <li>10 2018-19 New Flyer XHE40 buses, starting at 7017</li>
-                <li>5 2019 New Flyer XE40 buses, starting at the 8000 series</li>
-                <li>23 2021-22 Gillig Low Floor Plus EV 40' buses, starting at 8006</li>
-                <li>20 2022 New Flyer XHE40 buses in the 7030 series</li>
-                <li>9 2025 New Flyer XHE60 buses in the 2500 series</li>
+            <tr>
+              <td colspan="2">
                 <ul>
-                  <li>Haven't entered service yet, will replace the remaining 2190 series buses</li>
+                  <li>10 2018-19 New Flyer XHE40 buses, starting at 7017</li>
+                  <li>5 2019 New Flyer XE40 buses, starting at the 8000 series</li>
+                  <li>23 2021-22 Gillig Low Floor Plus EV 40' buses, starting at 8006</li>
+                  <li>20 2022 New Flyer XHE40 buses in the 7030 series</li>
+                  <li>9 2025 New Flyer XHE60 buses in the 2500 series</li>
+                  <ul>
+                    <li>Haven't entered service yet, will replace the remaining 2190 series buses</li>
+                  </ul>
                 </ul>
-              </ul>
-            </td>
+              </td>
             </tr>
           </table>
 

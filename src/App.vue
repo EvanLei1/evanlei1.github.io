@@ -1,16 +1,16 @@
 <script setup lang="ts">
-// Import the index.vue component using the '@' alias shortcut (which points to /src)
-import IndexPage from '@/views/index.vue'
+// You no longer need to import IndexPage here!
+// The RouterView will handle displaying components based on the URL.
 </script>
 
 <template>
   <div id="app">
-    <IndexPage />
+    <!-- This tag is the "portal" where your pages will appear -->
+    <RouterView />
   </div>
 </template>
 
 <style>
-/* Universal site styles */
 body {
   margin: 0;
   padding: 0;

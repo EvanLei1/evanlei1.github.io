@@ -10,9 +10,9 @@
           <div class="header-title">Evan Lei</div>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="/transport/bus-list.html">Transport</a></li>
-              <li><a href="/gaming/main.html">Gaming</a></li>
+              <li><RouterLink to="/">Home</RouterLink></li>
+              <li><RouterLink to="/transport/bus-list">Transport</RouterLink></li>
+              <li><RouterLink to="gamingView">Gaming</RouterLink></li>
               <li><a href="/project/education.html">Education</a></li>
               <li><a href="/updates.html">Posts</a></li>
               <li><a href="/social.htm">Socials</a></li>
@@ -197,6 +197,8 @@
 </template>
 
 <script setup lang="ts">
+import { RouterLink } from 'vue-router';
+
 // Add your Composition API logic here
 // import { ref } from 'vue'
 // const count = ref(0)

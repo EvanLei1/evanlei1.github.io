@@ -274,16 +274,18 @@
                   <li>55 2019 New Flyer XD60 buses in the 800 series</li>
                 </ul>
               </td>
+            </tr>
             <tr>
               <th colspan="2">Electric buses</th>
             </tr>
-            <td colspan="2">
-              <ul>
-                <li>17 2022-23 New Flyer XE40 buses in the 1000 series</li>
-                <li>10 2023 New Flyer XHE40 buses in the 3000 series</li>
-                <li>20 2024 Gillig Low Floor Plus EV 40' buses in the 5000 series</li>
-              </ul>
-            </td>
+            <tr>
+              <td colspan="2">
+                <ul>
+                  <li>17 2022-23 New Flyer XE40 buses in the 1000 series</li>
+                  <li>10 2023 New Flyer XHE40 buses in the 3000 series</li>
+                  <li>20 2024 Gillig Low Floor Plus EV 40' buses in the 5000 series</li>
+                </ul>
+              </td>
             </tr>
           </table>
 
