@@ -1,0 +1,1 @@
+var e=`/assets/PXL_20240624_010452758-C77hyOS3.jpg`;export{e as t};
