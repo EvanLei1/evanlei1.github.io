@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 // You no longer need to import IndexPage here!
 // The RouterView will handle displaying components based on the URL.
 </script>

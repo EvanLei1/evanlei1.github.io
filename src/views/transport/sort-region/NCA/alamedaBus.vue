@@ -7,16 +7,16 @@
       <header>
 
         <div class="header-content">
-          <div class="header-title">Website Title</div>
+          <div class="header-title">Evan Lei</div>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="/transport/bus-list.html">Transport</a></li>
-              <li><a href="/gaming/main.html">Gaming</a></li>
-              <li><a href="/project/education.html">Education</a></li>
-              <li><a href="/updates.html">Posts</a></li>
-              <li><a href="/social.htm">Socials</a></li>
-              <li><a href="/about.htm">About</a></li>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/transport/bus-list">Transport</router-link></li>
+              <li><router-link to="/gamingView">Gaming</router-link></li>
+              <li><router-link to="/projectView">Education</router-link></li>
+              <li><router-link to="/updatesPage">Posts</router-link></li>
+              <li><router-link to="/socialPage">Socials</router-link></li>
+              <li><router-link to="/aboutPage">About</router-link></li>
               <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
             </ul>
           </nav>
@@ -25,177 +25,207 @@
 
       <aside class="left-sidebar">
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Page content</div>
           <ul>
-            <li><a href="East Bay">East Bay Bus List</a></li>
-            <li>List</li>
-            <li><a href="#">List</a></li>
-            <li>List</li>
+            <li><a href="#ACTransit">AC Transit</a></li>
+            <li><a href="#ACTactive">Active Fleet</a></li>
+            <li><a href="#ACTretired">Retired Fleet</a></li>
+            <li><a href="#CCCTA">Central Contra Costa Transit Authority</a></li>
+            <li><a href="#WestCAT">Western Contra Costa Transit Authority</a></li>
+            <li><a href="#LAVTA">Livermore Amador Valley Transit Authority</a></li>
+            <li><a href="#UnionCity">Union City Transit</a></li>
+            <li><a href="#DBExp">Dumbarton Express</a></li>
+            <li><a href="#TriDelta">Tri Delta Transit</a></li>
+            <li><a href="#redList">Buses to Look Out for</a></li>
+            <li><a href="#gallery">Gallery</a></li>
           </ul>
         </div>
       </aside>
 
-      <main id="East Bay">
+      <main>
         <section>
           <h1 align="center">East Bay Bus List</h1>
-          <h2>AC Transit</h2>
-          <h3 id="AC Transit active fleet">Active Fleet</h3>
+          <h2 id="ACTransit">AC Transit</h2>
+          <h3 id="ACTactive">Active Fleet</h3>
           <table>
-            <tr>
-              <th colspan="2">29-foot motor buses</th>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <ul>
-                  <li><b><mark class="highlighted-lc">Least concern</mark></b> 40 2008-09 Van Hool A300K buses</li>
+            <thead>
+              <tr>
+                <th colspan="2">29-foot motor buses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2">
                   <ul>
-                    <li>10 units remain, running weekdays only on routes 65, 67 and 216</li>
+                    <li><b><mark class="highlighted-lc">Least concern</mark></b> 40 2008-09 Van Hool A300K buses</li>
+                    <ul>
+                      <li>10 units remain, running weekdays only on routes 65, 67 and 216</li>
+                    </ul>
                   </ul>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th colspan="2">40- and 45-foot motor buses</th>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><b><mark class="highlighted-vl">Vulnerable</mark></b> 65 2013 Gillig Low Floor 40' buses in the
-                    1300
-                    series</li>
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="2">40- and 45-foot motor buses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
                   <ul>
-                    <li>8 units remain, replaced by the 1700 series</li>
+                    <li><b><mark class="highlighted-vl">Vulnerable</mark></b> 65 2013 Gillig Low Floor 40' buses in the
+                      1300
+                      series</li>
+                    <ul>
+                      <li>8 units remain, replaced by the 1700 series</li>
+                    </ul>
                   </ul>
-                </ul>
-                <ul>
-                  <li><b><mark class="highlighted-lc">Least concern</mark></b> 68 2014 Gillig Low Floor 40' buses in the
-                    1400 series</li>
-                  <li><b><mark class="highlighted-lc">Least concern</mark></b> 54 2013-14 Gillig Low Floor 40' buses in
-                    the 6100 series</li>
                   <ul>
-                    <li>Used for transbay routes, including routes 7 and 36 with commuter configuration</li>
+                    <li><b><mark class="highlighted-lc">Least concern</mark></b> 68 2014 Gillig Low Floor 40' buses in
+                      the
+                      1400 series</li>
+                    <li><b><mark class="highlighted-lc">Least concern</mark></b> 54 2013-14 Gillig Low Floor 40' buses
+                      in
+                      the 6100 series</li>
+                    <ul>
+                      <li>Used for transbay routes, including routes 7 and 36 with commuter configuration</li>
+                    </ul>
                   </ul>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>91 2015-2019 Gillig Low Floor and Low Floor HEV 40' buses in the 1500 series</li>
+                </td>
+                <td>
                   <ul>
-                    <li>55 2015 buses assigned to Richmond</li>
-                    <li>25 2016 HEV buses assigned to Oakland starting at 1556</li>
-                    <li>10 2017 buses with Voith transmission starting at 1581</li>
-                    <li>One 2019 HEV bus (1591)</li>
+                    <li>91 2015-2019 Gillig Low Floor and Low Floor HEV 40' buses in the 1500 series</li>
+                    <ul>
+                      <li>55 2015 buses assigned to Richmond</li>
+                      <li>25 2016 HEV buses assigned to Oakland starting at 1556</li>
+                      <li>10 2017 buses with Voith transmission starting at 1581</li>
+                      <li>One 2019 HEV bus (1591)</li>
+                    </ul>
                   </ul>
-                </ul>
-                <ul>
-                  <li>85 2018, 2022 Gillig Low Floor 40' buses in the 1600 series</li>
                   <ul>
-                    <li>35 2018 buses</li>
-                    <li>50 2022 buses starting at 1641</li>
-                    <li>The 2018 buses have Voith transmissions, while the 2022 buses have Allison ones and without
-                      opening windows</li>
+                    <li>85 2018, 2022 Gillig Low Floor 40' buses in the 1600 series</li>
+                    <ul>
+                      <li>35 2018 buses</li>
+                      <li>50 2022 buses starting at 1641</li>
+                      <li>The 2018 buses have Voith transmissions, while the 2022 buses have Allison ones and without
+                        opening windows</li>
+                    </ul>
                   </ul>
-                </ul>
-                <ul>
-                  <li>50 2024 Gillig Low Floor 40' buses in the 1700 series</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>15 2017-18 Alexander Dennis Enviro500 MMC buses in the 6200 series</li>
                   <ul>
-                    <li>Used in transbay routes during weekdays</li>
+                    <li>50 2024 Gillig Low Floor 40' buses in the 1700 series</li>
                   </ul>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>36 2021-22 MCI D45 CRT LE buses in the 6300 series</li>
+                </td>
+              </tr>
+              <tr>
+                <td>
                   <ul>
-                    <li>Used in transbay routes during weekdays</li>
+                    <li>15 2017-18 Alexander Dennis Enviro500 MMC buses in the 6200 series</li>
+                    <ul>
+                      <li>Used in transbay routes during weekdays</li>
+                    </ul>
                   </ul>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th colspan="2">60-foot motor buses</th>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><b><mark class="highlighted-en">Endangered</mark></b> 9 2009 Van Hool AG300 buses in the 2190
-                    series
-                  </li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li><b><mark class="highlighted-lc">Least concern</mark></b> 52 2013, 2017 New Flyer XD60 buses in the
-                    2200 series</li>
+                </td>
+                <td>
                   <ul>
-                    <li>23 buses made in 2013</li>
-                    <li>29 made in 2017 starting at 2224</li>
+                    <li>36 2021-22 MCI D45 CRT LE buses in the 6300 series</li>
+                    <ul>
+                      <li>Used in transbay routes during weekdays</li>
+                    </ul>
                   </ul>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th colspan="2">Electric buses</th>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <ul>
-                  <li>10 2018-19 New Flyer XHE40 buses, starting at 7017</li>
-                  <li>5 2019 New Flyer XE40 buses, starting at the 8000 series</li>
-                  <li>23 2021-22 Gillig Low Floor Plus EV 40' buses, starting at 8006</li>
-                  <li>20 2022 New Flyer XHE40 buses in the 7030 series</li>
-                  <li>9 2025 New Flyer XHE60 buses in the 2500 series</li>
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="2">60-foot motor buses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
                   <ul>
-                    <li>Haven't entered service yet, will replace the remaining 2190 series buses</li>
+                    <li><b><mark class="highlighted-en">Endangered</mark></b> 9 2009 Van Hool AG300 buses in the 2190
+                      series
+                    </li>
                   </ul>
-                </ul>
-              </td>
-            </tr>
+                </td>
+                <td>
+                  <ul>
+                    <li><b><mark class="highlighted-lc">Least concern</mark></b> 52 2013, 2017 New Flyer XD60 buses in
+                      the
+                      2200 series</li>
+                    <ul>
+                      <li>23 buses made in 2013</li>
+                      <li>29 made in 2017 starting at 2224</li>
+                    </ul>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="2">Electric buses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2">
+                  <ul>
+                    <li>10 2018-19 New Flyer XHE40 buses, starting at 7017</li>
+                    <li>5 2019 New Flyer XE40 buses, starting at the 8000 series</li>
+                    <li>23 2021-22 Gillig Low Floor Plus EV 40' buses, starting at 8006</li>
+                    <li>20 2022 New Flyer XHE40 buses in the 7030 series</li>
+                    <li>9 2025 New Flyer XHE60 buses in the 2500 series</li>
+                    <ul>
+                      <li>Haven't entered service yet, will replace the remaining 2190 series buses</li>
+                    </ul>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
           </table>
 
-          <h3 id="AC Transit retired fleet">Retired Fleet</h3>
+          <h3 id="ACTretired">Retired Fleet</h3>
           <p>This table only shows buses retired after 2021</p>
           <table>
-            <tr>
-              <th>Year</th>
-              <th>Fleet numbers</th>
-              <th>Model</th>
-              <th>Notes</th>
-            </tr>
-            <tr>
-              <td>2002-2003</td>
-              <td>1001-1131</td>
-              <td>Van Hool A330</td>
-              <td>Replaced by Gillig buses in 2021, some remain in property</td>
-            </tr>
-            <tr>
-              <td>2003</td>
-              <td>6041-6079</td>
-              <td>MCI D4500</td>
-              <td>Retired in 2023 by the new MCI D45 buses</td>
-            </tr>
-            <tr>
-              <td>2008-2009</td>
-              <td>1201-1227</td>
-              <td>Van Hool A330L</td>
-              <td>Retired in early 2024, with 4 buses donated to Petaluma Transit</td>
-            </tr>
-            <tr>
-              <td>2010</td>
-              <td>FC4-FC16</td>
-              <td>Van Hool A300L FC</td>
-              <td>Retired in January 2023</td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Fleet numbers</th>
+                <th>Model</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2002-2003</td>
+                <td>1001-1131</td>
+                <td>Van Hool A330</td>
+                <td>Replaced by Gillig buses in 2021, some remain in property</td>
+              </tr>
+              <tr>
+                <td>2003</td>
+                <td>6041-6079</td>
+                <td>MCI D4500</td>
+                <td>Retired in 2023 by the new MCI D45 buses</td>
+              </tr>
+              <tr>
+                <td>2008-2009</td>
+                <td>1201-1227</td>
+                <td>Van Hool A330L</td>
+                <td>Retired in early 2024, with 4 buses donated to Petaluma Transit</td>
+              </tr>
+              <tr>
+                <td>2010</td>
+                <td>FC4-FC16</td>
+                <td>Van Hool A300L FC</td>
+                <td>Retired in January 2023</td>
+              </tr>
+            </tbody>
           </table>
 
-          <h1>Central Contra Costa Transit Authority</h1>
+          <h1 id="CCCTA">Central Contra Costa Transit Authority</h1>
           <p>The entire bus fleet was based on Gillig vehicles. There were ten 2013 Gillig BRT 40', seven 2014 Gillig
             Low
             Floor 29', 24 2015 Gillig BRT 40' (1509-1532), 13 2017 Gillig Low Floor 35' and 14 29', and 40 2023 Gillig
@@ -203,7 +233,7 @@
             Floor 40'. Eight Gillig Low Floor EV 29' buses
             were made in 2016-18, of which four were trolley replicas. The latest buses has an Allison transmission,
             replacing nine 2010 Gillig BRT HEV 40' with Voith transmission and 31 2009-10 standard BRT buses.</p>
-          <h1>Western Contra Costa Transit Authority</h1>
+          <h1 id="WestCAT">Western Contra Costa Transit Authority</h1>
           <p>Most of the fleet were made up of Gillig BRT vehicles from 2013 to 2024, like 20 35' buses in the 100
             series
             and 16 40' buses in the 400 series. There were six MCI D4500CT, three D45 CRT LE, and two Prevost X3-45
@@ -212,27 +242,27 @@
             from 2008 to 2015, of which bus 202 caught fire.
             Buses 205 and 206 were ex-demos. 4 MCI D45 CRT LE buses were delivered to replace the 4 oldest buses. There
             were 3 ADL Enviro500 buses in the 600 series.</p>
-          <h1>Livermore Amador Valley Transit Authority</h1>
+          <h1 id="LAVTA">Livermore Amador Valley Transit Authority</h1>
           <p>The entire bus fleet was based on Gillig BRT HEV buses. Two of four 2011 buses in the 1100 series were
             active.
             There were ten 35' and ten 40' buses delivered in 2016, 11 40' and 9 29' buses in 2017,
             and 16 40' buses in 2022. These buses replaced the remaining 2003 40' buses, two 2007 29' buses, and most of
             the 2009 29' and 40' buses.</p>
-          <h1>Union City Transit</h1>
+          <h1 id="UnionCity">Union City Transit</h1>
           <p>Most of the buses were operated using 2012 and 2016 Gillig Low Floor CNG 35' buses, with a few Orion VII NG
             CNG buses remaining. The entire fleet will be replaced
             by electric buses in the future.</p>
-          <h1>Dumbarton Express</h1>
+          <h1 id="DBExp">Dumbarton Express</h1>
           <p>All buses were Gillig Low Floor units similar to AC Transit since it was transferred to independent. This
             agency only ran during weekdays.
           </p>
-          <h1>Tri Delta Transit</h1>
+          <h1 id="TriDelta">Tri Delta Transit</h1>
           <p>Most of the buses were Gillig BRT 40' made in 2012, 2016, 2018, and 2023, and several electric buses that
             ran
             only during weekdays, like Proterra Catalyst and BYD K9.
             The 0990 series retired in late 2023.</p>
 
-          <h1>Buses to Look Out for</h1>
+          <h1 id="redList">Buses to Look Out for</h1>
           <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
             href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -320,32 +350,65 @@
             </details>
           </div>
 
-          <h1>Gallery</h1>
+          <h1 id="gallery">Gallery</h1>
           <p>This section is under construction</p>
           <div class="responsive">
             <div class="gallery">
-              <a target="_blank" href="\transport/files/2023/PXL_20231212_190504928.jpg">
-                <img src="\transport/files/2023/PXL_20231212_190504928.jpg" alt="AC Transit 6302" width="25%">
+              <a target="_blank" :href="ACT6302">
+                <img :src="ACT6302" alt="AC Transit 6302" width="25%">
               </a>
               <div class="desc">ACT 6302 in San Francisco Transit Center</div>
-              <a target="_blank" href="\transport/files/2023/PXL_20230924_232913812.jpg">
-                <img src="\transport/files/2023/PXL_20230924_232913812.jpg" alt="AC Transit 7038" width="25%">
+              <a target="_blank" :href="ACT7038">
+                <img :src="ACT7038" alt="AC Transit 7038" width="25%">
               </a>
               <div class="desc">ACT 7038 (2022 New Flyer XHE40)</div>
-              <a target="_blank" href="\transport/files/2023/PXL_20231024_201618649.jpg">
-                <img src="\transport/files/2023/PXL_20231024_201618649.jpg" alt="AC Transit 1344" width="25%">
+              <a target="_blank" :href="ACT1344">
+                <img :src="ACT1344" alt="AC Transit 1344" width="25%">
               </a>
               <div class="desc">ACT 1344 (2013 Gillig Low Floor) at Emeryville Amtrak station</div>
             </div>
           </div>
         </section>
       </main>
+      <footer>
+        <div>
+          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
+
+          <div id="footer" align="center">
+            | <router-link to="/">Home</router-link>
+            | <router-link to="/termsPage">Terms</router-link>
+            | <router-link to="/aboutPage">About</router-link>
+            | <router-link to="/socialPage">Contact</router-link>
+          </div>
+
+          <samp><i>
+              <tiny>
+                Last updated: Thursday, July 16, 2026
+              </tiny>
+            </i></samp>
+          <br>
+          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+            layout generator</a>.
+        </div>
+      </footer>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
+<style scoped>
+.tiny-text {
+  font-size: 0.75rem;
+}
+</style>
+
+<script setup>
+import { RouterLink } from 'vue-router';
 // Add your Composition API logic here
 // import { ref } from 'vue'
 // const count = ref(0)
+
+import ACT6302 from "@/assets/images/2023/PXL_20231212_190504928.jpg"
+import ACT7038 from "@/assets/images/2023/PXL_20230924_232913812.jpg"
+import ACT1344 from "@/assets/images/2023/PXL_20231024_201618649.jpg"
 </script>

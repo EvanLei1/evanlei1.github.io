@@ -7,16 +7,16 @@
       <header>
 
         <div class="header-content">
-          <div class="header-title">Website Title</div>
+          <div class="header-title">Evan Lei</div>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="/transport/bus-list.html">Transport</a></li>
-              <li><a href="/gaming/main.html">Gaming</a></li>
-              <li><a href="/project/education.html">Education</a></li>
-              <li><a href="/updates.html">Posts</a></li>
-              <li><a href="/social.htm">Socials</a></li>
-              <li><a href="/about.htm">About</a></li>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/transport/bus-list">Transport</router-link></li>
+              <li><router-link to="/gamingView">Gaming</router-link></li>
+              <li><router-link to="/projectView">Education</router-link></li>
+              <li><router-link to="/updatesPage">Posts</router-link></li>
+              <li><router-link to="/socialPage">Socials</router-link></li>
+              <li><router-link to="/aboutPage">About</router-link></li>
               <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
             </ul>
           </nav>
@@ -25,20 +25,33 @@
 
       <aside class="left-sidebar">
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Page content</div>
           <ul>
-            <li><a href="Santa Cruz Metro">Sacramento Area Bus List</a></li>
-            <li>List</li>
-            <li><a href="#">List</a></li>
-            <li>List</li>
+            <li><a href="#Sac">Sacramento and Yolo Counties</a></li>
+            <li><a href="#SACrt">Sacramento RT</a></li>
+            <li><a href="#yolobus">Yolobus</a></li>
+            <li><a href="#etran">e-tran</a></li>
+            <li><a href="#folsom">Folsom Stage Line</a></li>
+            <li><a href="#sct">South County Transit</a></li>
+            <li><a href="#nSac">North of Sacramento</a></li>
+            <li><a href="#yuba">Yuba Sutter Transit</a></li>
+            <li><a href="#placerCounty">Placer County and Sierra Nevada</a></li>
+            <li><a href="#pct">Placer County Transit</a></li>
+            <li><a href="#Roseville">Roseville Transit</a></li>
+            <li><a href="#Eldorado">El Dorado Transit</a></li>
+            <li><a href="#NevadaCo">Nevada County Connects</a></li>
+            <li><a href="#TTD">Tahoe Transportation District</a></li>
+            <li><a href="#TART">Tahoe Truckee Area Regional Transit</a></li>
+            <li><a href="#redlist">Buses to Look Out for</a></li>
+            <li><a href="#gallery">Gallery</a></li>
           </ul>
         </div>
       </aside>
 
-      <main id="Santa Cruz Metro">
+      <main>
         <section>
           <h1 align="center">Sacramento Bus List</h1>
-          <h2>Sacramento and Yolo Counties</h2>
+          <h2 id="Sac">Sacramento and Yolo Counties</h2>
           <h3 id="SACrt">Sacramento RT</h3>
 
           <h4>Old buses</h4>
@@ -81,18 +94,20 @@
             </ul>
           </ul>
 
-          <h3 id="SCMTD retired fleet">Retired Fleet</h3>
+          <h3>Retired Fleet</h3>
           <p>This table only shows buses retired after 2021</p>
           <table>
-            <tr>
-              <th>Year</th>
-              <th>Fleet numbers</th>
-              <th>Model</th>
-              <th>Notes</th>
-            </tr>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Fleet numbers</th>
+                <th>Model</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
           </table>
 
-          <h2>Yolobus</h2>
+          <h2 id="yolobus">Yolobus</h2>
           <p>Serves Yolo County including a loop route between these cities and Sacramento and the airport. Four of
             eight
             2002 Orion VIIs were still active, making it the Last
@@ -101,51 +116,51 @@
             6 MCI D4500CTs, 6 Proterra Catalyst BE40 units, and 28 Gillig Low Floor CNG buses between 2016 and 2025.
           </p>
 
-          <h2>e-tran</h2>
+          <h2 id="etran">e-tran</h2>
           <p>SacRT assumes operations in Elk Grove routes, including peak service to Sacramento. The entire fleet was
             based on 14 New Flyer C40LFR and 24 XN40s.</p>
 
-          <h2>Folsom Stage Line</h2>
+          <h2 id="folsom">Folsom Stage Line</h2>
           <p>SacRT assumes operations in Folsom routes. There were 5 ElDorado National E-Z Rider II BRT CNG buses
             operating in this area.</p>
 
-          <h2>South County Transit</h2>
+          <h2 id="sct">South County Transit</h2>
           <p>Although most buses were Fords in Galt, the three MCI D4500CT buses were used for weekdays to Sacramento.
           </p>
 
-          <h2>North of Sacramento</h2>
-          <h2>Yuba Sutter Transit</h2>
+          <h2 id="nSac">North of Sacramento</h2>
+          <h2 id="yuba">Yuba Sutter Transit</h2>
           <p>Local buses use diesel Gillig Low Floor 35' and rural buses use Ford or Chevrolet buses. Commuter services
             to
             Sacramento from Yuba or Sutter County use MCI D4500CT units.</p>
 
-          <h2>Placer County and Sierra Nevada</h2>
+          <h2 id="placerCounty">Placer County and Sierra Nevada</h2>
 
-          <h2>Placer County Transit</h2>
+          <h2 id="pct">Placer County Transit</h2>
           <p>Buses were either Ford, Gillig Low Floor CNG 35', or MCI buses. Some were served to downtown Sacramento,
             while Route 10 goes to Watt/I-80 station.</p>
 
-          <h2>Roseville Transit</h2>
+          <h2 id="Roseville">Roseville Transit</h2>
           <p>Most buses use diesel Gillig Low Floor 35' as well as commuter Gillig BRT 40' from 2009 and PhoenixEV ZX5
             40'
             for mix.</p>
 
-          <h2>El Dorado Transit</h2>
+          <h2 id="Eldorado">El Dorado Transit</h2>
           <p>Commuter buses from Sacramento to Placerville use MCI D4500CT buses while local buses use diesel Gillig Low
             Floor 35'.</p>
 
-          <h2>Nevada County Connects</h2>
+          <h2 id="NevadaCo">Nevada County Connects</h2>
           <p>Most buses were ElDorado National Aero Elite models, with only two electric Gillig Low Floor 35' buses.</p>
 
-          <h2>Tahoe Transportation District</h2>
+          <h2 id="TTD">Tahoe Transportation District</h2>
           <p>These buses travel from South Lake Tahoe to cities in Nevada like Carson City and Incline Village. They use
             Gillig, Proterra, Blue Bird, and NABI buses.</p>
 
-          <h2>Tahoe Truckee Area Regional Transit</h2>
+          <h2 id="TART">Tahoe Truckee Area Regional Transit</h2>
           <p>Most buses were Gillig Low Floor buses in North Lake Tahoe, mostly running CNG. In Truckee area, there were
             Ford buses.</p>
 
-          <h1>Buses to Look Out for</h1>
+          <h1 id="redlist">Buses to Look Out for</h1>
           <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
             href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -155,15 +170,17 @@
             </details>
             <details>
               <summary class="highlighted-cr">Critically endangered</summary>
+              Sacramento:
               <span class="Splatoon2">2600 series (2006) (3/5): 2601, 2604-2605</span> <s></s><br>
             </details>
           </div>
           <div class="accordion-redlist">
             <details>
               <summary class="highlighted-en">Endangered</summary>
+              Sacramento:
               <span class="Splatoon2">2800 series (2008) (30/91): 2808, 2810, 2813, 2815-2816, 2820-2821, 2833-2834,
-                2836,
-                2838-2839, 2843, 2847, 2849-2850, 2853-2854, 2857, 2860, 2864-2865, 2871-2874, 2876, 2880, 2887</span>
+                2836, 2838-2839, 2843, 2847, 2849-2850, 2853-2854, 2857, 2860, 2864-2865, 2871-2874, 2876, 2880,
+                2887</span>
               <s></s><br>
             </details>
           </div>
@@ -196,8 +213,8 @@
             </details>
           </div>
 
-          <h1>Gallery</h1>
-          <div class="responsive">
+          <h1 id="gallery">Gallery</h1>
+          <!-- <div class="responsive">
             <div class="gallery">
               <a target="_blank" href="\transport/files/2023/05/PXL_20220206_222524816.jpg">
                 <img src="\transport/files/2023/05/PXL_20220206_222524816.jpg" alt="SCMTD 2318" width="25%">
@@ -212,15 +229,46 @@
               </a>
               <div class="desc">Santa Cruz Metro 1612</div>
             </div>
-          </div>
+          </div> -->
         </section>
       </main>
+      <footer>
+        <div>
+          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
+
+          <div id="footer" align="center">
+            | <router-link to="/">Home</router-link>
+            | <router-link to="/termsPage">Terms</router-link>
+            | <router-link to="/aboutPage">About</router-link>
+            | <router-link to="/socialPage">Contact</router-link>
+          </div>
+
+          <samp><i>
+              <tiny>
+                Last updated: Friday, July 17, 2026
+              </tiny>
+            </i></samp>
+          <br>
+          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+            layout generator</a>.
+        </div>
+      </footer>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
+<style scoped>
+.tiny-text {
+  font-size: 0.75rem;
+}
+</style>
+
+<script setup>
+import { RouterLink } from 'vue-router';
 // Add your Composition API logic here
 // import { ref } from 'vue'
 // const count = ref(0)
+
+
 </script>

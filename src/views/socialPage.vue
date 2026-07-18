@@ -1,7 +1,7 @@
 <template>
   <div class="app-wrapper">
     <div class='navbar no-items section' id='navbar'></div>
-    <img alt='User Photo' id='userPhoto' src='profile-pic.jpg' />
+    <img alt='User Photo' id='userPhoto' :src='profilePic' width="100" />
     <span id='userName'>Evan Lei</span>
     <div id='links'>
     <a class='link' href='https://github.com/MichaelBarney/LinkFree/tree/master/Templates/3D%20Theme'><i aria-hidden='true' class='ri-tree-fill'></i>&#160;&#160;This is a free, open-source
@@ -34,8 +34,13 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<style>
+@import '@/assets/css/linktree-page.css';
+</style>
+<script setup>
 // Add your Composition API logic here
 // import { ref } from 'vue'
 // const count = ref(0)
+import profilePic from "@/assets/images/profile-pic.jpg"
+
 </script>

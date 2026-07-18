@@ -7,16 +7,16 @@
       <header>
 
         <div class="header-content">
-          <div class="header-title">Website Title</div>
+          <div class="header-title">Evan Lei</div>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="/transport/bus-list.html">Transport</a></li>
-              <li><a href="/gaming/main.html">Gaming</a></li>
-              <li><a href="/project/education.html">Education</a></li>
-              <li><a href="/updates.html">Posts</a></li>
-              <li><a href="/social.htm">Socials</a></li>
-              <li><a href="/about.htm">About</a></li>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/transport/bus-list">Transport</router-link></li>
+              <li><router-link to="/gamingView">Gaming</router-link></li>
+              <li><router-link to="/projectView">Education</router-link></li>
+              <li><router-link to="/updatesPage">Posts</router-link></li>
+              <li><router-link to="/socialPage">Socials</router-link></li>
+              <li><router-link to="/aboutPage">About</router-link></li>
               <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
             </ul>
           </nav>
@@ -25,162 +25,183 @@
 
       <aside class="left-sidebar">
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Page content</div>
           <ul>
-            <li><a href="East Bay">East Bay Bus List</a></li>
-            <li>List</li>
-            <li><a href="#">List</a></li>
-            <li>List</li>
+            <li><a href="#Marin">Marin County</a></li>
+            <li><a href="#GGT">Golden Gate Transit</a></li>
+            <li><a href="#Marin-Transit">Marin Transit</a></li>
+            <li><a href="#Sonoma">Sonoma County</a></li>
+            <li><a href="#Petaluma">Petaluma Transit</a></li>
+            <li><a href="#SCT">Sonoma County Transit</a></li>
+            <li><a href="#CityBus">Santa Rosa CityBus</a></li>
+            <li><a href="#redlist">Buses to Look Out for</a></li>
+            <li><a href="#gallery">Gallery</a></li>
           </ul>
         </div>
       </aside>
 
-      <main id="East Bay">
+      <main>
         <section>
           <h1 align="center">Sonoma and Marin County Bus List</h1>
-          <h2 id="GGT">Marin County</h2>
-          <h3 id="GGT active fleet">Golden Gate Transit and Marin Transit Active Fleet</h3>
+          <h2 id="Marin">Marin County</h2>
+          <h3>Golden Gate Transit and Marin Transit Active Fleet</h3>
 
           <table>
-            <tr>
-              <th colspan="2">Golden Gate Transit</th>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><b><mark class="highlighted-nt">Near threatened</mark></b> 80 2010, 2012, 2014 MCI D4500CT buses
-                    in
-                    the 900 series</li>
+            <thead>
+              <tr>
+                <th id="GGT" colspan="2">Golden Gate Transit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
                   <ul>
-                    <li><b><mark class="highlighted-ex">Extinct</mark></b> 23 2010 buses, retired in 2021</li>
-                    <li>32 2012 buses</li>
-                    <li>25 2014 buses</li>
-                    <li>Rarely runs during the weekends</li>
+                    <li><b><mark class="highlighted-nt">Near threatened</mark></b> 80 2010, 2012, 2014 MCI D4500CT buses
+                      in
+                      the 900 series</li>
+                    <ul>
+                      <li><b><mark class="highlighted-ex">Extinct</mark></b> 23 2010 buses, retired in 2021</li>
+                      <li>32 2012 buses</li>
+                      <li>25 2014 buses</li>
+                      <li>Rarely runs during the weekends</li>
+                    </ul>
                   </ul>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>67 2018-19 Gillig Low Floor HEV 40' buses</li>
+                </td>
+                <td>
                   <ul>
-                    <li>Commuter configuration without a rear door</li>
-                    <li>The last 4 buses were leased to Napa VINE in 2025, which were returned back in 2026 after the
-                      arrival of electric buses</li>
-                    <li>6 buses were transferred to Santa Rosa CityBus as 24918-24923 in October 2025</li>
+                    <li>67 2018-19 Gillig Low Floor HEV 40' buses</li>
+                    <ul>
+                      <li>Commuter configuration without a rear door</li>
+                      <li>The last 4 buses were leased to Napa VINE in 2025, which were returned back in 2026 after the
+                        arrival of electric buses</li>
+                      <li>6 buses were transferred to Santa Rosa CityBus as 24918-24923 in October 2025</li>
+                    </ul>
                   </ul>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th colspan="2">Marin Transit</th>
-            </tr>
-            <tr>
-              <td>Independent</td>
-              <td>Golden Gate Transit</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>7 2015, 2017, 2021 ENC XHF 29' buses</li>
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th id="Marin-Transit" colspan="2">Marin Transit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Independent</td>
+                <td>Golden Gate Transit</td>
+              </tr>
+              <tr>
+                <td>
                   <ul>
-                    <li>301 is a 2015 model</li>
-                    <li>2 2017 buses in the 1760 series</li>
-                    <li>4 2021 buses in the 2160 series</li>
-                    <li>Used for school trippers and West Marin routes</li>
+                    <li>7 2015, 2017, 2021 ENC XHF 29' buses</li>
+                    <ul>
+                      <li>301 is a 2015 model</li>
+                      <li>2 2017 buses in the 1760 series</li>
+                      <li>4 2021 buses in the 2160 series</li>
+                      <li>Used for school trippers and West Marin routes</li>
+                    </ul>
                   </ul>
-                </ul>
-                <ul>
-                  <li>4 2015 Gillig BRT HEV 29' buses in the 1500 series</li>
-                  <li>7 2015 Gillig BRT HEV 40' buses, starting at 1505</li>
-                  <li>10 2017 Gillig BRT HEV 40' buses in the 1700 series</li>
                   <ul>
-                    <li>Transferred from Golden Gate Transit routes between 2021 and early 2025</li>
+                    <li>4 2015 Gillig BRT HEV 29' buses in the 1500 series</li>
+                    <li>7 2015 Gillig BRT HEV 40' buses, starting at 1505</li>
+                    <li>10 2017 Gillig BRT HEV 40' buses in the 1700 series</li>
+                    <ul>
+                      <li>Transferred from Golden Gate Transit routes between 2021 and early 2025</li>
+                    </ul>
+                    <li>4 2026 Gillig BRT 29' buses in the 2600 series</li>
+                    <ul>
+                      <li>Single door, haven't entered service yet</li>
+                    </ul>
                   </ul>
-                  <li>4 2026 Gillig BRT 29' buses in the 2600 series</li>
                   <ul>
-                    <li>Single door, haven't entered service yet</li>
+                    <li>12 2016, 2018-19, 2021 Ford E-450 buses</li>
+                    <ul>
+                      <li>Bus 1680 is a 2016, 1880 as a 2018, and 1980 as a 2019 model</li>
+                      <li>9 2021 buses in the 2080 series</li>
+                    </ul>
                   </ul>
-                </ul>
-                <ul>
-                  <li>12 2016, 2018-19, 2021 Ford E-450 buses</li>
                   <ul>
-                    <li>Bus 1680 is a 2016, 1880 as a 2018, and 1980 as a 2019 model</li>
-                    <li>9 2021 buses in the 2080 series</li>
+                    <li>4 2018, 2021 ENC XHF 35' buses</li>
+                    <ul>
+                      <li>2 2018 buses in the 1860 series</li>
+                      <li>2 2021 buses in the 2170 series</li>
+                    </ul>
                   </ul>
-                </ul>
-                <ul>
-                  <li>4 2018, 2021 ENC XHF 35' buses</li>
+                </td>
+                <td>
                   <ul>
-                    <li>2 2018 buses in the 1860 series</li>
-                    <li>2 2021 buses in the 2170 series</li>
+                    <li>11 2020 Gillig BRT HEV 40' buses in the 2000 series</li>
+                    <li>4 2024 Gillig BRT HEV 35' buses in the 2400 series</li>
+                    <li>3 2024 Gillig BRT HEV 40' buses starting at 2405</li>
+                    <ul>
+                      <li>These 7 buses have Allison eGen Flex hybrid system</li>
+                    </ul>
                   </ul>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>11 2020 Gillig BRT HEV 40' buses in the 2000 series</li>
-                  <li>4 2024 Gillig BRT HEV 35' buses in the 2400 series</li>
-                  <li>3 2024 Gillig BRT HEV 40' buses starting at 2405</li>
+                </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="2">Electric buses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
                   <ul>
-                    <li>These 7 buses have Allison eGen Flex hybrid system</li>
+                    <li>4 2021 Gillig Low Floor EV 40' buses in the 2100 series</li>
                   </ul>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th colspan="2">Electric buses</th>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>4 2021 Gillig Low Floor EV 40' buses in the 2100 series</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>2 2018 BYD K9S buses in the 1800 series</li>
-                </ul>
-              </td>
-            </tr>
+                </td>
+                <td>
+                  <ul>
+                    <li>2 2018 BYD K9S buses in the 1800 series</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
           </table>
 
-          <h3 id="Marin retired fleet">Retired Fleet</h3>
+          <h3>Retired Fleet</h3>
           <p>This table only shows buses retired after 2021</p>
           <table>
-            <tr>
-              <th>Year</th>
-              <th>Fleet numbers</th>
-              <th>Model</th>
-              <th>Notes</th>
-            </tr>
-            <tr>
-              <td>2011, 2013</td>
-              <td>100, 105, 108-115</td>
-              <td>Ford E-450</td>
-              <td>The last bus retired in July 2025</td>
-            </tr>
-            <tr>
-              <td>2012, 2015</td>
-              <td>618-620, 1560-1561</td>
-              <td>Ford F-550</td>
-              <td>Retired in 2021 and 2023 respectively</td>
-            </tr>
-            <tr>
-              <td>2008, 2011-2012</td>
-              <td>3060-3069</td>
-              <td>ElDorado National XHF 35'</td>
-              <td>Retired in 2021 and 2023 respectively</td>
-            </tr>
-            <tr>
-              <td>2010</td>
-              <td>3301-3307</td>
-              <td>New Flyer DE35LF</td>
-              <td>One of only two operators with that type, the other one operates in Puerto Rico, and the last
-                production
-                units of this type.
-                Used for Marin Transit routes, retired in July 2024 by the 2400 series.
-              </td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Fleet numbers</th>
+                <th>Model</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2011, 2013</td>
+                <td>100, 105, 108-115</td>
+                <td>Ford E-450</td>
+                <td>The last bus retired in July 2025</td>
+              </tr>
+              <tr>
+                <td>2012, 2015</td>
+                <td>618-620, 1560-1561</td>
+                <td>Ford F-550</td>
+                <td>Retired in 2021 and 2023 respectively</td>
+              </tr>
+              <tr>
+                <td>2008, 2011-2012</td>
+                <td>3060-3069</td>
+                <td>ElDorado National XHF 35'</td>
+                <td>Retired in 2021 and 2023 respectively</td>
+              </tr>
+              <tr>
+                <td>2010</td>
+                <td>3301-3307</td>
+                <td>New Flyer DE35LF</td>
+                <td>One of only two operators with that type, the other one operates in Puerto Rico, and the last
+                  production
+                  units of this type.
+                  Used for Marin Transit routes, retired in July 2024 by the 2400 series.
+                </td>
+              </tr>
+            </tbody>
           </table>
 
           <h2 id="Sonoma">Sonoma County</h2>
@@ -209,7 +230,7 @@
             the last remaining 2008 hybrid.
             In January 2026, the 2025 Gillig electric vehicles entered service, replacing the oldest units.
           </p>
-          <h1>Buses to Look Out for</h1>
+          <h1 id="redlist">Buses to Look Out for</h1>
           <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from
           <a href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -278,28 +299,58 @@
             </details>
           </div>
 
-          <h1>Gallery</h1>
+          <h1 id="gallery">Gallery</h1>
           <p>This section is under construction</p>
           <div class="responsive">
             <div class="gallery">
-              <a target="_blank" href="/transport/files/2024/PXL_20240624_010452758.jpg">
-                <img src="/transport/files/2024/PXL_20240624_010452758.jpg" alt="Marin Transit 2101" width="25%">
+              <a target="_blank" :href="Marin2101">
+                <img :src="Marin2101" alt="Marin Transit 2101" width="25%">
               </a>
-              <div class="desc">VTA 2017 (2001 Gillig Low Floor) <br>on October 21, 2023</div>
-              <a target="_blank" href="/transport/files/2024/PXL_20240606_233425557.jpg">
+              <div class="desc">Marin Transit 2101 (Gillig Low Floor Plus 40') <br>on June 23</div>
+              <!-- <a target="_blank" href="/transport/files/2024/PXL_20240606_233425557.jpg">
                 <img src="/transport/files/2024/PXL_20240606_233425557.jpg" alt="Santa Rosa CityBus 24203" width="25%">
               </a>
-              <div class="desc">VTA 0185 (2010 Gillig Low Floor HEV) <br>also used on the 4400 series</div>
+              <div class="desc">VTA 0185 (2010 Gillig Low Floor HEV) <br>also used on the 4400 series</div> -->
             </div>
           </div>
         </section>
       </main>
+      <footer>
+        <div>
+          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
+
+          <div id="footer" align="center">
+            | <router-link to="/">Home</router-link>
+            | <router-link to="/termsPage">Terms</router-link>
+            | <router-link to="/aboutPage">About</router-link>
+            | <router-link to="/socialPage">Contact</router-link>
+          </div>
+
+          <samp><i>
+              <tiny>
+                Last updated: Friday, July 17, 2026
+              </tiny>
+            </i></samp>
+          <br>
+          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+            layout generator</a>.
+        </div>
+      </footer>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
+<style scoped>
+.tiny-text {
+  font-size: 0.75rem;
+}
+</style>
+
+<script setup>
+import { RouterLink } from 'vue-router';
 // Add your Composition API logic here
 // import { ref } from 'vue'
 // const count = ref(0)
+import Marin2101 from '@/assets/images/2024/PXL_20240624_010452758.jpg'
 </script>

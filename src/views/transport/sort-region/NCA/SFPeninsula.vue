@@ -7,16 +7,16 @@
       <header>
 
         <div class="header-content">
-          <div class="header-title">Website Title</div>
+          <div class="header-title">Evan Lei</div>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="/transport/bus-list.html">Transport</a></li>
-              <li><a href="/gaming/main.html">Gaming</a></li>
-              <li><a href="/project/education.html">Education</a></li>
-              <li><a href="/updates.html">Posts</a></li>
-              <li><a href="/social.htm">Socials</a></li>
-              <li><a href="/about.htm">About</a></li>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/transport/bus-list">Transport</router-link></li>
+              <li><router-link to="/gamingView">Gaming</router-link></li>
+              <li><router-link to="/projectView">Education</router-link></li>
+              <li><router-link to="/updatesPage">Posts</router-link></li>
+              <li><router-link to="/socialPage">Socials</router-link></li>
+              <li><router-link to="/aboutPage">About</router-link></li>
               <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
             </ul>
           </nav>
@@ -25,25 +25,29 @@
 
       <aside class="left-sidebar">
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Page content</div>
           <ul>
-            <li><a href="East Bay">San Francisco Peninsula Bus List</a></li>
-            <li>List</li>
-            <li><a href="#">List</a></li>
-            <li>List</li>
+            <li><a href="#Muni">San Francisco Muni</a></li>
+            <li><a href="#SMCTD">San Mateo County Transit District</a></li>
+            <li><a href="#SCC">Santa Clara County</a></li>
+            <li><a href="#VTA">Santa Clara Valley Transportation Authority</a></li>
+            <li><a href="#redlist">Buses to Look Out for</a></li>
+            <li><a href="#gallery">Gallery</a></li>
           </ul>
         </div>
       </aside>
 
-      <main id="SF">
+      <main>
         <section>
           <h1 align="center">San Francisco Peninsula Bus List</h1>
           <h2 id="Muni">San Francisco Muni</h2>
-          <h3 id="Muni active fleet">Active Fleet</h3>
+          <h3>Active Fleet</h3>
           <table>
+            <thead>
             <tr>
               <th colspan="2">32- and 40-foot motor buses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td>Woods Division</td>
               <td>Kirkland Division</td>
@@ -107,9 +111,11 @@
                 </ul>
               </td>
             </tr>
+            </tbody><thead>
             <tr>
               <th colspan="2">60-foot motor buses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td>Islais Creek Division</td>
               <td>Flynn Division</td>
@@ -148,9 +154,11 @@
                 </ul>
               </td>
             </tr>
+            </tbody><thead>
             <tr>
               <th colspan="2">Electric trolleybuses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td>40-foot</td>
               <td>60-foot</td>
@@ -175,9 +183,11 @@
                 </ul>
               </td>
             </tr>
+            </tbody><thead>
             <tr>
               <th colspan="2">Electric buses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td colspan="2">All electric buses are assigned to Woods Division.
                 <ul>
@@ -194,30 +204,37 @@
                 </ul>
               </td>
             </tr>
+            </tbody>
           </table>
 
-          <h3 id="SFMTA retired fleet">Retired Fleet</h3>
+          <h3>Retired Fleet</h3>
           <p>This table only shows buses retired after 2021</p>
           <table>
+            <thead>
             <tr>
               <th>Year</th>
               <th>Fleet numbers</th>
               <th>Model</th>
               <th>Notes</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td>2007</td>
               <td>8501-8530</td>
               <td>Orion VII HEV 07.503</td>
               <td>Retired in October 2025</td>
             </tr>
+            </tbody>
           </table>
+
           <h2 id="SMCTD">San Mateo County Transit District</h2>
-          <h3 id="SMCTD active fleet">Active Fleet</h3>
+          <h3>Active Fleet</h3>
           <table>
+            <thead>
             <tr>
               <th colspan="2">29- and 35-foot motor buses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td>29-foot</td>
               <td>35-foot</td>
@@ -243,9 +260,11 @@
                 </ul>
               </td>
             </tr>
+            </tbody><thead>
             <tr>
               <th colspan="2">40-foot motor buses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td colspan="2">
                 <ul>
@@ -265,9 +284,11 @@
                 </ul>
               </td>
             </tr>
+            </tbody><thead>
             <tr>
               <th colspan="2">60-foot motor buses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td colspan="2">
                 <ul>
@@ -275,9 +296,11 @@
                 </ul>
               </td>
             </tr>
+            </tbody><thead>
             <tr>
               <th colspan="2">Electric buses</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td colspan="2">
                 <ul>
@@ -287,17 +310,20 @@
                 </ul>
               </td>
             </tr>
+            </tbody>
           </table>
 
-          <h3 id="SMCTD retired fleet">Retired Fleet</h3>
+          <h3>Retired Fleet</h3>
           <p>This table only shows buses retired after 2021</p>
           <table>
+            <thead>
             <tr>
               <th>Year</th>
               <th>Fleet numbers</th>
               <th>Model</th>
               <th>Notes</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td>2009</td>
               <td>2900-2903</td>
@@ -310,113 +336,85 @@
               <td>Proterra Catalyst BE40</td>
               <td>Retired in 2021 because of issues on the bus</td>
             </tr>
+            </tbody>
           </table>
 
-          <h1>Santa Clara County</h1>
-          <h2>Santa Clara Valley Transportation Authority</h2>
+          <h1 id="SCC">Santa Clara County</h1>
+          <h2 id="VTA">Santa Clara Valley Transportation Authority</h2>
           <p>There is only one transit agency for the entire Silicon Valley. Free shuttles serving Mountain View and
             Palo
             Alto do not count.</p>
-          <h2 id="VTA active fleet">Active Fleet</h2>
-          <table>
-            <tr>
-              <th>Year</th>
-              <th>Fleet numbers</th>
-              <th>Model</th>
-              <th>Notes</th>
-            </tr>
-            <tr>
-              <td>2001-2002</td>
-              <td>2011-2071, 2201-2256</td>
-              <td>Gillig Low Floor 40'</td>
-              <td><mark class="highlighted-cr">Critically endangered</mark> 3 units remain, of which 1 were in the
+          <h2>Active Fleet</h2>
+          <h4>Old buses</h4>
+          <ul>
+            <li><b><mark class="highlighted-cr">Critically endangered</mark></b> 127 2001-02 Gillig Low Floor 40' buses</li>
+            <ul>
+              <li>61 buses in the 2010 series</li>
+              <li>56 buses in the 2200 series</li>
+              <li>3 units remain, of which 1 were in the
                 2000 series. The 2200 series buses will retire in the spring. Most buses were training units. The late
                 2001 units were possibly
-                retired on March 27, and regular service in December. The 2000s ended regular service on March 31.</td>
-            </tr>
-            <tr>
-              <td>2010-2011</td>
-              <td>0130-0199</td>
-              <td>Gillig Low Floor HEV 40'</td>
-              <td><b><mark class="highlighted-nt">Near threatened</mark></b> First hybrid buses for VTA with Allison
-                hybrid
-                transmission and plug doors. Some units were used on route 60 airport route.</td>
-            </tr>
-            <tr>
-              <td>2012, 2014</td>
-              <td>0201-0220, 4201-4220</td>
-              <td>Gillig Low Floor HEV 40'</td>
-              <td><b><mark class="highlighted-lc">Active</mark></b> Express buses with suburban configuration and one
-                door. These buses were usually operated on local and rapid routes. Buses 4201-4210 were sold to Santa
-                Cruz
-                Metro.</td>
-            </tr>
-            <tr>
-              <td>2014</td>
-              <td>4101-4138</td>
-              <td>Gillig BRT HEV 29'</td>
-              <td><b><mark class="highlighted-lc">Active</mark></b> Single door units, Allison hybrid system</td>
-            </tr>
-            <tr>
-              <td>2014</td>
-              <td>4301-4329</td>
-              <td>New Flyer XDE60</td>
-              <td><b><mark class="highlighted-lc">Active</mark></b> Mostly used for route 522</td>
-            </tr>
-            <tr>
-              <td>2014</td>
-              <td>4401-4415</td>
-              <td>Gillig Low Floor HEV 40'</td>
-              <td>Uses BAE hybrid system </td>
-            </tr>
-            <tr>
-              <td>2016</td>
-              <td>6201-6210</td>
-              <td>Gillig Low Floor HEV 40'</td>
-              <td>Express buses with suburban configuration and one door. They have a different livery.</td>
-            </tr>
-            <tr>
-              <td>2016-2017</td>
-              <td>6401-6434</td>
-              <td>Gillig Low Floor HEV 40'</td>
-              <td>These units have an extended cap</td>
-            </tr>
-            <tr>
-              <td>2017-2018</td>
-              <td>7401-7456</td>
-              <td>Gillig Low Floor Plus HEV 40'</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>2018</td>
-              <td>8301-8347</td>
-              <td>New Flyer XDE60</td>
-              <td>Usually ran on routes 22, 55, and 523</td>
-            </tr>
-            <tr>
-              <td>2017, 2019</td>
-              <td>7501-7505, 9501-9505</td>
-              <td>Proterra Catalyst BE40</td>
-              <td><b><mark class="highlighted-ex">Inactive</mark></b> All electric buses were inactive because bus 9505
-                caught fire in 2023</td>
-            </tr>
-            <tr>
-              <td>2023-2025</td>
-              <td>3401-3496</td>
-              <td>Gillig Low Floor Plus HEV 40'</td>
-              <td>Uses an Allison eGen Flex hybrid system</td>
-            </tr>
-          </table>
+                retired on March 27, and regular service in December. The 2000s ended regular service on March 31.</li>
+            </ul>
+            <li><b><mark class="highlighted-nt">Near threatened</mark></b> 70 2010-11 Gillig Low Floor HEV 40' buses in the 0130 series</li>
+            <ul>
+              <li>First hybrid buses for VTA with Allison hybrid transmission and plug doors. Some units were used on route 60 airport route.</li>
+            </ul>
+            <li><b><mark class="highlighted-lc">Active</mark></b> 40 2012, 2014 Gillig Low Floor HEV buses</li>
+            <ul><li>20 2012 buses in the 0200 series</li>
+            <li>20 2014 buses in the 4200 series</li>
+            <li>Express buses with suburban configuration and one door. These buses were usually operated on local and rapid routes. Buses 4201-4210 were sold to Santa Cruz Metro.</li></ul>
+            <li><b><mark class="highlighted-lc">Active</mark></b> 38 2014 Gillig BRT HEV 29' buses in the 4100 series</li>
+            <ul><li>Single door units, Allison hybrid system</li></ul>
+            <li><b><mark class="highlighted-lc">Active</mark></b> 29 2014 New Flyer XDE60 buses in the 4300 series</li>
+            <ul><li>Mostly used for route 522</li></ul>
+            <li><b><mark class="highlighted-lc">Active</mark></b> 15 2014 Gillig Low Floor HEV 40' buses in the 4400 series</li>
+            <ul><li>Uses BAE hybrid system</li></ul>
+            </ul>
 
-          <h2 id="VTA retired fleet">Retired Fleet</h2>
+          <h4>Original buses</h4>
+          <ul>
+            <li>10 Gillig Low Floor HEV 40' buses in the 6200 series</li>
+            <ul>
+              <li>Express buses with suburban configuration and one door. They have a different livery.</li>
+            </ul>
+            <li>34 2016-17 Gillig Low Floor HEV 40' buses in the 6400 series</li>
+            <ul>
+              <li>These units have an extended cap</li>
+            </ul>
+            <li>56 2017-18 Gillig Low Floor Plus HEV 40' buses in the 7400 series</li>
+            <li>47 2018 New Flyer XDE60 buses in the 8300 series</li>
+            <li>131 2023-25 Gillig Low Floor Plus HEV 40' buses</li>
+            <ul>
+              <li>92 2023-24 buses in the 3400 series</li>
+              <li>4 2025 buses starting at 3493</li>
+              <li>35 2025-26 buses in the 5400 series</li>
+              <ul><li>Haven't entered service yet</li></ul>
+              <li>Uses an Allison eGen Flex hybrid system</li>
+            </ul>
+          </ul>
+
+          <h4>Electric buses</h4>
+          <ul>
+            <li><b><mark class="highlighted-ex">Inactive</mark></b> 10 2017, 2019 Proterra Catalyst BE40 buses</li>
+            <ul><li>5 2017 buses in the 7500 series</li>
+            <li>5 2019 buses in the 9500 series</li>
+            <li>All electric buses were inactive because bus 9505 caught fire in 2023</li></ul>
+            <li>35 2025-26 Gillig Low Floor Plus EV 40' buses in the 5500 series</li>
+            <ul><li>Haven't entered service yet</li></ul>
+          </ul>
+
+          <h2>Retired Fleet</h2>
           <p>This table only shows buses retired after 2021</p>
           <table>
+            <thead>
             <tr>
               <th>Year</th>
               <th>Fleet numbers</th>
               <th>Model</th>
               <th>Notes</th>
             </tr>
+            </thead><tbody>
             <tr>
               <td>2000-2001</td>
               <td>1001-1052</td>
@@ -429,9 +427,10 @@
               <td>Gillig Low Floor 35'</td>
               <td>Retired on December 4, 2024 and were replaced by the 3400 series buses</td>
             </tr>
+            </tbody>
           </table>
 
-          <h1>Buses to Look Out for</h1>
+          <h1 id="redlist">Buses to Look Out for</h1>
           <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
             href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -459,8 +458,8 @@
               Santa Clara County:
               <span class="Splatoon2">2000 series (2001) (1/61): 2060,</span> <s>2018, 2042, 2047, 2050, 2055,
                 2057-2058, 2061, 2070</s> Relegated to training buses on March 31<br>
-              <a target="_blank" href="\transport\files\2023\PXL_20231022_024853279.jpg">
-                <img src="\transport\files\2023\PXL_20231022_024853279.jpg"
+              <a target="_blank" :href="VTA2017">
+                <img :src="VTA2017"
                   alt="VTA 2017 at Milpitas station on October 21" width="25%">
               </a><br>
               <div class="desc">VTA 2017 (2001 Gillig Low Floor) <br>on October 21, 2023</div>
@@ -518,17 +517,17 @@
             </details>
           </div>
 
-          <h1>Gallery</h1>
+          <h1 id="gallery">Gallery</h1>
           <p>This section is under construction</p>
           <div class="responsive">
             <div class="gallery">
-              <a target="_blank" href="\transport\files\2023\PXL_20231022_024853279.jpg">
-                <img src="\transport\files\2023\PXL_20231022_024853279.jpg"
+              <a target="_blank" :href="VTA2017">
+                <img :src="VTA2017"
                   alt="VTA 2017 at Milpitas station on October 21" width="25%">
               </a>
               <div class="desc">VTA 2017 (2001 Gillig Low Floor) <br>on October 21, 2023</div>
-              <a target="_blank" href="\transport\files\2023\PXL_20231021_213224815.jpg">
-                <img src="\transport\files\2023\PXL_20231021_213224815.jpg"
+              <a target="_blank" :href="VTA0185">
+                <img :src="VTA0185"
                   alt="VTA 0185 at Palo Alto station serving as route 22, a rare occurrence" width="25%">
               </a>
               <div class="desc">VTA 0185 (2010 Gillig Low Floor HEV) <br>also used on the 4400 series</div>
@@ -536,12 +535,46 @@
           </div>
         </section>
       </main>
+    <footer>
+        <div>
+          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
+
+          <div id="footer" align="center">
+            | <router-link to="/">Home</router-link>
+            | <router-link to="/termsPage">Terms</router-link>
+            | <router-link to="/aboutPage">About</router-link>
+            | <router-link to="/socialPage">Contact</router-link>
+          </div>
+
+          <samp><i>
+              <tiny>
+                Last updated: Friday, July 17, 2026
+              </tiny>
+            </i></samp>
+          <br>
+          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+            layout generator</a>.
+        </div>
+      </footer>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
+<style scoped>
+.tiny-text {
+  font-size: 0.75rem;
+}
+</style>
+
+<script setup>
+import { RouterLink } from 'vue-router';
 // Add your Composition API logic here
 // import { ref } from 'vue'
 // const count = ref(0)
+
+import VTA2017 from '@/assets/images/2023/PXL_20231022_024853279.jpg'
+import VTA0185 from '@/assets/images/2023/PXL_20231021_213224815.jpg'
+
+
 </script>

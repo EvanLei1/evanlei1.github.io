@@ -7,16 +7,16 @@
       <header>
 
         <div class="header-content">
-          <div class="header-title">Website Title</div>
+          <div class="header-title">Evan Lei</div>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="/transport/bus-list.html">Transport</a></li>
-              <li><a href="/gaming/main.html">Gaming</a></li>
-              <li><a href="/project/education.html">Education</a></li>
-              <li><a href="/updates.html">Posts</a></li>
-              <li><a href="/social.htm">Socials</a></li>
-              <li><a href="/about.htm">About</a></li>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/transport/bus-list">Transport</router-link></li>
+              <li><router-link to="/gamingView">Gaming</router-link></li>
+              <li><router-link to="/projectView">Education</router-link></li>
+              <li><router-link to="/updatesPage">Posts</router-link></li>
+              <li><router-link to="/socialPage">Socials</router-link></li>
+              <li><router-link to="/aboutPage">About</router-link></li>
               <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
             </ul>
           </nav>
@@ -25,21 +25,25 @@
 
       <aside class="left-sidebar">
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Page content</div>
           <ul>
-            <li><a href="Santa Cruz Metro">Solano and Napa Area Bus List</a></li>
-            <li>List</li>
-            <li><a href="#">List</a></li>
-            <li>List</li>
+            <li><a href="#Solano">Solano County</a></li>
+            <li><a href="#Soltrans">Soltrans</a></li>
+            <li><a href="#FAST">Fairfield-Suisun Transit</a></li>
+            <li><a href="#Vacaville">Vacaville City Coach</a></li>
+            <li><a href="#Napa">Napa County</a></li>
+            <li><a href="#NVTA">Napa Valley Transit</a></li>
+            <li><a href="#redlist">Buses to Look Out for</a></li>
+            <li><a href="#gallery">Gallery</a></li>
           </ul>
         </div>
       </aside>
 
-      <main id="Santa Cruz Metro">
+      <main>
         <section>
           <h1 align="center">Solano and Napa Bus List</h1>
-          <h2>Solano County</h2>
-          <h3 id="SACrt">Soltrans</h3>
+          <h2 id="Solano">Solano County</h2>
+          <h3 id="Soltrans">Soltrans</h3>
 
           <h4>Old buses</h4>
           <ul>
@@ -80,27 +84,29 @@
             <li>Bus 5501 as a 2022 BYD C10M coach</li>
           </ul>
 
-          <h3 id="SCMTD retired fleet">Retired Fleet</h3>
+          <h3>Retired Fleet</h3>
           <p>This table only shows buses retired after 2021</p>
           <table>
-            <tr>
-              <th>Year</th>
-              <th>Fleet numbers</th>
-              <th>Model</th>
-              <th>Notes</th>
-            </tr>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Fleet numbers</th>
+                <th>Model</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
           </table>
 
-          <h2>Fairfield-Suisun Transit</h2>
+          <h2 id="FAST">Fairfield-Suisun Transit</h2>
           <p>Serves the city of Fairfield and Suisun City. The entire fleet is run by Gillig BRT units, with 3 electric
             35-foot vehicles.
           </p>
 
-          <h2>Vacaville City Coach</h2>
+          <h2 id="Vacaville">Vacaville City Coach</h2>
           <p>Serves the city of Vacaville. The entire fleet is made by New Flyer.</p>
 
-          <h2>Napa County</h2>
-          <h3 id="SACrt">Napa Valley Transit</h3>
+          <h2 id="Napa">Napa County</h2>
+          <h3 id="NVTA">Napa Valley Transit</h3>
 
           <h4>Old buses</h4>
           <ul>
@@ -144,38 +150,43 @@
             <li>15 2025 Gillig Low Floor Plus EV 40' buses starting at 305</li>
           </ul>
 
-          <h3 id="SCMTD retired fleet">Retired Fleet</h3>
+          <h3>Retired Fleet</h3>
           <p>This table only shows buses retired after 2021</p>
           <table>
-            <tr>
-              <th>Year</th>
-              <th>Fleet numbers</th>
-              <th>Model</th>
-              <th>Notes</th>
-            </tr>
-            <tr>
-              <td>2002</td>
-              <td>1702-1705</td>
-              <td>Gillig Low Floor 40'</td>
-              <td>Ex-Monterey-Salinas Transit buses of the same number</td>
-            </tr>
-            <tr>
-              <td>2003</td>
-              <td>133-134</td>
-              <td>Gillig Phantom 40'</td>
-              <td>Ex-SamTrans 800-801 with a suburban configuration and no rear door, redistributed in 2008 and retired
-                in
-                about 2022</td>
-            </tr>
-            <tr>
-              <td>2021</td>
-              <td>320-321</td>
-              <td>Proterra ZX5 40'</td>
-              <td>Retired in 2026 after equipment issues</td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Fleet numbers</th>
+                <th>Model</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2002</td>
+                <td>1702-1705</td>
+                <td>Gillig Low Floor 40'</td>
+                <td>Ex-Monterey-Salinas Transit buses of the same number</td>
+              </tr>
+              <tr>
+                <td>2003</td>
+                <td>133-134</td>
+                <td>Gillig Phantom 40'</td>
+                <td>Ex-SamTrans 800-801 with a suburban configuration and no rear door, redistributed in 2008 and
+                  retired
+                  in
+                  about 2022</td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td>320-321</td>
+                <td>Proterra ZX5 40'</td>
+                <td>Retired in 2026 after equipment issues</td>
+              </tr>
+            </tbody>
           </table>
 
-          <h1>Buses to Look Out for</h1>
+          <h1 id="redlist">Buses to Look Out for</h1>
           <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
             href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -241,8 +252,8 @@
             </details>
           </div>
 
-          <h1>Gallery</h1>
-          <div class="responsive">
+          <h1 id="gallery">Gallery</h1>
+          <!-- <div class="responsive">
             <div class="gallery">
               <a target="_blank" href="\transport/files/2023/05/PXL_20220206_222524816.jpg">
                 <img src="\transport/files/2023/05/PXL_20220206_222524816.jpg" alt="SCMTD 2318" width="25%">
@@ -257,15 +268,46 @@
               </a>
               <div class="desc">Santa Cruz Metro 1612</div>
             </div>
-          </div>
+          </div> -->
         </section>
       </main>
+      <footer>
+        <div>
+          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
+
+          <div id="footer" align="center">
+            | <router-link to="/">Home</router-link>
+            | <router-link to="/termsPage">Terms</router-link>
+            | <router-link to="/aboutPage">About</router-link>
+            | <router-link to="/socialPage">Contact</router-link>
+          </div>
+
+          <samp><i>
+              <tiny>
+                Last updated: Friday, July 17, 2026
+              </tiny>
+            </i></samp>
+          <br>
+          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
+            layout generator</a>.
+        </div>
+      </footer>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
+<style scoped>
+.tiny-text {
+  font-size: 0.75rem;
+}
+</style>
+
+<script setup>
+import { RouterLink } from 'vue-router';
 // Add your Composition API logic here
 // import { ref } from 'vue'
 // const count = ref(0)
+
+
 </script>
