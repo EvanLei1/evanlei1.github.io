@@ -161,8 +161,9 @@
             Ford buses.</p>
 
           <h1 id="redlist">Buses to Look Out for</h1>
-          <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
-            href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
+          <b>This section was updated on Tuesday, July 21, 2026.</b> Active and inactive buses were retrieved from <a
+            href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
+          <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
           <div class="accordion-redlist">
             <details>
@@ -178,10 +179,9 @@
             <details>
               <summary class="highlighted-en">Endangered</summary>
               Sacramento:
-              <span class="Splatoon2">2800 series (2008) (30/91): 2808, 2810, 2813, 2815-2816, 2820-2821, 2833-2834,
-                2836, 2838-2839, 2843, 2847, 2849-2850, 2853-2854, 2857, 2860, 2864-2865, 2871-2874, 2876, 2880,
-                2887</span>
-              <s></s><br>
+              <span class="Splatoon2">2800 series (2008) (29/91): 2808, 2810, 2813, 2815-2816, 2821, 2833-2834, 2836,
+                2838-2839, 2843, 2847, 2849-2850, 2853-2854, 2857, 2860, 2864-2865, 2871-2874, 2876, 2880, 2887,</span>
+              <s>2820</s><br>
             </details>
           </div>
           <div class="accordion-redlist">

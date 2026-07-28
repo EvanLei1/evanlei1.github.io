@@ -263,8 +263,9 @@
             The 0990 series retired in late 2023.</p>
 
           <h1 id="redList">Buses to Look Out for</h1>
-          <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
-            href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
+          <b>This section was updated on Monday, July 20, 2026.</b> Active and inactive buses were retrieved from <a
+            href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
+          <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
           <p>The 1200 series were retired in early 2024 by the late 1600 series. The 6000 series were replaced by the
             6300
@@ -289,7 +290,7 @@
             <details>
               <summary class="highlighted-cr">Critically endangered</summary>
               Western half:
-              <span class="Splatoon2">ACT 2190 series (2009) (2/9): 2194, 2197,</span> <s>2192, 2195-2196,
+              <span class="Splatoon2">ACT 2190 series (2009) (4/9): 2192, 2194, 2196-2197,</span> <s>2195,
                 2199</s><br>
             </details>
           </div>
@@ -306,8 +307,9 @@
             <details>
               <summary class="highlighted-vl">Vulnerable</summary>
               Western half:
-              <span class="Splatoon2">ACT 1300 series (2012-13) (11/65): 1301, 1348, 1354-1356, 1360-1365,</span>
-              <s>1305, 1308, 1350</s><br>
+              <span class="Splatoon2">ACT 1300 series (2012-13) (11/65): 1301, 1348, 1354-1356, 1360-1361,
+                1363-1365,</span>
+              <s>1305, 1308, 1362</s><br>
             </details>
           </div>
 
@@ -315,8 +317,11 @@
             <details>
               <summary class="highlighted-nt">Near threatened</summary>
               Western half:
-              <span class="Splatoon2">ACT 5100 series (2008-09) (9/39): 5118, 5120-5121, 5123, 5130-5134,</span>
-              <s>5122</s><br>
+              <span class="Splatoon2">ACT 5100 series (2008-09) (9/39): 5118, 5120-5123, 5131-5134,</span>
+              <s>5130</s><br>
+              Eastern half:
+              <span class="Splatoon2">CCCTA 1300 series (2013) (8/10): 1300-1301, 1303-1307, 1309,</span> <s>1302,
+                1308</s><br>
             </details>
           </div>
 
@@ -332,8 +337,6 @@
               Western half:
               UCT OBI VII NG CNG buses (2008, 2010) (2/8): 656, 661<s></s><br>
               UCT 2012 buses (6/6)<s></s><br>
-              Eastern half:
-              <span class="Splatoon2">CCCTA 1300 series (2013) (10/10)</span> <s></s><br>
             </details>
           </div>
 
@@ -384,7 +387,7 @@
 
           <samp><i>
               <tiny>
-                Last updated: Thursday, July 16, 2026
+                Last updated: Monday, July 20, 2026
               </tiny>
             </i></samp>
           <br>

@@ -139,6 +139,14 @@
             </ul>
           </ul>
 
+          <h4>Acquired by other means</h4>
+          <ul>
+            <li>2 2015 MCI D4500CT buses numbered 21583 and 22682</li>
+            <ul>
+              <li>Acquired by Monterey-Salinas Transit in 2026</li>
+            </ul>
+          </ul>
+
           <h4>Original buses</h4>
           <ul>
             <li>19 2021-23 Gillig Low Floor 40' buses</li>
@@ -149,10 +157,7 @@
             </ul>
             <li>2 2021 MCI D4500CT buses starting at 22179</li>
             <li>11 2023 Gillig Low Floor 35' buses starting at 22366</li>
-            <li>2 2024, 2026 MCI D45 CRT LE buses</li>
-            <ul>
-              <li>The first bus is numbered 22481, while the other is numbered 22682</li>
-            </ul>
+            <li>1 2024 MCI D45 CRT LE bus numbered 22481</li>
           </ul>
 
           <h4>Electric buses</h4>
@@ -413,8 +418,9 @@
           </p>
 
           <h1 id="redlist">Buses to Look Out for</h1>
-          <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from <a
-            href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
+          <b>This section was updated on Tuesday, July 21, 2026.</b> Active and inactive buses were retrieved from <a
+            href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
+          <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
           <p>Buses made between 2003 and 2009 (203xx to 209xx series) were retired and were replaced into 223xx and
             226xx
@@ -430,14 +436,12 @@
             <details>
               <summary class="highlighted-ex">Extinct</summary>
               Stanislaus County:
-              <span class="Splatoon2">StanRTA 2003 buses
-                (0/14)</span>
-              <s></s><br>
+              <span class="Splatoon2">StanRTA 2003 buses (0/14)</span> <s></s><br>
             </details>
             <details>
               <summary class="highlighted-cr">Critically endangered</summary>
               Stanislaus County:
-              <span class="Splatoon2">StanRTA 2009 buses (2/7): 20942, 20946,</span> <s>20940, 20944</s><br>
+              <span class="Splatoon2">StanRTA 2009 buses (4/7): 20940, 20942, 20944, 20946</span> <s></s><br>
             </details>
           </div>
           <div class="accordion-redlist">
@@ -461,7 +465,7 @@
             <details>
               <summary class="highlighted-lc">Least concern</summary>
               Stanislaus County:
-              <span class="Splatoon2">StanRTA 2026 MCI buses (1/?): 22682</span><br>
+              <span class="Splatoon2">StanRTA ex-MST 2015 MCI buses (2/2)</span><br>
             </details>
           </div>
           <div class="accordion-redlist">
@@ -477,7 +481,7 @@
             <details>
               <summary>Electric buses</summary>
               Stanislaus County:
-              <span class="Splatoon2">StanRTA 2018 Proterra buses (3/5): 21875, 21877-21878</span> <s></s><br>
+              <span class="Splatoon2">StanRTA 2018 Proterra buses (1/5): 21878,</span> <s>21875, 21877</s><br>
 
               Merced County:
               <span class="Splatoon2">2023 New Flyer buses (5/5)</span> <s></s><br>

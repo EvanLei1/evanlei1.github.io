@@ -110,7 +110,7 @@
                     </ul>
                     <li>4 2026 Gillig BRT 29' buses in the 2600 series</li>
                     <ul>
-                      <li>Single door, haven't entered service yet</li>
+                      <li>Single door, entered service in mid-July</li>
                     </ul>
                   </ul>
                   <ul>
@@ -231,14 +231,15 @@
             In January 2026, the 2025 Gillig electric vehicles entered service, replacing the oldest units.
           </p>
           <h1 id="redlist">Buses to Look Out for</h1>
-          <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were retrieved from
-          <a href="https://pantographapp.com">Pantograph</a> and <a href="https://transsee.ca">Transsee</a>.<br>
+          <b>This section was updated on Tuesday, July 21, 2026.</b> Active and inactive buses were retrieved from <a
+            href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
+          <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
           <p>For Petaluma Transit, all 3 1998 New Flyer D40LF buses were inactive since May. Sonoma County
             Transit Orion V CNG units
             retired in September 2024. All of the 2010 and some 2012 units were used for contingency fleet for the
             Golden Gate Transit.<br>
-            <!-- Petaluma Transit's 1998 New Flyer D40LF bus 41 was last seen active in May 2026. --></p>
+            Petaluma Transit's 1998 New Flyer D40LF bus 41 was last seen active in May 2026.</p>
           <b><u>Note: Marin Transit buses were not updated as of September 6.</u></b><br>
           <b><u>Note: Petaluma Transit buses were not updated as of September 6. It relies on manual observation and
               when the bus is online.</u></b>
@@ -257,21 +258,23 @@
           <div class="accordion-redlist">
             <details>
               <summary class="highlighted-en">Endangered</summary>
+              Marin County:
+              <span class="Splatoon2">MT 1500 series (4/4)</span><br>
+              <span class="Splatoon2">MT bus 301: Yes</span><br>
+              Sonoma County:
+              <span class="Splatoon2">SR 24100 series (2011) (3/7): 24113-24114, 24119,</span> <s>24115-24116, 24118</s><br>
             </details>
           </div>
           <div class="accordion-redlist">
             <details>
               <summary class="highlighted-vl">Vulnerable</summary>
-              Sonoma County:
-              <span class="Splatoon2">SR 24100 series (2011) (6/7): 24113-24116, 24118-24119</span> <s></s><br>
             </details>
           </div>
           <div class="accordion-redlist">
             <details>
               <summary class="highlighted-nt">Near threatened</summary>
               Marin County:
-              <span class="Splatoon2">900 series (2010, 2012, 2014) (31/80): 937-939, 941-944, 956-958,
-                960-980,</span> <s>940, 959</s><br>
+              <span class="Splatoon2">GGT 900 series (2010, 2012, 2014) (32/80): 937-940, 942-944, 956-980,</span> <s>941</s><br>
               Sonoma County:
               <span class="Splatoon2">PT 2011 buses (4/4)</span> <s></s><br>
               <span class="Splatoon2">SCT OBI VII NG CNG (2010) (7/10): 204-206, 208-209, 211, 213</span>
@@ -282,8 +285,10 @@
           <div class="accordion-redlist">
             <details>
               <summary class="highlighted-lc">Least concern</summary>
+              Sonoma County:
               <span class="Splatoon2">SR 2024 buses (2/2): 24419-24420</span><br>
-
+              Marin County:
+              <span class="Splatoon2">MT 2600 series (4/4)</span><br>
             </details>
           </div>
           <div class="accordion-redlist">

@@ -146,9 +146,12 @@
             </ul>
             <li>44 2024 New Flyer XHE40 buses in the xx24 series</li>
             <ul>
-              <li>25 buses were delivered, with some in service</li>
+              <li>27 buses were delivered, with some in service</li>
             </ul>
-            <li>Several 2025 New Flyer XHE40 buses in the xx25 series</li>
+            <li>9 2025 New Flyer XHE60 buses in the xx25 series</li>
+            <ul>
+              <li>5 buses were delivered but haven't entered service</li>
+            </ul>
           </ul>
 
           <h3>Retired Fleet</h3>
@@ -179,7 +182,7 @@
                 <td>2003</td>
                 <td>2316, 2318, 2322, 2333</td>
                 <td>New Flyer D60LF</td>
-                <td>Replaced by the 11000 series buses starting in 2025. Bus 2318 last ran in November 2025.
+                <td>Replaced by the 11000 series. Bus 2318 last ran in November 2025.
                 </td>
               </tr>
               <tr>
@@ -197,28 +200,22 @@
           <h2 id="MST">Monterey-Salinas Transit</h2>
           <p>Most of the buses in this county were operated by Gillig Low Floor buses along with several
             trolleys, 2 BYD
-            K7Ms, and 6 MCI D4500CTs.</p>
+            K7Ms, and 4 MCI D4500CTs.</p>
 
           <h1 id="redlist">Buses to Look Out for</h1>
-          <b>This section was updated on Wednesday, June 24, 2026.</b> Active and inactive buses were
-          retrieved from <a href="https://pantographapp.com">Pantograph</a> and <a
-            href="https://transsee.ca">Transsee</a>.<br>
+          <b>This section was updated on Wednesday, July 22, 2026.</b> Active and inactive buses were retrieved from <a
+            href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
+          <a href="https://transsee.ca">Transsee</a>.<br>
           Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
-          <p>Santa Cruz Metro has a lot of buses purchased secondhand from other transit agencies. For
-            example, four 2300
-            series buses were replaced by the
-            110xx series while the xx23 series buses replaced the 2800 series buses operating on Highway 17
-            Express. The
-            110xx series were New Flyer XN60
-            buses bought from San Diego MTS. Santa Cruz Metro permanently wraps these buses in
-            ORAT livery and added the 0 in the middle, which were 11012, 11018-11019, 11022-11023, and
-            11025-11028.
+          <p>Santa Cruz Metro has a lot of buses purchased secondhand from other transit agencies. For example, four
+            2300 series buses were replaced by the 110xx series while the xx23 series buses replaced the 2800 series
+            buses operating on Highway 17 Express. The 110xx series were New Flyer XN60 buses bought from San Diego MTS.
+            Santa Cruz Metro permanently wraps these buses in ORAT livery and added the 0 in the middle, which were
+            11012, 11016, 11018-11019, 11022-11023, and 11025-11028.
           </p>
-          <p>There were speculations and images of buses bought secondhand by SCMTD. Several ex-OCTA New Flyer
-            C40LFR
-            units were discovered and retained the numbers. It was used to replace
-            the 9800 and 2200 series, while the 15 ex-RTA 31300 series buses will replace the 2600 and 2800
-            series.
+          <p>There were speculations and images of buses bought secondhand by SCMTD. Several ex-OCTA New Flyer C40LFR
+            units were discovered and retained the numbers. It was used to replace the 9800 and 2200 series, while the
+            15 ex-RTA 31300 series buses will replace the 2600 and 2800 series.
           </p>
           <div class="accordion-redlist">
             <details>
@@ -229,28 +226,24 @@
             <details>
               <summary class="highlighted-cr">Critically endangered</summary>
               Santa Cruz County:
-              <span class="Splatoon2">9800 series (1998) (1/30): 9810,</span> <s>9818, 9824</s><br>
+              <span class="Splatoon2">9800 series (1998) (1/30): 9810</span> <s></s><br>
+              <span class="Splatoon2">2200 series (2003) (4/28): 2210, 2215, 2220, 2223,</span>
+              <s>2212, 2218</s><br>
             </details>
           </div>
           <div class="accordion-redlist">
             <details>
               <summary class="highlighted-en">Endangered</summary>
-              Santa Cruz County:
-              <span class="Splatoon2">2200 series (2003) (6/28): 2210, 2212, 2215, 2218, 2220, 2223</span>
-              <s></s><br>
-
             </details>
           </div>
           <div class="accordion-redlist">
             <details>
               <summary class="highlighted-vl">Vulnerable</summary>
               Santa Cruz County:
-              <span class="Splatoon2">ex-OCTA units (2007-08) (6/13): 5530-5531, 5541, 5544, 5566,
-                7519,</span>
-              <s>5535</s><br>
-              <span class="Splatoon2">2800 series (2008) (10/13): 2801, 2803, 2805-2809, 2811-2813,</span>
-              <s>2802,
-                2804</s><br>
+              <span class="Splatoon2">ex-OCTA units (2007-08) (6/13): 5530-5531, 5541, 5544, 5566, 7519</span>
+              <s></s><br>
+              <span class="Splatoon2">2800 series (2008) (9/13): 2801, 2803, 2805-2809, 2811-2812,</span>
+              <s>2802, 2813</s><br>
             </details>
           </div>
           <div class="accordion-redlist">
@@ -263,7 +256,8 @@
               <summary class="highlighted-lc">Least concern</summary>
               Santa Cruz County:
               <span class="Splatoon2">1000 series (2010) (5/5)</span> <s></s><br>
-              <span class="Splatoon2">ex-MTS units (2013) (10/10)</span> <s></s><br>
+              <span class="Splatoon2">ex-MTS units (2013) (9/10): 11012, 11016, 11018-11019, 11022-11023, 11025,
+                11027-11028,</span> <s>11026</s><br>
             </details>
           </div>
           <div class="accordion-redlist">
@@ -275,10 +269,9 @@
             <details>
               <summary>Electric buses</summary>
               Santa Cruz County:
-              <span class="Splatoon2">2024 hydrogen buses (25/44): 0124-1424, 1624-2024, 2224-2324, 2624,
-                3224, 3924,
-                4324</span><br>
-              <span class="Splatoon2">2025 hydrogen buses (2/?): 0125-0225</span><br>
+              <span class="Splatoon2">2024 hydrogen buses (27/44): 0124-1424, 1624-2424, 2624,
+                3224, 3924, 4324</span><br>
+              <span class="Splatoon2">2025 hydrogen buses (5/9): 0125-0225, 0425, 0625, 0925</span><br>
             </details>
           </div>
 
