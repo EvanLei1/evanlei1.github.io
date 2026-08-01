@@ -56,6 +56,9 @@
             <li><router-link to="/transport/sort-date/bus-2024">2024</router-link></li>
           </ul>
 
+          <h2 id="sort-mftr">Sorted by Manufacturer</h2>
+          See <RouterLink to="/transport/sort-mftr/busMftr">here</RouterLink> for more info
+
           <h2 id="sort-region">Sorted by Region</h2>
           <img src="@/assets/images/CA-division-map.png"
             alt="Color-coded region of California specifically for sorting buses" width="300" />
@@ -84,7 +87,7 @@
 
           <samp><i>
               <tiny>
-                Last updated: Thursday, July 16, 2026
+                Last updated: Friday, July 31, 2026
               </tiny>
             </i></samp>
           <br>
@@ -107,5 +110,4 @@
 // import router from '@/router';
 import { RouterLink } from 'vue-router';
 
-import '@/assets/css/main.css';
 </script>

@@ -56,6 +56,12 @@ const router = createRouter({
     },
 
     {
+      path: '/transport/sort-mftr/busMftr',
+      name: 'busMftr',
+      component: () => import('../views/transport/sort-mftr/busMftr.vue'),
+    },
+
+    {
       path: '/transport/sort-region/NCA/alamedaBus',
       name: 'AlamedaBus',
       component: () => import('../views/transport/sort-region/NCA/alamedaBus.vue'),

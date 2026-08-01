@@ -10,13 +10,27 @@
           <div class="header-title">Evan Lei</div>
           <nav>
             <ul>
-              <li><RouterLink to="/">Home</RouterLink></li>
-              <li><RouterLink to="/transport/bus-list">Transport</RouterLink></li>
-              <li><RouterLink to="/gamingView">Gaming</RouterLink></li>
-              <li><RouterLink to="/projectView">Education</RouterLink></li>
-              <li><RouterLink to="/updatesPage">Posts</RouterLink></li>
-              <li><RouterLink to="/socialPage">Socials</RouterLink></li>
-              <li><RouterLink to="/aboutPage">About</RouterLink></li>
+              <li>
+                <RouterLink to="/">Home</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/transport/bus-list">Transport</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/gamingView">Gaming</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/projectView">Education</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/updatesPage">Posts</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/socialPage">Socials</RouterLink>
+              </li>
+              <li>
+                <RouterLink to="/aboutPage">About</RouterLink>
+              </li>
               <li><a href="https:/evanlei1.neocities.org/">Classic Website</a></li>
             </ul>
           </nav>
@@ -48,6 +62,8 @@
             I like to play video games and sometimes stream them on Twitch,
             like Pokemon Scarlet/Violet, Splatoon 3, and other Nintendo Switch games.</p>
           <RouterLink to="/legendsPage">Website legend leading to formatting of locations and speedometer</RouterLink>
+          <img :src="vueLogoURL" alt="Vue.js Logo" class="svg" align="left" />
+          <p>This website was fully migrated from HTML/CSS to Vue on July 17, 2026</p>
         </section>
         <hr>
         <section id="update-links">
@@ -150,6 +166,10 @@
         <section id="updates">
           <h2>Latest Updates</h2>
           <p>For archived updates, click on this <RouterLink to="/updatesPage">link</RouterLink>.</p>
+          <p><b>7/31/2026:</b></p>
+          <p>This website was fully migrated into Vue, with the exception of the socials page, which will be replaced
+            with the contacts page soon. Also, the Torrance Transit GE40LFR buses were fully retired by the 2026 XN40s
+            and the Santa Monica 60BRT CNG buses were decommissioned.</p>
           <p><b>3/15/2026:</b></p>
           <p>The Fresno Area Express 0600 series were retired on March 6, 2025 after the arrival of
             refurbished
@@ -168,11 +188,29 @@
             with
             611 and 617 the last units
             and were replaced by 2025 XN40s in the 300 series</p>
+          <h2>Support Evan Lei on Ko-fi</h2>
+          <div class="kofi-container">
+            <a href="https://ko-fi.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+              <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee at ko-fi.com"
+                class="kofi-img" />
+            </a>
+          </div>
         </section>
       </main>
       <footer>
         <div>
-          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
+          <!-- hitwebcounter Code START -->
+          <a href="https://www.hitwebcounter.com/age-calculator" target="_blank" rel="noopener"
+            title="Find Your Age in Weeks">
+            <img
+              src="https://www.hitwebcounter.com/counter/counter.php?page=21512703&amp;style=0038&amp;nbdigits=5&amp;type=page"
+              alt="Find Your Age in Weeks" decoding="async" style="border:0;max-width:100%;height:auto;" />
+          </a>
+          <br />
+          <a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener"
+            style="font-family:sans-serif, Arial, Helvetica;font-size:9px;color:#6D6C72;text-decoration:none;font-weight:bold;">Total
+            Count</a>
+          <!-- hitwebcounter Code END -->
           <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
 
           <div id="footer" align="center">
@@ -184,7 +222,7 @@
 
           <samp><i>
               <tiny>
-                Last updated: Thursday, July 16, 2026
+                Last updated: Friday, July 31, 2026
               </tiny>
             </i></samp>
           <br>
@@ -200,6 +238,34 @@
 .tiny-text {
   font-size: 0.75rem;
 }
+
+.svg {
+  /* Dimensions */
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+
+  /* Border styling */
+  border: 2px solid #42b883;
+  /* Vue green border */
+  border-radius: 12px;
+  /* Optional rounded corners */
+
+  /* 1. Space INSIDE the border (between SVG graphic and border) */
+  padding: 4px;
+
+  /* 2. Space OUTSIDE the border (pushing other elements away) */
+  margin: 8px;
+}
+
+.kofi-container {
+  display: inline-block;
+}
+
+.kofi-img {
+  height: 36px;
+  border: 0;
+}
 </style>
 
 <script setup>
@@ -214,4 +280,5 @@ import BaoShanRd from "@/assets/images/2024/07/PXL_20240717_025717279.jpg";
 import VTA2001 from "@/assets/images/2023/PXL_20231022_024853279.jpg";
 import SCM1998 from "@/assets/images/2022/02/PXL_20220206_223140747.jpg"
 import ACT2013 from "@/assets/images/2023/PXL_20231024_201618649.jpg";
+const vueLogoURL = 'https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg';
 </script>
