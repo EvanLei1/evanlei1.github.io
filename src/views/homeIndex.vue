@@ -1,74 +1,25 @@
 <template>
-  <div class="app-wrapper">
-    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
-    <a href="#content" id="skip-to-content-link">Skip to content</a>
-    <div class="layout">
-
-      <header>
-
-        <div class="header-content">
-          <div class="header-title">Evan Lei</div>
-          <nav>
-            <ul>
-              <li>
-                <RouterLink to="/">Home</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/transport/bus-list">Transport</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/gamingView">Gaming</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/projectView">Education</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/updatesPage">Posts</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/socialPage">Socials</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/aboutPage">About</RouterLink>
-              </li>
-              <li><a href="https:/evanlei1.neocities.org/">Classic Website</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
-      <aside class="left-sidebar">
-        <div class="sidebar-section">
-          <div class="sidebar-title">Page contents</div>
-          <ul>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#update-links">Links (coming soon)</a></li>
-            <li><a href="#old-buses">Old buses</a></li>
-            <li><a href="#updates">Latest updates</a></li>
-          </ul>
-        </div>
-      </aside>
-
-      <main id="content">
-        <!-- Section for introductory content -->
-        <section id="intro">
-          <h1 align="center">Hello there!</h1>
+  <div class="min-h-screen bg-gray-950 text-gray-100 flex flex-col justify-between">
+    <div>
+      <NavbarMenu />
+      <main class="max-w-4xl mx-auto p-6 space-y-6">
+        <section class="space-y-4">
+          <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4">Hello there!</h1>
           <img :src="profilePic" align="right" width="100" alt="Profile picture">
-          <p>My name is Evan Lei, and I am currently a second-year Computer Science and Engineering major at
-            UC
-            Merced.
-            I like running, biking, and taking public transit across the San Francisco Bay Area. Other than
-            doing exercise,
-            I like to play video games and sometimes stream them on Twitch,
-            like Pokemon Scarlet/Violet, Splatoon 3, and other Nintendo Switch games.</p>
+          <p class="text-gray-300 leading-relaxed">My name is Evan Lei, and I am currently a fourth-year Computer
+            Science and Engineering major at UC Merced. I like running, biking, and taking public transit across the San
+            Francisco Bay Area. Other than doing exercise, I like to play video games and sometimes stream them on
+            Twitch, like Pokemon Scarlet/Violet, Splatoon 3, and other Nintendo Switch games.</p>
           <RouterLink to="/legendsPage">Website legend leading to formatting of locations and speedometer</RouterLink>
           <img :src="vueLogoURL" alt="Vue.js Logo" class="svg" align="left" />
-          <p>This website was fully migrated from HTML/CSS to Vue on July 17, 2026</p>
+          <p class="text-gray-300 leading-relaxed">This website was fully migrated from HTML/CSS to Vue on July 17, 2026
+          </p>
         </section>
-        <hr>
+        <hr />
         <section id="update-links">
-          <h1 align="center">Links (coming soon)</h1>
-          <div class="gallery">
+          <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" align="center">
+            Website under construction</h1>
+          <!-- <div class="gallery">
             <div class="box">
               <div class="image">
                 <a target="_blank" :href="apr20">
@@ -187,8 +138,8 @@
             of 26 San Diego MTS 600 series (2011 New Flyer C40LFR) were retired from service on October 3,
             with
             611 and 617 the last units
-            and were replaced by 2025 XN40s in the 300 series</p>
-          <h2>Support Evan Lei on Ko-fi</h2>
+            and were replaced by 2025 XN40s in the 300 series</p> -->
+          <h2 class="text-3xl font-bold text-white pt-2">Support Evan Lei on Ko-fi</h2>
           <div class="kofi-container">
             <a href="https://ko-fi.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
               <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee at ko-fi.com"
@@ -197,40 +148,8 @@
           </div>
         </section>
       </main>
-      <footer>
-        <div>
-          <!-- hitwebcounter Code START -->
-          <a href="https://www.hitwebcounter.com/age-calculator" target="_blank" rel="noopener"
-            title="Find Your Age in Weeks">
-            <img
-              src="https://www.hitwebcounter.com/counter/counter.php?page=21512703&amp;style=0038&amp;nbdigits=5&amp;type=page"
-              alt="Find Your Age in Weeks" decoding="async" style="border:0;max-width:100%;height:auto;" />
-          </a>
-          <br />
-          <a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener"
-            style="font-family:sans-serif, Arial, Helvetica;font-size:9px;color:#6D6C72;text-decoration:none;font-weight:bold;">Total
-            Count</a>
-          <!-- hitwebcounter Code END -->
-          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
-
-          <div id="footer" align="center">
-            | <router-link to="/">Home</router-link>
-            | <router-link to="/termsPage">Terms</router-link>
-            | <router-link to="/aboutPage">About</router-link>
-            | <router-link to="/socialPage">Contact</router-link>
-          </div>
-
-          <samp><i>
-              <tiny>
-                Last updated: Friday, July 31, 2026
-              </tiny>
-            </i></samp>
-          <br>
-          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
-            layout generator</a>.
-        </div>
-      </footer>
     </div>
+    <FooterMenu />
   </div>
 </template>
 
@@ -269,8 +188,12 @@
 </style>
 
 <script setup>
+import { useFancybox } from '@/composables/useFancybox';
 import { RouterLink } from 'vue-router';
+import NavbarMenu from '@/components/navbarMenu.vue';
+import FooterMenu from '@/components/footerMenu.vue';
 
+useFancybox();
 
 import profilePic from "@/assets/images/profile-pic.jpg"
 import apr20 from "@/assets/images/2024/PXL_20240420_223556597.jpg";

@@ -1,113 +1,54 @@
 <template>
-  <div class="app-wrapper">
-    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
-    <a href="#content" id="skip-to-content-link">Skip to content</a>
-    <div class="layout">
+  <div class="min-h-screen bg-gray-950 text-gray-100 flex flex-col justify-between">
+    <NavbarMenu />
+    <main class="max-w-4xl mx-auto p-6 space-y-6">
+      <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="bus-list">Bus List
+      </h1>
+      <p class="text-gray-300 leading-relaxed"><strong>NOTE:</strong> I am updating this page infrequently because I
+        have to upload more images to my website.</p>
+      <p class="text-gray-300 leading-relaxed">The bus list contained a variety of buses taken by myself within the
+        United States and China. It was sorted by the region and when these photos are taken. For zero-emission
+        vehicles, it will be found <router-link to="/transport/electricBus">here</router-link>.
+      </p>
 
-      <header>
+      <h2 class="text-3xl font-bold text-white pt-2" id="sort-date">Sorted by date</h2>
+      <p class="text-gray-300 leading-relaxed">The list only contained unusual sightings I encountered by year, rather
+        than the photos I took at that time.</p>
+      <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
+        <li><router-link to="/transport/sort-date/bus-2020">pre-2020</router-link></li>
+        <li><router-link to="/transport/sort-date/bus-2021">2021</router-link></li>
+        <li><router-link to="/transport/sort-date/bus-2022">2022</router-link></li>
+        <li><router-link to="/transport/sort-date/bus-2023">2023</router-link></li>
+        <li><router-link to="/transport/sort-date/bus-2024">2024</router-link></li>
+      </ul>
 
-        <div class="header-content">
-          <div class="header-title">Evan Lei</div>
-          <nav>
-            <ul>
-              <li><router-link to="/">Home</router-link></li>
-              <li><router-link to="/transport/bus-list">Transport</router-link></li>
-              <li><router-link to="/gamingView">Gaming</router-link></li>
-              <li><router-link to="/projectView">Education</router-link></li>
-              <li><router-link to="/updatesPage">Posts</router-link></li>
-              <li><router-link to="/socialPage">Socials</router-link></li>
-              <li><router-link to="/aboutPage">About</router-link></li>
-              <li><a href="https://evanlei1.neocities.org/">Classic Website</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <h2 class="text-3xl font-bold text-white pt-2" id="sort-mftr">Sorted by Manufacturer</h2>
+      <p class="text-gray-300 leading-relaxed">See <RouterLink to="/transport/sort-mftr/busMftr">here</RouterLink> for
+        more info</p>
 
-      <aside class="left-sidebar">
-        <div class="sidebar-section">
-          <div class="sidebar-title">Page content</div>
-          <ul>
-            <li><a href="#description">Description</a></li>
-            <li><a href="#sort-date">Sorted by date</a></li>
-            <li><a href="#sort-region">Sorted by Region</a></li>
-          </ul>
-        </div>
-      </aside>
-
-      <main>
-        <section>
-          <h2 id="description">Description</h2>
-          <p><strong>NOTE:</strong> I am updating this page infrequently because I have to upload more images to my
-            website.</p>
-          <p>The bus list contained a variety of buses taken by myself within the United States and China. It was
-            sorted by the region and when these photos are taken.
-            For zero-emission vehicles, it will be found <router-link to="/transport/electricBus">here</router-link>.
-          </p>
-
-          <h2 id="sort-date">Sorted by date</h2>
-
-          <p>The list only contained unusual sightings I encountered by year, rather than the photos I took at that
-            time.</p>
-          <ul>
-            <li><router-link to="/transport/sort-date/bus-2020">pre-2020</router-link></li>
-            <li><router-link to="/transport/sort-date/bus-2021">2021</router-link></li>
-            <li><router-link to="/transport/sort-date/bus-2022">2022</router-link></li>
-            <li><router-link to="/transport/sort-date/bus-2023">2023</router-link></li>
-            <li><router-link to="/transport/sort-date/bus-2024">2024</router-link></li>
-          </ul>
-
-          <h2 id="sort-mftr">Sorted by Manufacturer</h2>
-          See <RouterLink to="/transport/sort-mftr/busMftr">here</RouterLink> for more info
-
-          <h2 id="sort-region">Sorted by Region</h2>
-          <img src="@/assets/images/CA-division-map.png"
-            alt="Color-coded region of California specifically for sorting buses" width="300" />
-          <ul>
-            <li><router-link to="/transport/sort-region/bus-NCA" style="color:#3A0CCD;"><span class="Splatoon2">Northern
-                  California</span></router-link></li>
-            <li><router-link to="/transport/sort-region/bus-SCA" style="color:#D0BE08;"><span class="Splatoon2">Southern
-                  California</span></router-link></li>
-            <li><router-link to="/transport/sort-region/bus-misc"><strong>Miscellaneous sightings</strong></router-link></li>
-            <li><router-link to="/transport/sort-region/train-CA">Train sightings in CA</router-link></li>
-          </ul>
-
-        </section>
-      </main>
-      <footer>
-        <div>
-          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
-          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
-
-          <div id="footer" align="center">
-            | <router-link to="/">Home</router-link>
-            | <router-link to="/termsPage">Terms</router-link>
-            | <router-link to="/aboutPage">About</router-link>
-            | <router-link to="/socialPage">Contact</router-link>
-          </div>
-
-          <samp><i>
-              <tiny>
-                Last updated: Friday, July 31, 2026
-              </tiny>
-            </i></samp>
-          <br>
-          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
-            layout generator</a>.
-        </div>
-      </footer>
-    </div>
-    <!-- Add any additional Javascript code () here. -->
+      <h2 class="text-3xl font-bold text-white pt-2" id="sort-region">Sorted by Region</h2>
+      <img src="@/assets/images/CA-division-map.png"
+        alt="Color-coded region of California specifically for sorting buses" width="300" />
+      <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
+        <li><router-link to="/transport/sort-region/bus-NCA" style="color:#3A0CCD;"><span class="Splatoon2">Northern
+              California</span></router-link></li>
+        <li><router-link to="/transport/sort-region/bus-SCA" style="color:#D0BE08;"><span class="Splatoon2">Southern
+              California</span></router-link></li>
+        <li><router-link to="/transport/sort-region/bus-misc"><strong>Miscellaneous sightings</strong></router-link>
+        </li>
+        <li><router-link to="/transport/sort-region/train-CA">Train sightings in CA</router-link></li>
+      </ul>
+    </main>
+    <FooterMenu />
   </div>
 </template>
 
-<style scoped>
-.tiny-text {
-  font-size: 0.75rem;
-}
-</style>
-
-<script setup lang="ts">
-// import router from '@/router';
+<script setup>
+import { useFancybox } from '@/composables/useFancybox';
 import { RouterLink } from 'vue-router';
+import NavbarMenu from '@/components/navbarMenu.vue';
+import FooterMenu from '@/components/footerMenu.vue';
+
+useFancybox();
 
 </script>

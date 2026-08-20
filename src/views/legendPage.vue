@@ -1,66 +1,15 @@
 <template>
-  <div class="app-wrapper">
-    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
-    <a href="#content" id="skip-to-content-link">Skip to content</a>
-    <div class="layout">
-
-      <header>
-
-        <div class="header-content">
-          <div class="header-title">Evan Lei</div>
-          <nav>
-            <ul>
-              <li>
-                <RouterLink to="/">Home</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/transport/bus-list">Transport</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/gamingView">Gaming</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/projectView">Education</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/updatesPage">Posts</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/socialPage">Socials</RouterLink>
-              </li>
-              <li>
-                <RouterLink to="/aboutPage">About</RouterLink>
-              </li>
-              <li><a href="https:/evanlei1.neocities.org/">Classic Website</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
-      <aside class="left-sidebar">
-        <div class="sidebar-section">
-          <div class="sidebar-title">Page content</div>
-          <ul>
-            <li><a href="#legend">Legend</a></li>
-            <li><a href="#speedometer">Speedometer</a></li>
-            <li><a href="#examples">Examples of signal words given out based on the speedometer</a></li>
-            <li><a href="#redlist">Bus and Train Active List</a></li>
-            <li><a href="#definitions">New definitions</a></li>
-            <li><a href="#sacramento">Sacramento Effect</a></li>
-          </ul>
-        </div>
-      </aside>
-
-      <main id="East Bay">
-        <section>
-          <h1 id="legend">Legend</h1>
-          <h2 id="speedometer">Speedometer</h2>
+  <div class="min-h-screen bg-gray-950 text-gray-100 flex flex-col justify-between">
+    <NavbarMenu />
+    <main class="max-w-4xl mx-auto p-6 space-y-6">
+          <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="legend">Legend</h1>
+          <h2 class="text-3xl font-bold text-white pt-2" id="speedometer">Speedometer</h2>
           <div class="container">
             <div class="image">
               <img :src="speedometer" width="256p">
             </div>
             <div>
-              <p>This speedometer is designed by putting it on images and videos that involve driving. In this example,
+              <p class="text-gray-300 leading-relaxed">This speedometer is designed by putting it on images and videos that involve driving. In this example,
                 the
                 speedometer is used for a car, separating the speed into increments of 25-40 mph with a max speed of
                 100-160
@@ -72,8 +21,8 @@
                 There were three options of a train speedometer, with a max speed of 80, 100, and 220 mph. The
                 speedometer
                 diagram was used to simulate recorded videos and estimate photos.</p>
-              <p>The speedometer has three signal words: warning, danger, and peril. It applies to cars and trains.</p>
-              <p>All caps were used for road conditions, while the exclamation mark was added for emergencies and sudden
+              <p class="text-gray-300 leading-relaxed">The speedometer has three signal words: warning, danger, and peril. It applies to cars and trains.</p>
+              <p class="text-gray-300 leading-relaxed">All caps were used for road conditions, while the exclamation mark was added for emergencies and sudden
                 traffic
                 slowdowns.</p>
               <table>
@@ -122,10 +71,10 @@
               </table>
             </div>
           </div>
-          <h3 id="examples">Examples of signal words given out based on the speedometer</h3>
-          <li></li>
-          <h2 id="redlist">Bus and Train Active List</h2>
-          <p>This list was similar to above, but it was based on a classification used on the conservation status page
+          <!-- <h3 class="text-2xl font-semibold text-indigo-400" id="examples">Examples of signal words given out based on the speedometer</h3>
+          <li></li> -->
+          <h2 class="text-3xl font-bold text-white pt-2" id="redlist">Bus and Train Active List</h2>
+          <p class="text-gray-300 leading-relaxed">This list was similar to above, but it was based on a classification used on the conservation status page
             like <a href="https://bateman.monologue.jp/en/index.html">the Red List of Trains</a>.</p>
           <table class="center">
             <thead>
@@ -174,9 +123,9 @@
             </tbody>
           </table>
           <hr>
-          <h2 id="definitions">New definitions</h2>
-          <h3 id="sacramento">Sacramento Effect</h3>
-          <p>This word that I made up was called the Sacramento Effect because I was playing <RouterLink
+          <h2 class="text-3xl font-bold text-white pt-2" id="definitions">New definitions</h2>
+          <h3 class="text-2xl font-semibold text-indigo-400" id="sacramento">Sacramento Effect</h3>
+          <p class="text-gray-300 leading-relaxed">This word that I made up was called the Sacramento Effect because I was playing <RouterLink
               to="/splatoonPage">Splatoon 3</RouterLink> turf war match when a deviation of +/- 15%
             triggered how the team was way behind, but in some cases, the turfing coverage was unstable and the team
             that was
@@ -184,51 +133,22 @@
             team effort. I looked on <a href="https://twitch.tv">Twitch</a> and X some of the time about this common
             sighting.
           </p>
-          <p>It was called this because of how the door buttons were sounding once the Sacramento light rail train makes
+          <p class="text-gray-300 leading-relaxed">It was called this because of how the door buttons were sounding once the Sacramento light rail train makes
             a full
             stop in a station. When the door closes, the beeping was heard.
             I commonly heard the beeping noise of the CAF light rail trains.
           </p>
-
-        </section>
-      </main>
-      <footer>
-        <div>
-          <!-- <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=6&id=172148&s=39' border='0' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div> -->
-          <p id="copyright" align="center">Copyright &copy; 2026 Evan Lei.</p>
-
-          <div id="footer" align="center">
-            | <router-link to="/">Home</router-link>
-            | <router-link to="/termsPage">Terms</router-link>
-            | <router-link to="/aboutPage">About</router-link>
-            | <router-link to="/socialPage">Contact</router-link>
-          </div>
-
-          <samp><i>
-              <tiny>
-                Last updated: Thursday, July 16, 2026
-              </tiny>
-            </i></samp>
-          <br>
-          Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's
-            layout generator</a>.
-        </div>
-      </footer>
-    </div>
+    </main>
+    <FooterMenu />
   </div>
 </template>
 
-<style scoped>
-.tiny-text {
-  font-size: 0.75rem;
-}
-</style>
-
 <script setup>
-// Add your Composition API logic here
-// import { ref } from 'vue'
-// const count = ref(0)
+import { useFancybox } from '@/composables/useFancybox';
 import { RouterLink } from 'vue-router';
+import NavbarMenu from '@/components/navbarMenu.vue';
+import FooterMenu from '@/components/footerMenu.vue';
 
+useFancybox();
 import speedometer from "@/assets/images/s-meterNR-sample.png"
 </script>
