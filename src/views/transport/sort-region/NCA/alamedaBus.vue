@@ -127,7 +127,7 @@
                 <li>20 2022 New Flyer XHE40 buses in the 7030 series</li>
                 <li>9 2025 New Flyer XHE60 buses in the 2500 series</li>
                 <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-                  <li>Haven't entered service yet, will replace the remaining 2190 series buses</li>
+                  <li>Entered service on August 25, 2026; will replace the remaining 2190 series buses</li>
                 </ul>
               </ul>
             </td>

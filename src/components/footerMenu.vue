@@ -1,10 +1,10 @@
 <template>
-  <footer class="footer footer-horizontal footer-center bg-[#b3b82c] text-base-content rounded p-10">
+  <footer class="footer footer-horizontal footer-center bg-indigo-500 text-base-content rounded p-10">
     <nav class="grid grid-flow-col gap-4">
-      <router-link to="/" class="link text-[#728eb9] [-webkit-text-stroke-width:0.5px] text-lg [-webkit-text-stroke-color:black] font-bold link-hover">Home</router-link>
-      <router-link to="/termsPage" class="link text-[#728eb9] [-webkit-text-stroke-width:0.5px] text-lg [-webkit-text-stroke-color:black] font-bold link-hover">Terms</router-link>
-      <router-link to="/aboutPage" class="link text-[#728eb9] [-webkit-text-stroke-width:0.5px] text-lg [-webkit-text-stroke-color:black] font-bold link-hover">About us</router-link>
-      <router-link to="/socialPage" class="link text-[#728eb9] [-webkit-text-stroke-width:0.5px] text-lg [-webkit-text-stroke-color:black] font-bold link-hover">Contact</router-link>
+      <router-link to="/" class="link text-lg font-bold link-hover">Home</router-link>
+      <router-link to="/termsPage" class="link text-lg font-bold link-hover">Terms</router-link>
+      <router-link to="/aboutPage" class="link text-lg font-bold link-hover">About us</router-link>
+      <router-link to="/socialPage" class="link text-lg font-bold link-hover">Contact</router-link>
     </nav>
 
     <!-- hitwebcounter Code START -->
@@ -16,7 +16,7 @@
     </a>
     <br />
     <a href="https://www.hitwebcounter.com/" target="_blank" rel="noopener"
-      style="font-family:sans-serif, Arial, Helvetica;font-size:9px;color:#6D6C72;text-decoration:none;font-weight:bold;">Total
+      style="font-family:sans-serif, Arial, Helvetica;font-size:9px;text-decoration:none;font-weight:bold;">Total
       Count</a>
     <!-- hitwebcounter Code END -->
 
@@ -59,8 +59,10 @@
   </nav> -->
 
     <aside>
-      <p class="block text-[#728eb9] [-webkit-text-stroke-width:0.5px] text-lg [-webkit-text-stroke-color:black] font-semibold">Copyright &copy; {{ currentYear }} Evan Lei.</p>
-      <samp class="block text-xs text-[#728eb9] [-webkit-text-stroke-width:0.5px] text-lg [-webkit-text-stroke-color:black] font-semibold italic">Last updated: Friday, July 31, 2026</samp>
+      <p class="block text-lg font-semibold">Copyright &copy; {{ currentYear }} Evan Lei.</p>
+      <p class="block text-xs font-semibold italic">Last updated / Commit: <a
+          :href="`https://github.com/EvanLei1/evanlei1.github.io/commit/${gitCommit}`" target="_blank"
+          class="underline">{{ gitCommit }}</a> {{ gitDate }}</p>
     </aside>
   </footer>
 </template>
@@ -69,4 +71,6 @@
 import { computed } from 'vue'
 
 const currentYear = computed(() => new Date().getFullYear())
+const gitCommit = __GIT_COMMIT__
+const gitDate = __GIT_DATE__
 </script>
