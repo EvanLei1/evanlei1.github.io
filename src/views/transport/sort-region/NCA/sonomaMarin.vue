@@ -54,7 +54,6 @@
               <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
                 <li>7 2015, 2017, 2021 ENC XHF 29' buses</li>
                 <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-                  <li>301 is a 2015 model</li>
                   <li>2 2017 buses in the 1760 series</li>
                   <li>4 2021 buses in the 2160 series</li>
                   <li>Used for school trippers and West Marin routes</li>
@@ -161,6 +160,12 @@
             </td>
           </tr>
           <tr>
+            <td>2015</td>
+            <td>301</td>
+            <td>ElDorado National XHF 29'</td>
+            <td>Retired in August 2026 after the arrival of the 2600s</td>
+          </tr>
+          <tr>
             <td>2016, 2018</td>
             <td>1680, 1880</td>
             <td>Ford E-450</td>
@@ -178,22 +183,22 @@
         <!-- The remaining 2007 model buses were decommissioned in December 2025. -->
       </p>
       <h3 class="text-2xl font-semibold text-indigo-400" id="SCT">Sonoma County Transit</h3>
-      <p class="text-gray-300 leading-relaxed">Orion, ENC, and BYD buses make up the fleet. It consists of 14 Orion VII
-        NG CNG buses made in 2010 and 2012, 17 ENC Axess CNG 40' from 2014 to 2019, 7 ENC EZ Rider II BRT CNG 32' buses
+      <p class="text-gray-300 leading-relaxed">Orion, ENC, and BYD buses make up the fleet. It consists of 4 Orion VII
+        NG CNG buses made in 2012, 17 ENC Axess CNG 40' from 2014 to 2019, 7 ENC EZ Rider II BRT CNG 32' buses
         made in 2015, 2017, and 2019, and 11 BYD buses of various length made from 2018 to 2026. The last remaining
         Orion V CNG buses retired in late 2024. Two buses (235-236) were ex-Valley Metro 5000 series, the last New Flyer
-        C40LFRs delivered in Phoenix in 2013.
+        C40LFRs delivered in Phoenix in 2013. In August 2026, the 7 Gillig Low Floor Plus EV buses entered service, displacing all 2010 Orion VII NG CNG units.
       </p>
       <h3 class="text-2xl font-semibold text-indigo-400" id="CityBus">Santa Rosa CityBus</h3>
       <p class="text-gray-300 leading-relaxed">Most of the buses were New Flyer, including 7 2011 New Flyer XDE40 buses.
         Four 2018 ENC Axess BRT 40' were used in service. Two buses were seen on Pantograph as 2024 models, but the
         model is unknown. In October 2025, 6 Gillig hybrid buses were acquired from the Golden Gate Transit
         (24918-24923), replacing the Proterra buses and the last remaining 2008 hybrid. In January 2026, the 2025 Gillig
-        electric vehicles entered service, replacing the oldest units.
+        electric vehicles entered service, replacing the oldest units. In August 2026, the 2026 New Flyer XE40 vehicles entered service.
       </p>
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Tuesday, August 18, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -201,7 +206,7 @@
         since May. Sonoma County Transit Orion V CNG units retired in September 2024. All of the 2010 and some 2012
         units were used for contingency fleet for the Golden Gate Transit.<br> Petaluma Transit's 1998 New Flyer D40LF
         bus 41 was last seen active in May 2026.</p>
-      <b><u>Note: Marin Transit buses were not updated as of September 6.</u></b><br>
+        <p>Orion VII NG CNG buses for Sonoma County Transit were retired on August 21, 2026.</p>
       <b><u>Note: Petaluma Transit buses were not updated as of September 6. It relies on manual observation and
           when the bus is online.</u></b>
       <div class="accordion-redlist">
@@ -209,21 +214,21 @@
           <summary class="highlighted-ex">Extinct</summary>
           Sonoma County:
           <span class="Splatoon2">PT 1998 buses (0/3)</span><br>
-          Marin County:
-          <span class="Splatoon2">MT bus 301: No</span><br>
         </details>
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
-          <span class="Splatoon2">PT 2007 buses (2/4): 33, 36</span> <s></s><br>
+          Sonoma County:
+          <span class="Splatoon2">PT 2007 buses (1/4): 36,</span> <s>33</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-en">Endangered</summary>
           Marin County:
-          <span class="Splatoon2">MT 1860 series (2018) (1/2): 1860</span><br>
+          <span class="Splatoon2">MT 1760 series (2017) (2/2)</span><br>
+          <span class="Splatoon2">MT 1860 series (2018) (2/2)</span><br>
           Sonoma County:
-          <span class="Splatoon2">SR 24100 series (2011) (5/7): 24113-24114, 24116, 24118-24119,</span> <s>24115</s><br>
+          <span class="Splatoon2">SR 24100 series (2011) (5/7): 24113-24114, 24118-24119,</span> <s>24116</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -235,12 +240,10 @@
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
           Marin County:
-          <span class="Splatoon2">GGT 900 series (2010, 2012, 2014) (33/80): 937-944, 956-980</span> <s></s><br>
+          <span class="Splatoon2">GGT 900 series (2010, 2012, 2014) (33/80): 937-944, 956-980,</span> <s>945</s><br>
           Sonoma County:
           <span class="Splatoon2">PT 2011 buses (4/4)</span> <s></s><br>
-          <span class="Splatoon2">SCT OBI VII NG CNG (2010) (7/10): 204-206, 208-209, 211, 213</span>
-          <s></s><br>
-          <span class="Splatoon2">SCT OBI VII EPA10 CNG (2012) (3/4): 214-216,</span> <s>217</s><br>
+          <span class="Splatoon2">SCT OBI VII EPA10 CNG (2012) (3/4): 214, 216-217,</span> <s>215</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -260,8 +263,10 @@
         <details>
           <summary>Electric buses</summary>
           Sonoma County:
-          <span class="Splatoon2">SCT 2026 40' buses (2/7): 512-513</span><br>
-          <span class="Splatoon2">SR 24610 series (2026) (0/6)</span><br>
+          <span class="Splatoon2">SCT 2026 40' buses (7/7)</span><br>
+          <span class="Splatoon2">SR 24610 series (2026) (6/6)</span><br>
+          Marin County:
+          <span class="Splatoon2">MT 1800 series (2018) (2/2)</span><br>
         </details>
       </div>
 

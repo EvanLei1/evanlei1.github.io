@@ -9,10 +9,6 @@
 
       <h4 class="text-xl font-medium text-gray-200">Old buses</h4>
       <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-        <li>18 1998 New Flyer D35LF buses in the 9800 series</li>
-        <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-          <li>One unit remain (9810)</li>
-        </ul>
         <li>15 2003 New Flyer D35LF buses in the 2210 series</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
           <li>Five units remain</li>
@@ -96,11 +92,11 @@
         </ul>
         <li>44 2024 New Flyer XHE40 buses in the xx24 series</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-          <li>28 buses were delivered, with some in service. There were 12 fueling stations at that time.</li>
+          <li>29 buses were delivered, with 26 in service. There were 12 fueling stations at that time.</li>
         </ul>
         <li>9 2025 New Flyer XHE60 buses in the xx25 series</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-          <li>7 buses were delivered but haven't entered service</li>
+          <li>Entered service in late September 2026</li>
         </ul>
       </ul>
 
@@ -116,6 +112,12 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>1998</td>
+            <td>9801-9818</td>
+            <td>New Flyer D35LF</td>
+            <td>Bus 9810 last ran on August 31, 2026</td>
+          </tr>
           <tr>
             <td>1998</td>
             <td>9819-9830</td>
@@ -156,7 +158,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Wednesday, August 19, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -166,6 +168,8 @@
         buses operating on Highway 17 Express. The 110xx series were New Flyer XN60 buses bought from San Diego MTS.
         Santa Cruz Metro permanently wraps these buses in ORAT livery and added the 0 in the middle, which were
         11012, 11016, 11018-11019, 11022-11023, and 11025-11028.
+      </p>
+      <p class="text-gray-300 leading-relaxed">The 1998 New Flyer buses were withdrawn from service on August 31, 2026.
       </p>
       <p class="text-gray-300 leading-relaxed">There were speculations and images of buses bought secondhand by SCMTD.
         Several ex-OCTA New Flyer C40LFR
@@ -181,7 +185,6 @@
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
           Santa Cruz County:
-          <span class="Splatoon2">9800 series 35' (1998) (1/18): 9810</span> <s></s><br>
           <span class="Splatoon2">2200 series 35' (2003) (5/15): 2210, 2212, 2215, 2220, 2223</span>
           <s></s><br>
         </details>
@@ -195,10 +198,10 @@
         <details>
           <summary class="highlighted-vl">Vulnerable</summary>
           Santa Cruz County:
-          <span class="Splatoon2">ex-OCTA units (2007-08) (7/13): 5530-5531, 5541, 5544, 5550, 5566, 7519</span>
-          <s></s><br>
-          <span class="Splatoon2">2800 series (2008) (9/13): 2801, 2803, 2805-2809, 2811-2812,</span>
-          <s>2813</s><br>
+          <span class="Splatoon2">ex-OCTA units (2007-08) (5/13): 5530-5531, 5541, 5544, 5566,</span>
+          <s>5550, 7519</s><br>
+          <span class="Splatoon2">2800 series (2008) (7/13): 2801, 2803, 2805, 2807-2808, 2811-2812,</span>
+          <s>2806, 2809, 2813</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -212,7 +215,7 @@
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-lc">Least concern</summary>
-          <span class="Splatoon2">1000 series (2010) (5/5)</span> <s></s><br>
+          <span class="Splatoon2">1000 series (2010) (4/5): 1001-1004,</span> <s>1005</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -224,9 +227,9 @@
         <details>
           <summary>Electric buses</summary>
           Santa Cruz County:
-          <span class="Splatoon2">2024 hydrogen buses (28/44): 0124-2424, 2624,
+          <span class="Splatoon2">2024 hydrogen buses (29/44): 0124-2624,
             3224, 3924, 4324</span><br>
-          <span class="Splatoon2">2025 hydrogen buses (7/9): 0125-0225, 0425, 0625-0925</span><br>
+          <span class="Splatoon2">2025 hydrogen buses (9/9)</span><br>
         </details>
       </div>
 

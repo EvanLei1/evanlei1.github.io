@@ -267,16 +267,20 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Wednesday, August 19, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
-      <p class="text-gray-300 leading-relaxed">Santa Monica's Big Blue Bus 5300 series were inactive since July 21,
+      <p class="text-gray-300 leading-relaxed">Santa Monica's Big Blue Bus 5300 series were inactive since September 15,
         2026. The GE40LFR buses of Torrance Transit were withdrawn on June 25.
-        <!-- The Proterra buses for Foothill transit were inactive since July 2. --></p>
+        The Proterra buses for Foothill transit were inactive since August 20.
+      </p>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-ex">Extinct</summary>
+          <span class="Splatoon2">Foothill 2600 series (2017) (0/13)</span> <s></s><br>
+          <span class="Splatoon2">Foothill 3000 series (2020) (0/2)</span> <s></s><br>
+          <span class="Splatoon2">LADOT 20300 series (2020) (0/26)</span> <s></s><br>
           <span class="Splatoon2">SMBBB 5300 series (2010-11) (0/21)</span> <s></s><br>
         </details>
         <details>
@@ -297,50 +301,52 @@
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
           <span class="Splatoon2">LADOT 11400 series (2011) (2/2)</span> <s></s><br>
-          <span class="Splatoon2">LACMTA 9500 series (2007-08) (83/95): 9500-9523, 9525, 9527-9531, 9533-9540,
-            9542-9557, 9559-9568, 9570-9576, 9578-9581, 9583-9584, 9586-9587, 9590-9592, 9594,</span> <s>9526, 9541,
-            9558, 9577, 9582, 9585, 9588-9589, 9593</s><br>
+          <span class="Splatoon2">LACMTA 9500 series (2007-08) (82/95): 9500-9516, 9518-9522, 9525-9540, 9542-9552,
+            9554, 9556-9561, 9563-9567, 9569, 9571, 9573-9576, 9578-9580, 9582-9593,</span> <s>9523, 9541, 9555, 9562,
+            9570, 9572, 9577, 9581, 9594</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-lc">Least concern</summary>
           <span class="Splatoon2">Torrance 2025 buses (20/20)</span><br>
-          <span class="Splatoon2">LADOT 12300 series 35' buses (2012) (14/14)</span> <s></s><br>
-          <span class="Splatoon2">LADOT 12300 series 32' buses (2012) (22/22)</span> <s></s><br>
-          <!-- <span class="Splatoon2">LADOT 12400 series (2012) (91/93): 12401-12405, 12407-12428, 12430-12493,</span>
-          <s>12406, 12429</s><br> -->
-          <span class="Splatoon2">LADOT 13400 series (2012) (2/3): 13402-13403,</span> <s>13401</s><br>
-          <span class="Splatoon2">LADOT 13300 series 32' buses (2013) (20/22): 13301, 13303, 13305-13322,</span>
-          <s>13302, 13304</s><br>
+          <span class="Splatoon2">LADOT 12300 series 35' buses (2012) (13/14): 12302-12314,</span> <s>12301</s><br>
+          <span class="Splatoon2">LADOT 12300 series 32' buses (2012) (19/22): 12316-12323, 12325-12328,
+            12330-12336,</span> <s>12315, 12324, 12329</s><br>
+          <span class="Splatoon2">LADOT 12400 series (2012) (88/93): 12401-12422, 12425, 12427-12428, 12430-12459,
+            12461-12493,</span> <s>12423-12424, 12460</s><br>
+          <span class="Splatoon2">LADOT 13400 series (2012) (3/3)</span> <s></s><br>
+          <span class="Splatoon2">LADOT 13300 series 32' buses (2013) (20/22): 13301-13321,</span> <s>13322</s><br>
           <span class="Splatoon2">LADOT 13300 series 35' buses (2013) (6/6)</span> <s></s><br>
-          <span class="Splatoon2">Pasadena 2013 buses (9/10): 3216-3221, 3223-3225</span> <s></s><br>
-          <span class="Splatoon2">Pasadena 2014 buses (5/7): 3292-3293, 3296-3298</span> <s></s><br>
+          <span class="Splatoon2">Pasadena 2013 buses (10/10)</span> <s></s><br>
+          <span class="Splatoon2">Pasadena 2014 buses (4/7): 3292-3293, 3296-3297,</span> <s>3298</s><br>
 
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-dd">Data deficient</summary>
-          <span class="Splatoon2">LACMTA 8100 series (2008-10) (46/301): 8217, 8290, 8339, 8345-8347, 8350-8361,
-            8364-8368, 8370-8377, 8379, 8381-8383, 8386, 8388-8392, 8394, 8396-8399,</span> <s>8342-8343, 8378,
-            8384-8385, 8387</s><br>
-          <span class="Splatoon2">LACMTA 3100 series (2010) (18/50): 3104-3106, 3108, 3110, 3112, 3115, 3120, 3123,
-            3128, 3130, 3132-3133, 3138, 3140, 3142, 3145, 3148,</span> <s>3101, 3116</s><br>
-          <span class="Splatoon2">LBT 2400 series (2005) (18/27): 2402-2403, 2406-2407, 2409-2410, 2412-2413, 2415-2416,
-            2418-2420, 2422, 2424-2427,</span> <s>2404, 2411, 2415, 2421</s><br>
-          <span class="Splatoon2">LBT 2500 series (2005) (17/22): 2501-2503, 2505-2507, 2509-2511, 2513-2517, 2519-2520,
-            2522,</span> <s>2504, 2508, 2512</s><br>
-          <span class="Splatoon2">LBT 2700 series (2007) (11/15): 2702-2708, 2710-2713,</span> <s>2701, 2709</s><br>
-          <span class="Splatoon2">LBT 2900 series (2008) (15/25): 2902, 2904, 2906-2908, 2910, 2912-2916, 2920, 2922,
-            2924-2925,</span> <s>2903, 2905, 2919</s><br>
+          <span class="Splatoon2">LACMTA 8100 series (2008-10) (46/301): 8217, 8290, 8339, 8342-8343, 8345, 8347,
+            8350-8361,
+            8364-8370, 8372-8376, 8379, 8381-8383, 8386, 8388, 8390-8392, 8394-8399,</span> <s>8371, 8377, 8384-8385,
+            8387, 8389</s><br>
+          <span class="Splatoon2">LACMTA 3100 series (2010) (18/50): 3101, 3104-3106, 3108, 3110, 3112, 3115-3116, 3120,
+            3128, 3130, 3132-3133, 3138, 3140, 3142, 3145</span> <s></s><br>
+          <span class="Splatoon2">LBT 2400 series (2005) (19/27): 2402-2403, 2406-2407, 2409-2413, 2415-2416,
+            2419-2422, 2424-2427,</span> <s>2418</s><br>
+          <span class="Splatoon2">LBT 2500 series (2005) (17/22): 2502-2507, 2509-2516, 2519-2520, 2522,</span> <s>2501,
+            2508, 2517</s><br>
+          <span class="Splatoon2">LBT 2700 series (2007) (12/15): 2701-2709, 2711-2713,</span> <s>2710</s><br>
+          <span class="Splatoon2">LBT 2900 series (2008) (17/25): 2902-2908, 2910-2911, 2914-2916, 2919-2920, 2922,
+            2924-2925,</span> <s>2912-2913</s><br>
           <span class="Splatoon2">SMBBB 2011 40' buses (9/9)</span> <s></s><br>
           <span class="Splatoon2">Foothill F1700 series (2009) (2/30): F1700-F1701</span><br>
-          <span class="Splatoon2">Foothill F1800 series (2010) (8/12): F1800, F1802, F1804-F1807, F1810-F1811,</span>
-          <s>F1801, F1803, F1808-F1809</s><br>
-          <span class="Splatoon2">Foothill F1900 series (2012) (12/14): F1900-F1910, F1912,</span> <s>F1911,
-            F1913</s><br>
-          <span class="Splatoon2">Torrance 2011 buses (9/20): 320, 322-327, 329</span> <s></s><br>
+          <span class="Splatoon2">Foothill F1800 series (2010) (7/12): F1800, F1802, F1804-F1805, F1807,
+            F1810-F1811,</span>
+          <s>F1806</s><br>
+          <span class="Splatoon2">Foothill F1900 series (2012) (11/14): F1900-F1906, F1908-F1910, F1912,</span>
+          <s>F1907</s><br>
+          <span class="Splatoon2">Torrance 2011 buses (15/20): 313, 315-327, 329</span> <s></s><br>
           <span class="Splatoon2">Torrance 2012 buses (8/9): 330-333, 335-338</span> <s></s><br>
           <span class="Splatoon2">Santa Clarita 2007 buses (2/2)</span> <s></s><br>
           <span class="Splatoon2">Santa Clarita 2013 40' buses (6/11): 103-104, 106-107, 109-110</span>
@@ -348,34 +354,30 @@
           <span class="Splatoon2">Glendale 2009 buses (8/9): B66-B73</span><br>
           <span class="Splatoon2">Glendale bus LC2 (2009): Yes</span><br>
           <span class="Splatoon2">Culver 2009 buses (6/6)</span><br>
-          <span class="Splatoon2">Culver 2011-2012 buses (18/20): 7112-7118, 7120-7122, 7124-7131</span><br>
+          <span class="Splatoon2">Culver 2011-2012 buses (19/20): 7112-7122, 7124-7131</span><br>
 
         </details>
       </div>
       <div class="accordion-electric">
         <details>
           <summary>Electric buses</summary>
-          <span class="Splatoon2">LACMTA 19000 series (2020) (3/5): 19001, 19003-19004,</span> <s>19000</s><br>
+          <span class="Splatoon2">LACMTA 19000 series (2020) (1/5): 19000,</span> <s>19001, 19003-19004</s><br>
           <s></s><br>
-          <span class="Splatoon2">LACMTA 10000 series (2021, 2024-25) (87/100): 10000-10001, 10003, 10006, 10008-10061,
-            10064-10068, 10070-10075, 10077-10078, 10080-10086, 10088-10092, 10094, 10097-10099</span>
+          <span class="Splatoon2">LACMTA 10000 series (2021, 2024-25) (91/100): 10000-10001, 10003-10004, 10006,
+            10008-10062, 10064-10068, 10070-10078, 10080-10086, 10088-10092, 10094, 10096-10099</span>
           <s></s><br>
-          <span class="Splatoon2">LADOT 17300 series (2017) (1/4): 17304,</span> <s>17301-17303</s><br>
-          <span class="Splatoon2">LADOT 20300 series (2020) (0/26)</span> <s></s><br>
-          <span class="Splatoon2">LADOT 21300 series (2021) (23/25): 21301-21304, 21306-21317, 21319-21325,</span>
-          <s>21305, 21318</s><br>
-          <span class="Splatoon2">LADOT 22300 series (2022-23) (?/100)</span> <s></s><br>
-          <span class="Splatoon2">Foothill 2600 series (2017) (1/13): 2600</span> <s></s><br>
-          <span class="Splatoon2">Foothill 3000 series (2020) (0/2)</span> <s></s><br>
-          <span class="Splatoon2">Foothill 3100 series (2022, 2025) (42/52): 3100-3104, 3106-3110, 3112-3114, 3116-3120,
-            3122-3127, 3129,<span style="color:green">3133-3141, 3143-3148, 3150-3151</span>,</span> <s>3105, 3111,
-            3128</s><br>
-          <span class="Splatoon2">LBT 1600 series (2016) (4/10): 1601, 1603-1604, 1608,</span> <s>1605-1606</s><br>
-          <span class="Splatoon2">LBT 16010 buses (2021) (8/14): 16012, 16014, 16016-16019, 16023-16024,</span>
-          <s>16013, 16015, 16020</s><br>
+          <span class="Splatoon2">LADOT 17300 series (2017) (1/4): 17304,</span> <s>17301</s><br>
+          <span class="Splatoon2">LADOT 21300 series (2021) (26/30): 21301-21303, 21305-21315, 21317, 21319-21322, 21324-21330,</span>
+          <s>21304, 21316, 21323</s><br>
+          <span class="Splatoon2">LADOT 22300 series (2022-23) (62/100): 22301-22319, 22321-22333, 22335-22336, 22338-22345, 22366-22376, 22378-22382, 22384, 22386-22388</span> <s></s><br>
+          <span class="Splatoon2">Foothill 3100 series (2022, 2025) (41/52): 3101-3102, 3104, 3106, 3108-3114, 3116, 3119-3120,
+            3122-3123, 3125-3127, 3129-3131, <span style="color:green">3133-3151</span>,</span> <s>3100, 3103, 3105, 3107, 3115, 3117, 3121, 3124, 3128</s><br>
+          <span class="Splatoon2">LBT 1600 series (2016) (5/10): 1601, 1603-1605, 1608,</span> <s>1605</s><br>
+          <span class="Splatoon2">LBT 16010 buses (2021) (10/14): 16011-16012, 16014, 16016-16017, 16019-16020, 16022-16024,</span>
+          <s>16013, 16015, 16018</s><br>
           <span class="Splatoon2">Culver 2021 buses (4/4)</span><br>
           <span class="Splatoon2">Glendale 2025 buses (4/5): B06-B07, B09-B10</span><br>
-          <span class="Splatoon2">Pasadena bus 5030 (2025): No</span> <s></s><br>
+          <span class="Splatoon2">Pasadena bus 5030 (2025): Yes</span> <s></s><br>
         </details>
       </div>
 

@@ -90,10 +90,17 @@
           <tr>
             <td>
               <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-                <li><b><mark class="highlighted-nt">Near threatened</mark></b> 26 2013 Gillig Low
+                <li><b><mark class="highlighted-nt">Near threatened</mark></b> 28 2013 Gillig Low
                   Floor CNG 40' buses in
                   the 800 series</li>
-                <li>38 2025 New Flyer XN40 buses in the 300 series</li>
+                <ul>
+                  <li>Buses 827 and 828 were reassigned from East County and renumbered from 2313 and 2314</li>
+                </ul>
+                <li>71 2025-26 New Flyer XN40 buses</li>
+                <ul>
+                  <li>38 2025 buses in the 300 series</li>
+                  <li>33 2026 buses in the 420 series</li>
+                </ul>
               </ul>
             </td>
             <td>
@@ -142,10 +149,11 @@
             <td colspan="4" align="center">
               MIXED DIVISION
               <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-                <li>24 2013 Gillig Low Floor CNG 40' buses in the 2300 series</li>
+                <li>22 2013 Gillig Low Floor CNG 40' buses in the 2300 series</li>
                 <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
                   <li>The first 6 units were assigned to East County while the rest were assigned
                     to South Bay</li>
+                  <li>Buses 2313 and 2314 were reassigned to Imperial Avenue Division and renumbered to 827 and 828</li>
                 </ul>
                 <li>38 2020-21 Gillig Low Floor CNG 40' buses in the 1700 series</li>
                 <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
@@ -265,7 +273,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Wednesday, August 19, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -285,13 +293,14 @@
           <summary class="highlighted-cr">Critically endangered</summary>
           Riverside County:
           <span class="Splatoon2">RTA 31300 series (2013) (8/97): 31382-31386, 31388, 31391, 31395</span> <s></s><br>
-          <span class="Splatoon2">RTA 31400 series (2014) (4/11): 31401-31402, 31404-31405, 31409</span> <s></s><br>
+          <span class="Splatoon2">RTA 31400 series (2014) (6/11): 31401-31402, 31404-31405, 31407, 31409</span>
+          <s></s><br>
           Orange County:
           <span class="Splatoon2">5500 series (2006-07) (4/173): 5509, 5513-5514, 5519</span>
           <s></s><br>
           San Diego County:
-          <span class="Splatoon2">NCTD 1100 series (2000) (4/53): 1138-1139, 1141, 1145,</span> <s></s><br>
-          <span class="Splatoon2">MTS 2900 series (2012) (3/27): 2901, 2911, 2919,</span> <s>2905, 2912</s><br>
+          <span class="Splatoon2">NCTD 1100 series (2000) (4/53): 1138-1139, 1141, 1145</span> <s></s><br>
+          <span class="Splatoon2">MTS 2900 series (2012) (1/27): 2912,</span> <s>2901, 2911, 2919</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -305,9 +314,7 @@
         <details>
           <summary class="highlighted-vl">Vulnerable</summary>
           Ventura County:
-          <span class="Splatoon2">Gold Coast 3500 series (2008-2009) (12/17): 3503-3506,
-            3508-3512, 3514-3516,</span> <s>3513</s><br>
-
+          <span class="Splatoon2">Gold Coast 3500 series (2008-2009) (13/17): 3503-3506, 3508-3516,</span> <s></s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -319,7 +326,8 @@
         <details>
           <summary class="highlighted-lc">Least concern</summary>
           San Diego County:
-          <span class="Splatoon2">MTS 300 series (2025) (37/38): 301-319, 321-338</span><br>
+          <span class="Splatoon2">MTS 300 series (2025) (38/38)</span><br>
+          <span class="Splatoon2">MTS 420 series (2026) (5/33): 421-425</span><br>
 
         </details>
       </div>
@@ -327,22 +335,22 @@
         <details>
           <summary class="highlighted-dd">Data deficient</summary>
           Orange County:
-          <span class="Splatoon2">5120 series (2008) (26/30): 5121-5122, 5124-5128, 5130-5139, 5141-5144,
-            5146-5150,</span> <s>5129, 5140</s><br>
-          <span class="Splatoon2">7530 series (2008) (46/63): 7530-7532, 7535, 7537-7538, 7540-7542, 7544-7545, 7547,
-            7549-7552, 7554-7562, 7565, 7567-7571, 7573, 7575-7582, 7585-7587, 7589, 7591-7592,</span> <s>7536, 7563,
-            7590</s><br>
+          <span class="Splatoon2">5120 series (2008) (11/30): 5121, 5124-5128, 5130-5131, 5134-5136,</span> <s>5122,
+            5132-5133, 5137-5143, 5145-5146, 5148</s><br>
+          <span class="Splatoon2">7530 series (2008) (33/63): 7530-7531, 7540-7541, 7544, 7547, 7549-7552, 7554, 7556,
+            7558-7559, 7561-7563, 7565, 7568-7571, 7575-7580, 7582, 7585-7586, 7591-7592,</span> <s>7532, 7537-7538,
+            7542, 7545, 7555, 7557, 7560, 7567, 7573, 7581, 7587, 7589</s><br>
           Ventura County:
           <span class="Splatoon2">Simi Valley 2014 40' buses (3/3)</span> <s></s><br>
           <span class="Splatoon2">Simi Valley 2014 35' buses (2/3): 4532, 4534</span> <s></s><br>
           San Bernardino County:
-          <span class="Splatoon2">Omnitrans 2009 buses (22/27): 1201-1204, 1206-1209, 1211-1213, 1215-1222,
-            1224-1225,</span> <s>1214</s><br>
+          <span class="Splatoon2">Omnitrans 2009 buses (20/27): 1201-1204, 1206-1207, 1211-1222, 1224-1225,</span>
+          <s>1208-1209</s><br>
           <span class="Splatoon2">Omnitrans 6000 series (2012, 2018) (14/15): 6001, 6003-6015</span> <s></s><br>
           San Diego County:
-          <span class="Splatoon2">NCTD 2500 series (2007) (11/12): 2501-2511</span> <s></s><br>
-          <span class="Splatoon2">NCTD 2600 series (2012) (28/30): 2601-2604, 2606-2618, 2620-2630,</span> <s>2605,
-            2619</s><br>
+          <span class="Splatoon2">NCTD 2500 series (2007) (10/12): 2502-2511,</span> <s>2501</s><br>
+          <span class="Splatoon2">NCTD 2600 series (2012) (27/30): 2601-2604, 2606-2613, 2615-2626, 2628-2630,</span>
+          <s>2605, 2614, 2627</s><br>
         </details>
       </div>
       <div class="accordion-electric">
@@ -351,29 +359,29 @@
           Riverside County:
           <span class="Splatoon2">RTA 32600 series (2026) (1/5): 32601</span> <s></s><br>
           Orange County:
-          <span class="Splatoon2">1110 series (2018) (1/10): 1120,</span> <s>1113, 1115-1116, 1119</s><br>
-          <span class="Splatoon2">1120 series (2026) (1/40): 1121</span><br>
-          <span class="Splatoon2">1200 series (2021-22) (10/10)</span> <s></s><br>
-          <span class="Splatoon2">1210 series (2026) (9/10): 1211-1219</span><br>
+          <span class="Splatoon2">1110 series (2018) (3/10): 1115, 1117-1118,</span> <s>1111, 1113-1114, 1116,
+            1119-1120</s><br>
+          <span class="Splatoon2">1120 series (2026) (2/40): 1121-1122</span><br>
+          <span class="Splatoon2">1200 series (2021-22) (9/10): 1201-1203, 1205-1210</span> <s></s><br>
+          <span class="Splatoon2">1210 series (2026) (8/10): 1211, 1213-1215, 1217-1220,</span> <s>1212</s><br>
           Ventura County:
-          <span class="Splatoon2">VCTC 2024 buses (3/5): 336-337, 339,</span> <s>338</s><br>
-          <span class="Splatoon2">Simi Valley 4540 series (0/6)</span><br>
+          <span class="Splatoon2">VCTC 2024 buses (0/5)</span> <s></s><br>
+          <span class="Splatoon2">Simi Valley 4540 series (3/6): 4540-4541, 4544</span><br>
           San Bernardino County:
           <span class="Splatoon2">VVTA 300 series electric buses (2019, 2022) (7/12): 302, 305, 307-310, 312,</span>
           <s>311</s><br>
           <span class="Splatoon2">VVTA 300 series hydrogen buses (2025-26) (3/13): 313, 316, 321</span><br>
-          <span class="Splatoon2">Omnitrans 2500 series (2021) (3/4): 2502-2504,</span>
-          <s>2501</s><br>
+          <span class="Splatoon2">Omnitrans 2500 series (2021) (4/4)</span> <s></s><br>
           <span class="Splatoon2">Omnitrans 3000 series (2024) (4/4)</span> <s></s><br>
           <span class="Splatoon2">Omnitrans 6100 series (2025) (18/18)</span><br>
           San Diego County:
-          <span class="Splatoon2">NCTD 2220 series (2022) (6/6)</span> <s></s><br>
-          <span class="Splatoon2">NCTD 2330 series (2024) (8/12): 2331-2338,</span> <s>2339</s><br>
+          <span class="Splatoon2">NCTD 2220 series (2022) (5/6): 2221-2222, 2224-2226,</span> <s>2223</s><br>
+          <span class="Splatoon2">NCTD 2330 series (2024) (5/12): 2331-2335,</span> <s>2336-2338</s><br>
           <span class="Splatoon2">NCTD 2440 series (2025) (0/23)</span> <s></s><br>
           <span class="Splatoon2">MTS 1500 series (2019) (0/6)</span> <s></s><br>
           <span class="Splatoon2">MTS 1600 series (2020-21) (7/7)</span> <s></s><br>
-          <span class="Splatoon2">MTS 7550 series (2023) (6/12): 7553-7554, 7556, 7559-7560, 7562,</span> <s>7552, 7555,
-            7557, 7561</s><br>
+          <span class="Splatoon2">MTS 7550 series (2023) (6/12): 7553, 7555-7556, 7559-7560, 7562,</span> <s>7554,
+            7557</s><br>
           <span class="Splatoon2">MTS 7600 series (2025) (13/13)</span><br>
         </details>
       </div>

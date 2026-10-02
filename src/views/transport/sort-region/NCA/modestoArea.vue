@@ -65,7 +65,7 @@
 
       <h5 class="text-lg font-medium text-gray-300">Acquired by other means</h5>
       <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-        <li>2 2015 MCI D4500CT buses numbered 21583 and 22682</li>
+        <li>2 2015 MCI D4500CT buses numbered 21582 and 21583</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
           <li>Acquired by Monterey-Salinas Transit in 2026</li>
         </ul>
@@ -162,10 +162,10 @@
       <h5 class="text-lg font-medium text-gray-300">Original buses</h5>
       <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
         <li>10 2015, 2017 Gillig Low Floor 35' buses</li>
-        <!-- <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-              <li>3 2021 buses delivered after the transition to StanRTA starting at 22105</li>
-              <li>4 2023 buses starting at 22362</li>
-            </ul> -->
+        <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
+          <li>6 2015 buses starting at M-164</li>
+          <li>4 2017 buses starting at M-170</li>
+        </ul>
         <li>7 2021 Gillig Low Floor 35' buses in the 3500 series</li>
         <li>8 2024 Gillig Low Floor 29' buses in the 2900 series</li>
       </ul>
@@ -216,10 +216,12 @@
       <h5 class="text-lg font-medium text-gray-300">Old buses
       </h5>
       <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
+        <li>3 2009 Gillig Low Floor HEV 40' buses in the 9400 series</li>
         <li>2 2010 Gillig Low Floor HEV 40' buses in the 1400 series</li>
-        <li>2 2011 Gillig BRT HEV 40' buses starting at 1007</li>
+        <li>8 2010-11 Gillig BRT HEV 40' buses in the 1000 series</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-          <li>Runs in Metro Express routes</li>
+          <li>6 2010 models</li>
+          <li>2 2011 models, runs in Metro Express routes</li>
         </ul>
         <li>6 2012 Gillig BRT HEV 40' buses in the 12000 series</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
@@ -310,7 +312,7 @@
             <td>D4500CT</td>
             <td>Ex-demo unit</td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td>2009</td>
             <td>9401-9403</td>
             <td>Gillig Low Floor HEV 40'</td>
@@ -321,7 +323,7 @@
             <td>1001-1006</td>
             <td>Gillig BRT HEV 40'</td>
             <td></td>
-          </tr>
+          </tr> -->
         </tbody>
       </table>
 
@@ -346,7 +348,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Tuesday, July 21, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -362,8 +364,8 @@
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
           Stanislaus County:
-          <span class="Splatoon2">StanRTA 2003 35' buses (1/8): 20323</span> <s></s><br>
-          <span class="Splatoon2">StanRTA 2009 buses (3/7): 20940, 20942, 20946,</span> <s>20944</s><br>
+          <span class="Splatoon2">StanRTA 2003 35' buses (1/8): 20323,</span> <s>20324</s><br>
+          <span class="Splatoon2">StanRTA 2009 buses (2/7): 20940, 20944,</span> <s>20942, 20946</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -380,7 +382,7 @@
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
           Merced County:
-          <span class="Splatoon2">2012 buses (2/7): M-159-M-160,</span> <s>M-158, M-162-M-163</s><br>
+          <span class="Splatoon2">2012 buses (4/7): M-159-M-160, M-162-M-163,</span> <s>M-158</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -394,20 +396,28 @@
         <details>
           <summary class="highlighted-dd">Data deficient</summary>
           San Joaquin County:
-          SJRTD 1400 series (2010) (2/2)<br>
-          SJRTD 1000 series (2010-2011) (2/8): 1007-1008<br>
-          SJRTD 12000 series (2012) (5/6): 12001-12004, 12006, <s>12005</s><br>
-          SJRTD 13400 series (2013) (18/20): 13401-13408, 13410--13419, <s>13409, 13420</s><br>
+          <span class="Splatoon2">SJRTD 9400 series (2009) (2/3): 9401-9402</span> <s></s><br>
+          <span class="Splatoon2">SJRTD 1400 series (2010) (1/2): 1402,</span> <s>1401</s><br>
+          <span class="Splatoon2">SJRTD 1000 series (2010-2011) (2/8): 1007-1008</span><br>
+          <span class="Splatoon2">SJRTD 12000 series (2012) (5/6): 12001-12004, 12006,</span> <s>12005</s><br>
+          <span class="Splatoon2">SJRTD 13400 series (2013) (20/20)</span> <s></s><br>
+          <span class="Splatoon2">SJRTD 14600 series (2013) (4/6): 14601, 14603, 14605-14606</span> <s></s><br>
         </details>
       </div>
       <div class="accordion-electric">
         <details>
           <summary>Electric buses</summary>
           Stanislaus County:
-          <span class="Splatoon2">StanRTA 2018 Proterra buses (1/5): 21878,</span> <s>21875, 21877</s><br>
+          <span class="Splatoon2">StanRTA 2018 Proterra buses (2/5): 21875, 21878,</span> <s>21877</s><br>
 
           Merced County:
-          <span class="Splatoon2">2023 New Flyer buses (5/5)</span> <s></s><br>
+          <span class="Splatoon2">2023 New Flyer buses (4/5): 4001E-4004E</span> <s></s><br>
+
+          San Joaquin County:
+          <span class="Splatoon2">SJRTD 16400 series (2016) (4/10): 16401-16402, 16407, 16410</span> <s></s><br>
+          <span class="Splatoon2">SJRTD 18400 series (2018) (4/5): 18402-18405</span> <s></s><br>
+          <span class="Splatoon2">SJRTD 24400 series hydrogen buses (2024) (4/5): 24402-24405</span> <s></s><br>
+
         </details>
       </div>
 

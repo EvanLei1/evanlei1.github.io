@@ -111,7 +111,7 @@
         Ford buses.</p>
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to Look Out for</h1>
-      <b>This section was updated on Wednesday, August 19, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -122,16 +122,16 @@
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
           Sacramento:
-          <span class="Splatoon2">2600 series (2006) (3/5): 2601, 2604-2605</span> <s></s><br>
+          <span class="Splatoon2">SacRT 2600 series (2006) (3/5): 2601, 2604-2605</span> <s></s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-en">Endangered</summary>
           Sacramento:
-          <span class="Splatoon2">2800 series (2008) (29/91): 2808, 2810, 2813, 2815-2816, 2820-2821, 2833-2834, 2836,
-            2838-2839, 2843, 2847, 2849-2850, 2853-2854, 2857, 2860, 2864-2865, 2871-2874, 2876, 2880, 2887,</span>
-          <s></s><br>
+          <span class="Splatoon2">SacRT 2800 series (2008) (28/91): 2808, 2810, 2813, 2815-2816, 2820-2821, 2833-2834, 2836,
+            2839, 2843, 2847, 2849-2850, 2853-2854, 2857, 2860, 2864-2865, 2871-2874, 2876, 2880, 2887,</span>
+          <s>2838</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -151,15 +151,23 @@
       </div>
       <div class="accordion-redlist">
         <details>
+          Sacramento:
           <summary class="highlighted-dd">Data deficient</summary>
+          <span class="Splatoon2">Elk Grove 2011 buses (5/6): 791-795</span> <s></s><br>
+
+          Placer County:
+          <span class="Splatoon2">Roseville 2009 buses (7/7)</span> <s></s><br>
+
         </details>
       </div>
       <div class="accordion-electric">
         <details>
           <summary>Electric buses</summary>
           Sacramento:
-          <span class="Splatoon2">1910 series (2019) (0/6)</span> <s></s><br>
-          <span class="Splatoon2">2100 series (2021) (2/3): 2102-2103,</span> <s>2101</s><br>
+          <span class="Splatoon2">SacRT 1910 series (2019) (0/6)</span> <s></s><br>
+          <span class="Splatoon2">SacRT 2100 series (2021) (3/3)</span> <s></s><br>
+          Placer County:
+          <span class="Splatoon2">Roseville 2025 buses (8/10): 24-530-24-537</span> <s></s><br>
         </details>
       </div>
 

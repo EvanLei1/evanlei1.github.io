@@ -121,7 +121,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Wednesday, August 19, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -136,7 +136,7 @@
         <details>
           <summary class="highlighted-ex">Extinct</summary>
           Kings County:
-          <span class="Splatoon2">KART 2012 buses (0/2)</span> <s></s><br>
+          <span class="Splatoon2">KART 2012 buses (1/2): 3531</span> <s></s><br>
         </details>
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
@@ -149,11 +149,11 @@
           <span class="Splatoon2">FAX 0900 series (2009) (16/16)</span>
           <s></s><br>
           Kings County:
-          <span class="Splatoon2">KART 2013 buses (2/3): 3534-3535,</span><s>3533</s><br>
+          <span class="Splatoon2">KART 2013 buses (2/3): 3534-3535,</span> <s>3533</s><br>
           Tulare County:
-          <span class="Splatoon2">Visalia 1300 series (2013) (1/4): 1302,</span> <s>1301, 1303</s><br>
-          <span class="Splatoon2">Visalia Orion VII NG CNG buses (2008-09) (7/17): 6271, 6273-6274,
-            6285-6287, 6289,</span> <s>6268-6270, 6284</s><br>
+          <span class="Splatoon2">Visalia 1300 series (2013) (3/4): 1301-1303</span> <s></s><br>
+          <span class="Splatoon2">Visalia Orion VII NG CNG buses (2008-09) (8/17): 6270-6271, 6274,
+            6285-6289,</span> <s>6268-6269, 6273</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -161,7 +161,7 @@
           <summary class="highlighted-vl">Vulnerable</summary>
           Fresno County:
           <span class="Splatoon2">FAX 1100 series (2011-12) (8/9): 1101, 1103-1109,</span> <s>1102</s><br>
-          <span class="Splatoon2">FAX 1200 series (2012) (1/3): 1203,</span> <s>1201-1202</s><br>
+          <span class="Splatoon2">FAX 1200 series (2012) (1/3): 1201,</span> <s>1202-1203</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -186,6 +186,10 @@
           <span class="Splatoon2">FAX 2200 series (0/7)</span><br>
           <span class="Splatoon2">FAX 2024 hydrogen buses (2/2)</span><br>
           <span class="Splatoon2">FAX 2026 hydrogen buses (0/4)</span><br>
+          Tulare County:
+          <span class="Splatoon2">Visalia 2300 series (2/2)</span><br>
+          <span class="Splatoon2">Visalia 2400 series (0/2)</span><br>
+
         </details>
       </div>
 
