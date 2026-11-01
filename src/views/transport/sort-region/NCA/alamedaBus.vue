@@ -207,7 +207,7 @@
         retired in late 2023.</p>
 
       <h1 id="redList">Buses to Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 29, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -219,7 +219,7 @@
         The 1700 series entered service in early February 2025, replacing 50 of 65 2012-2013 Gillig Low Floor buses.<br>
         The 2500 series entered service on August 25, 2026.
       </p>
-      <b><u>Note:</u></b> Union City Transit buses were not updated as of December 2.<br>
+      <b><u>Note:</u></b> Union City Transit buses were not updated as of December 2, 2025.<br>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-ex">Extinct</summary>
@@ -230,7 +230,7 @@
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
           Western half:
-          <span class="Splatoon2">ACT 2190 series (2009) (5/9): 2192, 2194, 2196-2197, 2199</span> <s></s><br>
+          <span class="Splatoon2">ACT 2190 series (2009) (6/9): 2192, 2194-2197, 2199</span> <s></s><br>
         </details>
       </div>
 
@@ -246,19 +246,17 @@
         <details>
           <summary class="highlighted-vl">Vulnerable</summary>
           Western half:
-          <span class="Splatoon2">ACT 1300 series (2012-13) (10/65): 1309, 1348, 1354-1356, 1360-1361,
-            1363-1365,</span>
-          <s>1301, 1304, 1325, 1336</s><br>
+          <span class="Splatoon2">ACT 1300 series (2012-13) (8/65): 1354-1356, 1360-1361, 1363-1365,</span>
+          <s>1301, 1309, 1325, 1336, 1348</s><br>
+          <span class="Splatoon2">ACT 5100 series (2008-09) (9/39): 5118, 5120-5123, 5130-5132, 5134,</span> <s>5133</s><br>
         </details>
       </div>
 
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
-          Western half:
-          <span class="Splatoon2">ACT 5100 series (2008-09) (10/39): 5118, 5120-5123, 5130-5134</span> <s></s><br>
           Eastern half:
-          <span class="Splatoon2">CCCTA 1300 series (2013) (9/10): 1300-1307, 1309,</span> <s>1308</s><br>
+          <span class="Splatoon2">CCCTA 1300 series (2013) (9/10): 1300-1306, 1308-1309,</span> <s>1307</s><br>
         </details>
       </div>
 
@@ -276,6 +274,7 @@
           UCT 2012 buses (6/6)<s></s><br>
           <span class="Splatoon2">WestCAT 160 series (2013-14) (5/9): 161, 165-167, 169</span> <br>
           <span class="Splatoon2">WestCAT 400 series (2014) (3/8): 402, 405, 408</span> <br>
+          <span class="Splatoon2">WestCAT 2008 MCI buses (1/2): 201</span> <br>
           <span class="Splatoon2">WestCAT 2011 MCI buses (1/3): 204</span> <br>
         </details>
       </div>
@@ -285,9 +284,9 @@
           <summary>Electric buses</summary>
           Western half:
           <span class="Splatoon2">ACT 2019 electric buses (1/5): 8004</span> <s></s><br>
-          <span class="Splatoon2">ACT 2500 series (2025) (9/9)</span><br>
+          <span class="Splatoon2">ACT 2500 series (2025) (2/9): 2506, 2509</span><br>
           Eastern half:
-          <span class="Splatoon2">CCCTA 1600 series (2016) (2/4): 1601,</span> <s>1602</s><br>
+          <span class="Splatoon2">CCCTA 1600 series (2016) (1/4): 1602,</span> <s>1601</s><br>
           <span class="Splatoon2">CCCTA 1800 series (2018) (0/4)</span> <s></s><br>
           <span class="Splatoon2">Tri Delta 2018 BYD electric buses (2/2)</span> <s></s><br>
           <span class="Splatoon2">Tri Delta 2023 electric buses (1/2): 2392</span> <s></s><br>

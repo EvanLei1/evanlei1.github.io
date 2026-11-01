@@ -4,9 +4,7 @@
     <main class="max-w-4xl mx-auto p-6 space-y-6">
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4">Gaming Page</h1>
       <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-        <li>
-          <RouterLink to="/splatoonPage">Splatoon 3</RouterLink>
-        </li>
+        <li>Splatoon 3</li>
         <li>Pokemon Go</li>
         <li>Pokemon Scarlet</li>
       </ul>

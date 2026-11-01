@@ -16,7 +16,7 @@
         </ul>
         <li>2 2006 New Flyer C40LF buses in the 2600 series</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
-          <li>Not active since May 19</li>
+          <li>Not active since August 25</li>
         </ul>
         <li>13 2008 New Flyer C40LF buses in the 2800 series</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
@@ -158,7 +158,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 29, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -192,30 +192,29 @@
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-en">Endangered</summary>
+          <span class="Splatoon2">ex-OCTA units (2007-08) (2/13): 5541, 5544,</span>
+          <s>5530-5531, 5550, 5566, 7519</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-vl">Vulnerable</summary>
           Santa Cruz County:
-          <span class="Splatoon2">ex-OCTA units (2007-08) (5/13): 5530-5531, 5541, 5544, 5566,</span>
-          <s>5550, 7519</s><br>
-          <span class="Splatoon2">2800 series (2008) (7/13): 2801, 2803, 2805, 2807-2808, 2811-2812,</span>
-          <s>2806, 2809, 2813</s><br>
+          <span class="Splatoon2">2800 series (2008) (8/13): 2801, 2803, 2805, 2807-2808, 2811-2813,</span>
+          <s>2806, 2809</s><br>
+          <span class="Splatoon2">ex-MTS units (2013) (7/10): 11018-11019, 11022-11023, 11025, 11027-11028,</span>
+          <s>11012, 11016, 11026</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
-          Santa Cruz County:
-          <span class="Splatoon2">ex-MTS units (2013) (9/10): 11012, 11016, 11018-11019, 11022-11023, 11025,
-            11027-11028,</span> <s>11026</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-lc">Least concern</summary>
-          <span class="Splatoon2">1000 series (2010) (4/5): 1001-1004,</span> <s>1005</s><br>
+          <span class="Splatoon2">1000 series (2010) (3/5): 1001-1002, 1004,</span> <s>1003, 1005</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -227,8 +226,7 @@
         <details>
           <summary>Electric buses</summary>
           Santa Cruz County:
-          <span class="Splatoon2">2024 hydrogen buses (29/44): 0124-2624,
-            3224, 3924, 4324</span><br>
+          <span class="Splatoon2">2024 hydrogen buses (31/44): 0124-2624, 3224-3324, 3624, 3924, 4324</span><br>
           <span class="Splatoon2">2025 hydrogen buses (9/9)</span><br>
         </details>
       </div>

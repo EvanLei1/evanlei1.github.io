@@ -44,8 +44,8 @@
           <li>2 2019 buses starting at 1905</li>
           <li>8 2020 buses in the 2000 series</li>
           <li>6 2021 buses starting at 2103</li>
-          <li>12 2024 buses in the 2400 series</li>
-          <li>11 2025 buses in the 2600 series</li>
+          <li>12 2024 buses starting at 2403</li>
+          <li>11 2025 buses starting at 2605</li>
         </ul>
       </ul>
 
@@ -56,8 +56,10 @@
           <li>2 2021 buses in the 2100 series, all inactive</li>
           <li>7 2022 buses in the 2200 series</li>
         </ul>
-        <li>2 2024 New Flyer XHE40 buses in the 2400 series</li>
+        <li>6 2024 New Flyer XHE40 buses</li>
         <ul class="list-disc list-inside space-y-1 text-gray-300 pl-2">
+          <li>2 2024 buses in the 2400 series</li>
+          <li>4 2026 buses in the 2600 series</li>
           <li>Uses a 24 dot high Hanover color signs on the front instead of 17</li>
         </ul>
       </ul>
@@ -121,7 +123,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 29, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -136,7 +138,7 @@
         <details>
           <summary class="highlighted-ex">Extinct</summary>
           Kings County:
-          <span class="Splatoon2">KART 2012 buses (1/2): 3531</span> <s></s><br>
+          <span class="Splatoon2">2012 buses (1/2): 3531</span> <s></s><br>
         </details>
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
@@ -146,14 +148,12 @@
         <details>
           <summary class="highlighted-en">Endangered</summary>
           Fresno County:
-          <span class="Splatoon2">FAX 0900 series (2009) (16/16)</span>
-          <s></s><br>
+          <span class="Splatoon2">FAX 0900 series (2009) (15/16): 0901, 0903-0916,</span> <s>0902</s><br>
           Kings County:
-          <span class="Splatoon2">KART 2013 buses (2/3): 3534-3535,</span> <s>3533</s><br>
+          <span class="Splatoon2">2013 buses (3/3)</span> <s></s><br>
           Tulare County:
-          <span class="Splatoon2">Visalia 1300 series (2013) (3/4): 1301-1303</span> <s></s><br>
-          <span class="Splatoon2">Visalia Orion VII NG CNG buses (2008-09) (8/17): 6270-6271, 6274,
-            6285-6289,</span> <s>6268-6269, 6273</s><br>
+          <span class="Splatoon2">Visalia 1300 series (2013) (2/4): 1301, 1303,</span> <s>1302</s><br>
+          <span class="Splatoon2">Visalia Orion VII NG CNG buses (2008-09) (6/17): 6271, 6285-6289,</span> <s>6268-6270, 6273-6274</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -161,7 +161,7 @@
           <summary class="highlighted-vl">Vulnerable</summary>
           Fresno County:
           <span class="Splatoon2">FAX 1100 series (2011-12) (8/9): 1101, 1103-1109,</span> <s>1102</s><br>
-          <span class="Splatoon2">FAX 1200 series (2012) (1/3): 1201,</span> <s>1202-1203</s><br>
+          <span class="Splatoon2">FAX 1200 series (2012) (2/3): 1202-1203,</span> <s>1201</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -185,10 +185,12 @@
           Fresno County:
           <span class="Splatoon2">FAX 2200 series (0/7)</span><br>
           <span class="Splatoon2">FAX 2024 hydrogen buses (2/2)</span><br>
-          <span class="Splatoon2">FAX 2026 hydrogen buses (0/4)</span><br>
+          <span class="Splatoon2">FAX 2026 hydrogen buses (1/4): 2604</span><br>
           Tulare County:
-          <span class="Splatoon2">Visalia 2300 series (2/2)</span><br>
-          <span class="Splatoon2">Visalia 2400 series (0/2)</span><br>
+          <span class="Splatoon2">Visalia 2300 series (1/2): 2301,</span> <s>2302</s><br>
+          <span class="Splatoon2">Visalia 2400 series (2/2)</span><br>
+          Kings County:
+          <span class="Splatoon2">2026 electric buses (2/2)</span><br>
 
         </details>
       </div>

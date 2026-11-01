@@ -4,20 +4,20 @@
       <NavbarMenu />
       <main class="max-w-4xl mx-auto p-6 space-y-6">
         <section class="space-y-4">
-          <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4">Hello there!</h1>
+          <h1 class="font-nunito text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4">Hello there!</h1>
           <img :src="profilePic" align="right" width="100" alt="Profile picture">
           <p class="text-gray-300 leading-relaxed">My name is Evan Lei, and I am currently a fourth-year Computer
             Science and Engineering major at UC Merced. I like running, biking, and taking public transit across the San
             Francisco Bay Area. Other than doing exercise, I like to play video games and sometimes stream them on
             Twitch, like Pokemon Scarlet/Violet, Splatoon 3, and other Nintendo Switch games.</p>
-          <RouterLink to="/legendsPage">Website legend leading to formatting of locations and speedometer</RouterLink>
+          <RouterLink to="/legendsPage" class="font-ubuntu text-blue-300">Website legend leading to formatting of locations and speedometer</RouterLink>
           <img :src="vueLogoURL" alt="Vue.js Logo" class="svg" align="left" />
-          <p class="text-gray-300 leading-relaxed">This website was fully migrated from HTML/CSS to Vue on July 17, 2026
+          <p class="font-ubuntu text-gray-300 leading-relaxed">This website was fully migrated from HTML/CSS to Vue on July 17, 2026
           </p>
         </section>
         <hr />
         <section id="update-links">
-          <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" align="center">
+          <h1 class="font-nunito text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" align="center">
             Website under construction</h1>
           <!-- <div class="gallery">
             <div class="box">

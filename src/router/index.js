@@ -34,11 +34,6 @@ const router = createRouter({
       component: () => import('../views/socialPage.vue'),
     },
     {
-      path: '/splatoonPage',
-      name: 'splatoon',
-      component: () => import('../views/splatoonPage.vue'),
-    },
-    {
       path: '/updatesPage',
       name: 'updates',
       component: () => import('../views/updatesPage.vue'),

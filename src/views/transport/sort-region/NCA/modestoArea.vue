@@ -348,7 +348,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 29, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -364,13 +364,15 @@
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
           Stanislaus County:
-          <span class="Splatoon2">StanRTA 2003 35' buses (1/8): 20323,</span> <s>20324</s><br>
-          <span class="Splatoon2">StanRTA 2009 buses (2/7): 20940, 20944,</span> <s>20942, 20946</s><br>
+          <span class="Splatoon2">StanRTA 2003 35' buses (1/8): 20324,</span> <s>20323</s><br>
+          <span class="Splatoon2">StanRTA 2009 buses (3/7): 20940, 20944, 20946,</span> <s>20942</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-en">Endangered</summary>
+          Merced County:
+          <span class="Splatoon2">2012 buses (2/7): M-160, M-162,</span> <s>M-159, M-163</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -381,8 +383,6 @@
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
-          Merced County:
-          <span class="Splatoon2">2012 buses (4/7): M-159-M-160, M-162-M-163,</span> <s>M-158</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -398,25 +398,25 @@
           San Joaquin County:
           <span class="Splatoon2">SJRTD 9400 series (2009) (2/3): 9401-9402</span> <s></s><br>
           <span class="Splatoon2">SJRTD 1400 series (2010) (1/2): 1402,</span> <s>1401</s><br>
-          <span class="Splatoon2">SJRTD 1000 series (2010-2011) (2/8): 1007-1008</span><br>
+          <span class="Splatoon2">SJRTD 1000 series (2010-11) (2/8): 1007-1008</span><br>
           <span class="Splatoon2">SJRTD 12000 series (2012) (5/6): 12001-12004, 12006,</span> <s>12005</s><br>
           <span class="Splatoon2">SJRTD 13400 series (2013) (20/20)</span> <s></s><br>
-          <span class="Splatoon2">SJRTD 14600 series (2013) (4/6): 14601, 14603, 14605-14606</span> <s></s><br>
+          <span class="Splatoon2">SJRTD 14600 series (2013) (5/6): 14601-14603, 14605-14606</span> <s></s><br>
         </details>
       </div>
       <div class="accordion-electric">
         <details>
           <summary>Electric buses</summary>
           Stanislaus County:
-          <span class="Splatoon2">StanRTA 2018 Proterra buses (2/5): 21875, 21878,</span> <s>21877</s><br>
+          <span class="Splatoon2">StanRTA 2018 Proterra buses (2/5): 21875, 21877,</span> <s>21878</s><br>
 
           Merced County:
-          <span class="Splatoon2">2023 New Flyer buses (4/5): 4001E-4004E</span> <s></s><br>
+          <span class="Splatoon2">2023 New Flyer buses (4/5): 4001E, 4003E-4005E,</span> <s>4002E</s><br>
 
           San Joaquin County:
-          <span class="Splatoon2">SJRTD 16400 series (2016) (4/10): 16401-16402, 16407, 16410</span> <s></s><br>
-          <span class="Splatoon2">SJRTD 18400 series (2018) (4/5): 18402-18405</span> <s></s><br>
-          <span class="Splatoon2">SJRTD 24400 series hydrogen buses (2024) (4/5): 24402-24405</span> <s></s><br>
+          <span class="Splatoon2">SJRTD 16400 series (2016) (3/10): 16401, 16407, 16410,</span> <s>16402</s><br>
+          <span class="Splatoon2">SJRTD 18400 series (2018) (3/5): 18402, 18404-18405,</span> <s>18403</s><br>
+          <span class="Splatoon2">SJRTD 24400 series hydrogen buses (2024) (5/5)</span> <s></s><br>
 
         </details>
       </div>

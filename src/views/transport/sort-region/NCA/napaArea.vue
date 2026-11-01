@@ -170,7 +170,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 29, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -188,12 +188,11 @@
         <details>
           <summary class="highlighted-en">Endangered</summary>
           Napa County:
-          <span class="Splatoon2">2013 35' buses (1/6): 143,</span> <s>142</s><br>
-          <span class="Splatoon2">2013 40' buses (2/4): 136-137,</span> <s>135, 138</s><br>
-          <span class="Splatoon2">200 series (2013) (2/5): 202-203,</span> <s>204</s><br>
+          <span class="Splatoon2">2013 35' buses (1/6): 141,</span> <s>142-143</s><br>
+          <span class="Splatoon2">2013 40' buses (2/4): 135, 137-138,</span> <s>136</s><br>
+          <span class="Splatoon2">200 series (2013) (4/5): 200-201, 203-204,</span> <s>202</s><br>
           Solano County:
-          <span class="Splatoon2">SolTrans 3900 series (2011) (5/21): 3902, 3904, 3915, 3918-3919,</span> <s>3901, 3906,
-            3910, 3914</s><br>
+          <span class="Splatoon2">SolTrans 3900 series (2011) (5/21): 3902, 3904, 3915, 3918-3919,</span> <s>3914</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -210,18 +209,18 @@
         <details>
           <summary class="highlighted-lc">Least concern</summary>
           Napa County:
-          <span class="Splatoon2">2016-17 CNG 35' series (5/6): 205-206, 208-210</span> <s></s><br>
+          <span class="Splatoon2">2016-17 CNG 35' series (3/6): 206, 208-209,</span> <s>205, 210</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-dd">Data deficient</summary>
           Solano County:
-          <span class="Splatoon2">FAST 2007 buses (5/7): 07620, 07623, 07629-07630, 07633</span> <s></s><br>
+          <span class="Splatoon2">FAST 2007 buses (6/7): 07620-07621, 07623, 07629-07630, 07633</span> <s></s><br>
           <span class="Splatoon2">FAST 2009 35' buses (1/3): 09626</span> <s></s><br>
           <span class="Splatoon2">FAST 2009 29' bus 09636: Yes</span><br>
           <span class="Splatoon2">FAST 2011 buses (2/3): 11631, 11645,</span> <s>11632</s><br>
-          <span class="Splatoon2">FAST 2013 buses (6/6)</span> <s></s><br>
+          <span class="Splatoon2">FAST 2013 buses (5/6): 13640, 13642-13644, 13654,</span> <s>13641</s><br>
 
         </details>
       </div>
@@ -229,13 +228,13 @@
         <details>
           <summary>Electric buses</summary>
           Solano County:
-          <span class="Splatoon2">SolTrans 4500 series (2017, 2019) (2/4): 4500, 4503,</span> <s>4501</s><br>
-          <span class="Splatoon2">SolTrans 4600 series (2025-2026) (10/12): 4601, 4604-4612,</span> <s>4602-4603</s><br>
+          <span class="Splatoon2">SolTrans 4500 series (2017, 2019) (2/4): 4501,</span> <s>4500, 4503</s><br>
+          <span class="Splatoon2">SolTrans 4600 series (2025-2026) (8/12): 4601, 4604-4605, 4607-4610, 4612,</span> <s>4602-4603, 4606, 4611</s><br>
           <span class="Splatoon2">FAST 2023 buses (3/3)</span><br>
 
           Napa County:
-          <span class="Splatoon2">2022 electric buses (3/5): 302-304</span> <s></s><br>
-          <span class="Splatoon2">2025 electric buses (11/14): 330-335, 337-338, 340-342,</span> <s>336, 343</s><br>
+          <span class="Splatoon2">2022 electric buses (0/5)</span> <s></s><br>
+          <span class="Splatoon2">2025 electric buses (11/14): 330-337, 340-342,</span> <s>338</s><br>
         </details>
       </div>
 

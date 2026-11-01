@@ -198,7 +198,7 @@
       </p>
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 28, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -207,8 +207,6 @@
         units were used for contingency fleet for the Golden Gate Transit.<br> Petaluma Transit's 1998 New Flyer D40LF
         bus 41 was last seen active in May 2026.</p>
         <p>Orion VII NG CNG buses for Sonoma County Transit were retired on August 21, 2026.</p>
-      <b><u>Note: Petaluma Transit buses were not updated as of September 6. It relies on manual observation and
-          when the bus is online.</u></b>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-ex">Extinct</summary>
@@ -228,7 +226,7 @@
           <span class="Splatoon2">MT 1760 series (2017) (2/2)</span><br>
           <span class="Splatoon2">MT 1860 series (2018) (2/2)</span><br>
           Sonoma County:
-          <span class="Splatoon2">SR 24100 series (2011) (5/7): 24113-24114, 24118-24119,</span> <s>24116</s><br>
+          <span class="Splatoon2">SR 24100 series (2011) (4/7): 24113-24114, 24118-24119,</span> <s>24116</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -240,7 +238,7 @@
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
           Marin County:
-          <span class="Splatoon2">GGT 900 series (2010, 2012, 2014) (33/80): 937-944, 956-980,</span> <s>945</s><br>
+          <span class="Splatoon2">GGT 900 series (2010, 2012, 2014) (34/80): 937, 939-944, 950-951, 956-980,</span> <s>938</s><br>
           Sonoma County:
           <span class="Splatoon2">PT 2011 buses (4/4)</span> <s></s><br>
           <span class="Splatoon2">SCT OBI VII EPA10 CNG (2012) (3/4): 214, 216-217,</span> <s>215</s><br>
@@ -250,7 +248,7 @@
         <details>
           <summary class="highlighted-lc">Least concern</summary>
           Marin County:
-          <span class="Splatoon2">MT 1500 series (2015) (4/4)</span><br>
+          <span class="Splatoon2">MT 1500 series (2015) (3/4): 1501-1503,</span> <s>1504</s><br>
           <span class="Splatoon2">MT 2600 series (2026) (4/4)</span><br>
         </details>
       </div>

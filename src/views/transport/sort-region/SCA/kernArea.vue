@@ -77,7 +77,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 29, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -90,13 +90,13 @@
           <summary class="highlighted-cr">Critically endangered</summary>
           Kern County:
           <span class="Splatoon2">2012 buses (4/12): 1037, 1041, 1043, 1046</span> <s></s><br>
+          Santa Barbara County:
+          <span class="Splatoon2">ex-SamTrans buses (2003) (7/17): 437-438, 440, 444-446, 450</span> <s></s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-en">Endangered</summary>
-          Santa Barbara County:
-          <span class="Splatoon2">ex-SamTrans buses (2003) (7/17): 437-438, 440, 444-446, 450</span> <s></s><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -123,18 +123,18 @@
           <span class="Splatoon2">2006 29' diesel buses (3/3)</span> <s></s><br>
           <span class="Splatoon2">2007 40' hybrid buses (6/8): 900-905,</span> <s>906</s><br>
           <span class="Splatoon2">2009 29' hybrid buses (3/3)</span> <s></s><br>
-          <span class="Splatoon2">2011 40' hybrid buses (5/7): 909-910, 912-914,</span> <s>908, 915</s><br>
+          <span class="Splatoon2">2011 40' hybrid buses (6/7): 908-910, 912, 914-915,</span> <s>913</s><br>
           <span class="Splatoon2">2011 40' diesel buses (6/7): 615-618, 620-621,</span> <s>619</s><br>
-          <span class="Splatoon2">1000 series (2014) (2/3): 1002-1003</span>
+          <span class="Splatoon2">1000 series (2014) (3/3)</span>
         </details>
       </div>
       <div class="accordion-electric">
         <details>
           <summary>Electric buses</summary>
           Kern County:
-          <span class="Splatoon2">H2100 series (2021) (4/5): H2101-H2102, H2104-H2105</span> <s></s><br>
+          <span class="Splatoon2">H2100 series (2021) (3/5): H2103-H2105,</span> <s>H2101-H2102</s><br>
           Santa Barbara County:
-          <span class="Splatoon2">30 series (2017) (8/14): 31, 33-35, 37-38, 41-42</span> <s>32, 36</s><br>
+          <span class="Splatoon2">30 series (2017) (9/14): 31-34, 36-38, 41-42</span> <s>35</s><br>
           <span class="Splatoon2">2022 buses (0/9)</span><br>
         </details>
       </div>

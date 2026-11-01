@@ -140,7 +140,7 @@
                   <li>33 2017-18 units starting at 7261</li>
                   <li>Exclusively assigned to Potrero Division, moved to Presidio for routes 5, 5R, and 30 during
                     weekdays</li>
-                  <li>Active buses (as of August 2026): 36 (7201-7207, 7210-7215, 7217-7230, 7232-7233, 7235-7237,
+                  <li>Active buses (as of August 2026): 38 (7201-7207, 7210-7215, 7217-7233, 7235-7237,
                     7239-7242)</li>
                 </ul>
               </ul>
@@ -332,7 +332,7 @@
           <li>56 buses in the 2200 series</li>
           <li>16 units remain, of which 13 were in the 2000 series. The 2200 series buses will retire in the spring.
             Most buses were training units. The late 2001 units were possibly retired on March 27, and regular service
-            in December. The 2000s ended regular service on March 31.</li>
+            on October 24. The 2000s ended regular service on March 31.</li>
         </ul>
         <li><b><mark class="highlighted-nt">Near threatened</mark></b> 70 2010-11 Gillig Low Floor HEV 40' buses in
           the 0130 series</li>
@@ -430,7 +430,7 @@
 
       <h1 class="text-4xl font-extrabold tracking-tight text-white border-b border-gray-800 pb-4" id="redlist">Buses to
         Look Out for</h1>
-      <b>This section was updated on Thursday, October 1, 2026.</b> Active and inactive buses were retrieved from <a
+      <b>This section was updated on Thursday, October 29, 2026.</b> Active and inactive buses were retrieved from <a
         href="https://pantographapp.com">Pantograph</a>, <a href="https://transittrack.net/">Transit Track</a>, and
       <a href="https://transsee.ca">Transsee</a>.<br>
       Fleet information was provided by Wikipedia and <a href="https://cptdb.ca">CPTDB</a>.
@@ -442,8 +442,7 @@
         running on J Church on the night of October 11-12. It retired on November 12 after a farewell trip.</p>
       <p class="text-gray-300 leading-relaxed">The 1000, 2000, 2100, and 2200 series buses will be replaced by the new
         Gillig Low Floor Plus HEV 40' with Allison eGen Flex hybrid system as 3401-3492. All 96 new buses were delivered
-        and entered service. Out of 192 old buses, bus 2224 is in service, while the remaining 13 were for training.
-        <b>Note:</b> Training buses were labeled in black, while active buses were labeled in red.
+        and entered service. Out of 192 old buses, 13 of them went to training.
       </p>
       <div class="accordion-redlist">
         <details>
@@ -452,14 +451,14 @@
         <details>
           <summary class="highlighted-cr">Critically endangered</summary>
           Santa Clara County:
-          <span class="Splatoon2">2000 series (2001) (14/61): 2018, 2038, 2041-2042, 2047-2048, 2050, 2055, 2057-2058,
+          <span class="Splatoon2">2000 series (2001) (15/61): 2018, 2038, 2040-2042, 2047-2048, 2050, 2055, 2057-2058,
             2060-2061, 2063, 2070</span> <s></s> Relegated to training buses on March 31<br>
           <a target="_blank" :href="VTA2017">
             <img :src="VTA2017" alt="VTA 2017 at Milpitas station on October 21" width="25%">
           </a><br>
           <div class="desc">VTA 2017 (2001 Gillig Low Floor) <br>on October 21, 2023</div>
-          <span class="Splatoon2">2200 series (2002) (3/56): <span style="color:orange">2224</span>, 2244, 2249</span> <s></s> <!-- Relegated to training buses
-          on July 15 --><br>
+          <span class="Splatoon2">2200 series (2002) (5/56): 2221, 2224, 2231, 2244, 2249</span> <s></s> Relegated to training buses
+          on October 24<br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -471,16 +470,15 @@
         <details>
           <summary class="highlighted-vl">Vulnerable</summary>
           San Mateo County:
-          <span class="Splatoon2">400 series (2009-10) (65/91): 400-408, 410-433, 435-443, 446-461, 463-469,</span>
-          <s>444-445</s><br>
+          <span class="Splatoon2">400 series (2009-10) (65/91): 400-408, 410-433, 435-457, 459-461, 463-465, 467-469,</span>
+          <s>458, 466</s><br>
         </details>
       </div>
       <div class="accordion-redlist">
         <details>
           <summary class="highlighted-nt">Near threatened</summary>
           San Mateo County:
-          <span class="Splatoon2">500 series (2010) (36/40): 500-512, 514-517, 519-529, 531-535,
-            537-539,</span> <s>513</s><br>
+          <span class="Splatoon2">500 series (2010) (34/40): 501-504, 506-512, 514-517, 519-529, 531-535, 537-539,</span> <s>500, 505, 513</s><br>
 
         </details>
       </div>
@@ -488,10 +486,9 @@
         <details>
           <summary class="highlighted-lc">Least concern</summary>
           San Francisco:
-          <span class="Splatoon2">8000 series (2025) (26/42): 8001-8013, 8015-8020, 8022-8024, 8026-8028, 8030</span><br>
+          <span class="Splatoon2">8000 series (2025) (27/42): 8001-8013, 8015-8020, 8022-8024, 8026-8028, 8030, 8035</span><br>
           Santa Clara County:
-          <span class="Splatoon2">5400 series (2026) (29/31): <span style="color:green">5401-5413, 5415</span>, 5414, 5416-5421, 5423,
-            5425-5431</span><br>
+          <span class="Splatoon2">5400 series (2026) (25/31): <span style="color:green">5401-5413, 5415-5426</span>, 5414, 5427-5431</span><br>
         </details>
       </div>
       <div class="accordion-redlist">
@@ -503,16 +500,16 @@
         <details>
           <summary>Electric buses</summary>
           San Francisco:
-          <span class="Splatoon2">2021 New Flyer electric buses (2/3): 5001, 5003</span><br>
-          <span class="Splatoon2">2021 BYD electric buses (3/3)</span> <s></s><br>
+          <span class="Splatoon2">2021 New Flyer electric buses (1/3): 5003</span> <s>5001</s><br>
+          <span class="Splatoon2">2021 BYD electric buses (2/3): 5005-5006,</span> <s>5004</s><br>
           <span class="Splatoon2">2021 Proterra electric buses (0/3)</span><br>
-          <span class="Splatoon2">2022 Nova Bus electric buses (2/3): 5011-5012</span> <s></s><br>
+          <span class="Splatoon2">2022 Nova Bus electric buses (3/3)</span> <s></s><br>
           San Mateo County:
-          <span class="Splatoon2">1000 series (2022-23) (12/17): 1001-1005, 1009-1013, 1015-1016,</span>
-          <s>1008</s><br>
-          <span class="Splatoon2">3000 series (2023, 2025) (11/118): 3001-3009, <span style="color:green">3010</span>,</span> <s>3000</s><br>
+          <span class="Splatoon2">1000 series (2022-23) (13/17): 1000-1002, 1004-1005, 1007-1012, 1015-1016,</span>
+          <s>1003, 1013</s><br>
+          <span class="Splatoon2">3000 series (2023, 2025) (8/118): 3003-3009, <span style="color:green">3010</span>,</span> <s>3000-3002</s><br>
           Santa Clara County:
-          <span class="Splatoon2">5500 series (2025) (13/35): 5501-5505, 5507-5511, 5513-5515</span><br>
+          <span class="Splatoon2">5500 series (2025) (23/35): 5501-5505, 5507-5524</span><br>
         </details>
       </div>
 
